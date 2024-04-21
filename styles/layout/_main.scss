@@ -1,0 +1,45 @@
+.is-boxed {
+    background: color(bg, 3);
+}
+
+.body-wrap {
+    // background-image: linear-gradient(to left, #308fe8 , #182a53);
+    background: #fff;
+    overflow: hidden;
+    /* Sticky footer */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.boxed-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    @include shadow;
+    mix-blend-mode: normal;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.section-inner {
+    position: relative; /* To always display inner elements above pseudo decorative stuff */
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.brand {
+    svg {
+        width: 300px;
+        height: auto;
+      }
+}
+
+@include media( '>medium' ) {
+
+    .section-inner {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+}

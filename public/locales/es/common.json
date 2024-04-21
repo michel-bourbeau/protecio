@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "KAIROS TECHNOLOGIES S.A.",
+    "description": "Soluciones Inteligentes,Ahorros de energías,Seguridad Eléctricas y de las personas. Optimización de procesos para las industrias",
+    "keywords": "'Kairos Technologies', Energía Eólica, Sistemas Solares, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'"
+  },
+  "Index": {
+    "title": "Bienvenido a Kairos Tecnologies"
+  },
+  "Hero": {
+    "title": "KAIROS TECHNOLOGIES",
+    "description": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+  },
+  "Cta": {
+    "title": "Tell us about your project",
+    "description": "Let’s find out how we can turn your ideas into an exciting digital reality.",
+    "button": "Contact Us"
+  },
+  "Footer": {
+    "copyright": "Todos los derechos reservados",
+    "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+  },
+  "Services": {
+    "title": "Nuestros servicios",
+    "description": "Su éxito en línea es nuestra principal prioridad"
+  },
+  "Contact": {
+    "title": "Contáctenos"
+  },
+  "Success": {
+    "title": "Gracias!",
+    "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
+    "infos": "Si tiene más preguntas o necesidades, puede contactarnos directamente al correo electrónico [correo electrónico] o al teléfono [teléfono].",
+    "button": "Volver a la página de inicio"
+  }
+}

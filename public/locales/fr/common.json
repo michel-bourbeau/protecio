@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "Kairos Metadata",
+    "description": "Kairos descriptif",
+    "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'"
+  },
+  "Index": {
+    "title": "Bienvenue chez Kairos Technologies"
+  },
+  "Hero": {
+    "title": "KAIROS TECHNOLOGIES",
+    "description": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+  },
+  "Cta": {
+    "title": "Tell us about your project",
+    "description": "Let’s find out how we can turn your ideas into an exciting digital reality.",
+    "button": "Contact Us"
+  },
+  "Footer": {
+    "copyright": "Tous droits réservés",
+    "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+  },
+  "Services": {
+    "title": "Nos services",
+    "description": "Votre succès en ligne est notre priorité absolue."
+  },
+  "Contact": {
+    "title": "Contactez-nous"
+  },
+  "Success": {
+    "title": "Merci!",
+    "description": "We have received your request for information regarding our services. Our team will process your request as soon as possible and contact you as soon as possible.",
+    "infos": "Contact success informations",
+    "button": "Back to home page"
+  }
+}

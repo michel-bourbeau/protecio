@@ -1,0 +1,57 @@
+.contact {
+	text-align: left;
+
+	.section-inner {
+		padding: 0;
+	}
+
+	.section-title {
+		margin-bottom: 40px;
+	}
+}
+
+.contact-wrap {
+    display: block;
+
+    > div {
+        padding: 16px;
+
+        input, textarea {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        textarea {
+            min-height: 150px;
+        }
+    }
+
+    &.success {
+        text-align: center;
+    }
+
+    h1 {
+        color:#222
+    }
+}
+@include media( '>large' ) {
+    .contact {
+    
+        .section-inner {
+            padding: 48px 16px;
+        }
+    
+        .section-title {
+            margin-bottom: 40px;
+        }
+    }
+    .contact-wrap {
+        display: flex;
+        align-items: flex-start;
+
+        > div {
+            flex: 50%;
+            padding: 48px;
+        } 
+    }
+}
