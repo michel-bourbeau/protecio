@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from '@next/third-parties/google';
+//import { GoogleAnalytics } from '@next/third-parties/google';
 import { ReactNode } from 'react';
 
 import BootstrapClient from '@components/BootstrapClient';
@@ -19,7 +19,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <Header />
       {children}
       <Footer />
-      <GoogleAnalytics gaId="G-28VHG50ZPJ" />
+      {/* <GoogleAnalytics gaId="G-28VHG50ZPJ" /> */}
     </div>
   );
 };
