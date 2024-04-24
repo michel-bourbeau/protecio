@@ -1,6 +1,6 @@
 import { Trans, useTranslation } from 'next-i18next';
 
-import Particles from '@components/Particles';
+// import Particles from '@components/Particles';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -8,7 +8,7 @@ export default function Hero() {
     <section id="hero" className="hero sticked-header-offset">
       <div className="container position-relative">
         <div className="row gy-5">
-          <div className="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
+          <div className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
             <h2>
               <Trans
                 i18nKey="Hero.title" // optional -> fallbacks to defaults if not provided
@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
       </div>
       <span id="services"></span>
-      <Particles />
+      {/* <Particles /> */}
     </section>
   );
 }

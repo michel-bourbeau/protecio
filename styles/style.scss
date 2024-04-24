@@ -1,36 +1,42 @@
 @import "normalize";
-
+@font-face {
+  font-family: "levenim";
+  src: url("../fonts/levenim-mt.ttf");
+}
 html,
 body,
 :root {
   height: 100%;
+  font-family: levenim;
 }
 @layer base {
   :root {
-    --font-default: 'Poppins', sans-serif;
-    --font-primary: 'Poppins', sans-serif;
-    --font-secondary: 'Poppins', sans-serif;
+    --font-default: 'levenim', sans-serif;
+    --font-primary: 'levenim', sans-serif;
+    --font-secondary: 'poppins', sans-serif;
     scroll-behavior: smooth;
-    --color-bg: #6dc9bb;
+    --color-bg: #4dcabc;
     --color-bg-dark: #222222;
     --hero-overlay-color: transparent;
     --menu-color: #3a3a3a;
-    --theme-color: #6dc9bb;
+    --theme-color: #4dcabc;
     --border-color: #e2e2e2;
     --theme-color-dark: #f8f8f8;
     --text-color: #3a3a3a;
     --hero-text-color: #ffffff;
     --text-white-color: #ffffff;
     --text-grey-color: #3a3a3a;
-    --text-theme-color: #6dc9bb;
+    --text-theme-color: #4dcabc;
     --light-color: #ffffff;
     --color-default: #3a3a3a;
-    --color-primary: #6dc9bb;
-    --color-secondary: #6dc9bb;
+    --color-primary: #4dcabc;
+    --color-secondary: #122826;
     --color-start: #3a3a3a;
     --color-end: #3a3a3a;
     --hero-card-bg: rgb(228 227 223 / 17%);
     --box-shadow-color: rgb(82 90 101 / 10%);
+    --color-button: #4dcabc;
+    --hero-text-color: #fff
   }
 }
 
@@ -356,10 +362,32 @@ img:hover {
   color: #fff;
 }
 
+.header-top {
+  background: #4dcabc;
+  padding: 10px 0;
+  padding-right: 230px;
+  padding-left: 230px;
+  font-family: var(--font-secondary);
+
+  p {
+    margin-bottom: 0;
+    color: #fff;
+  }
+
+  span {
+    display: inline-block;
+    margin-right: 2em
+  }
+
+  a {
+    color: #ffffff
+  }
+}
+
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 120px;
+  height: 160px;
 }
 
 .header.sticked {
@@ -368,7 +396,7 @@ img:hover {
   top: 0;
   right: 0;
   left: 0;
-  height: 120px;
+  height: 160px;
 }
 
 .header .logo-container {
@@ -376,7 +404,7 @@ img:hover {
 }
 
 .header .logo img {
-  max-height: 80px;
+  max-height: 100px;
 }
 
 .header.stikcy-menu {
@@ -672,7 +700,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: url(/images/hero-bg.jpg) center center;
+  background: url(/images/service-bg.jpg) center center;
   background-color: var(--color-secondary);
   background-size: cover;
   padding: 50px 0 0 0;
@@ -705,6 +733,12 @@ section {
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1399px) {
+  .header-top {
+    display: none;
   }
 }
 
@@ -747,8 +781,9 @@ section {
 }
 
 .hero h2 {
-  font-size: 3rem;
+  font-size: 48px;
   margin-bottom: 20px;
+  margin-top: 100px;
   color: var(--hero-text-color);
   letter-spacing: 0.7px;
   font-weight: 600;
@@ -768,23 +803,23 @@ section {
 a.btn-get-started,
 .button,
 a.cta-btn {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 1em;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 1.15em;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 0.75em 1.5em;
-  border-radius: 50px;
+  padding: 1em 1.5em;
+  border-radius: 8px;
   border: 0;
   transition: all 0.3s;
   color: var(--text-white-color);
-  background: var(--color-primary);
+  background: var(--color-button);
 }
 
 a.btn-get-started:hover,
 .button:hover,
 a.cta-btn:hover {
-  background: #0F1D21;
+  background: #339999;
   color: var(--text-white-color) !important;
   position:relative;
   z-index:9999;

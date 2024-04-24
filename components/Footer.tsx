@@ -17,8 +17,8 @@ export default function Footer() {
                     className="logo d-flex align-items-center"
                   >
                     <img
-                      src="/images/kairos-logo-original.jpg"
-                      alt="Kairos Technologies"
+                      src="/images/kairos-bg-black.png"
+                      alt="Kairos Technologies S.A"
                     />
                   </a>
                 </div>

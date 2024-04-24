@@ -5,6 +5,13 @@ import { useRouter } from 'next/router';
 import LanguageSelector from '@components/LanguageSelector';
 import Link from 'next/link';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHome,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
+
 export default function Header() {
   const { t } = useTranslation();
   const router = useRouter();
@@ -12,14 +19,46 @@ export default function Header() {
   return (
     <header
       id="header"
-      className="header d-flex align-items-center sticked stikcy-menu"
+      className="header align-items-center sticked stikcy-menu"
     >
+      <div className="header-top">
+        <p>
+          <span>
+            <FontAwesomeIcon
+              icon={faHome}
+              className="fa-home"
+              style={{ marginRight: '8px' }}
+            ></FontAwesomeIcon>
+            Rivas, Nicargua. Frente al km114 carretera a Tola
+          </span>
+
+          <span>
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="fa-phone"
+              style={{ marginRight: '8px' }}
+            ></FontAwesomeIcon>
+            +505 8895 6347
+          </span>
+
+          <span>
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="fa-envelope"
+              style={{ marginRight: '8px' }}
+            ></FontAwesomeIcon>
+            <a href="mailto:kairostechnologiesnic@hotmail.com">
+              kairostechnologiesnic@hotmail.com
+            </a>
+          </span>
+        </p>
+      </div>
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <div className="logo-container d-flex">
           <Link href="/" locale={`${router.locale}`}>
             <a className="logo align-items-center">
               <img
-                src="/images/kairos-logo-original.jpg"
+                src="/images/kairos-bg-white.png"
                 alt="Kairos Technologies S.A."
               />
             </a>
@@ -27,11 +66,11 @@ export default function Header() {
         </div>
         <nav id="navbar" className="navbar d-flex">
           <ul>
-            {/* <li>
+            <li>
               <a href={`#services`} className="">
                 {t('Services.title')}
               </a>
-            </li> */}
+            </li>
             <li>
               <a
                 href={`#contact`}
