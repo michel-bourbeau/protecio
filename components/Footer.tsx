@@ -31,18 +31,22 @@ export default function Footer() {
             <div className="col-lg-2 col-md-6 col-sm-12 footer-column"></div>
             <div className="col-lg-2 col-md-6 col-sm-12 footer-column"></div>
             <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
-              <div className="contact-widget footer-widget">
+              <div className="contact-widget footer-widget mt-4">
                 <div className="footer-widget-heading">
                   <h3>{t('Contact.title')}</h3>
                 </div>
                 <div className="footer-text">
                   <p>
                     <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    +505 8895 6347 /+5055
+                    +505 8895 6347
                   </p>
                   <p>
                     <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    82576611/+505 8399 7398
+                    +5055 82576611
+                  </p>
+                  <p>
+                    <i className="bi bi-telephone-inbound-fill mr-15"></i>
+                    +505 8399 7398
                   </p>
                   <p>
                     <i className="bi bi-envelope-fill mr-15"></i>

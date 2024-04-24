@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import { En, Fr, Es } from '@components/svg/flags';
+import { En, Es } from '@components/svg/flags';
 
 export const LanguageSelector = () => {
   const router = useRouter();
@@ -12,20 +12,13 @@ export const LanguageSelector = () => {
   let lng;
 
   // Gestion des langues avec if-else
-  if (locale === 'fr') {
-    lng = (
-      <>
-        <span className="flag">
-          <Fr />
-        </span>
-      </>
-    );
-  } else if (locale === 'en') {
+  if (locale === 'en') {
     lng = (
       <>
         <span className="flag">
           <En />
         </span>
+        English
       </>
     );
   } else if (locale === 'es') {
@@ -34,18 +27,19 @@ export const LanguageSelector = () => {
         <span className="flag">
           <Es />
         </span>
+        Español
       </>
     );
   } else {
     // Si la langue n'est pas reconnue, affichez un composant par défaut ou un message d'erreur
-    lng = 'English';
+    lng = 'Español';
   }
 
   return (
     <>
       <Dropdown className="bg-transparent w-auto">
         <Dropdown.Toggle
-          className="bg-transparent border-0 text-dark"
+          className="bg-transparent border-0"
           id="dropdown-lng"
         >
           {lng}
@@ -73,18 +67,6 @@ export const LanguageSelector = () => {
                 <Es />
               </span>
               Español
-            </Dropdown.Item>
-          )}
-          {locale !== 'fr' && (
-            <Dropdown.Item
-              id="fr"
-              title="Francais"
-              href={`/fr/${pathname}`}
-            >
-              <span className="flag">
-                <Fr />
-              </span>
-              Français
             </Dropdown.Item>
           )}
         </Dropdown.Menu>

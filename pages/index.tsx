@@ -4,6 +4,9 @@ import { NextSeo, RecipeJsonLd } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
+import Cta from '@components/Cta';
+import Services from '@components/Services';
+import About from '@components/About';
 
 export const Home = () => {
   const { t } = useTranslation();
@@ -35,6 +38,9 @@ export const Home = () => {
         }}
       />
       <Hero />
+      <About />
+      {/*       <Services />
+      <Cta /> */}
     </>
   );
 };

@@ -4,7 +4,7 @@ const { i18n } = require('./next-i18next.config');
 module.exports = {
   i18n: {
     defaultLocale: 'es',
-    locales: ['es', 'en', 'fr'],
+    locales: ['es', 'en'],
     localeDetection: true,
   },
   sassOptions: {

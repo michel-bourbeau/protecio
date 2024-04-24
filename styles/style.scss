@@ -363,24 +363,23 @@ img:hover {
 }
 
 .header-top {
-  background: #4dcabc;
+  background: var(--color-primary);
   padding: 10px 0;
-  padding-right: 230px;
-  padding-left: 230px;
   font-family: var(--font-secondary);
+  width: 100%;
 
   p {
     margin-bottom: 0;
-    color: #fff;
+    color: #333;
   }
 
-  span {
+  span:not(.flag) {
     display: inline-block;
     margin-right: 2em
   }
 
-  a {
-    color: #ffffff
+  .button, a:not(.dropdown-item) {
+    color: #333
   }
 }
 
@@ -397,6 +396,14 @@ img:hover {
   right: 0;
   left: 0;
   height: 160px;
+
+  img.black-logo {
+    display: none
+  }
+
+  img.white-logo {
+    display: block
+  }
 }
 
 .header .logo-container {
@@ -408,7 +415,15 @@ img:hover {
 }
 
 .header.stikcy-menu {
-  background: var(--light-color);
+  background: #122826;
+
+  img.black-logo {
+    display: block
+  }
+
+  img.white-logo {
+    display: none
+  }
 }
 .header.stikcy-menu .logo h1 {
   color: var(--color-primary);
@@ -465,7 +480,7 @@ section {
     align-items: center;
     justify-content: space-between;
     font-family: var(--font-secondary);
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     color: var(--menu-color);
     white-space: nowrap;
@@ -473,8 +488,8 @@ section {
     position: relative;
   }
 
-  .stikcy-menu .navbar a:not(.btn-get-started) {
-    color: var(--text-color);
+  .stikcy-menu .navbar a:hover:not(.btn-get-started) {
+    color: var(--color-primary);
   }
 
   .navbar a i,
@@ -694,22 +709,58 @@ section {
   }
 }
 
+.footer-social-icon {
+  padding: 10px 0 20px;
+  text-align: center;
+}
+.footer-social-icon a i {
+  background-color: #4dcabc;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 7px;
+  text-align: center;
+  width: 45px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer-social-icon a i:hover {
+  background-color: #02101e;
+  color: #fff;
+}
+.footer-social-icon.htop-menu-s {
+  padding: 0;
+  display: inline-block;
+  margin-left: 30px;
+}
+.footer-social-icon.htop-menu-s a i {
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 3px;
+  width: 35px;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
   position: relative;
-  background: url(/images/service-bg.jpg) center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/slider-image.jpg) center center;
   background-color: var(--color-secondary);
   background-size: cover;
   padding: 50px 0 0 0;
-  height: 80vh;
-  min-height: 600px;
+  height: 70vh;
+  min-height: 700px;
   display: flex;
   align-items: center;
   overflow: hidden;
 }
+
 .hero::before {
   content: '';
   position: absolute;
@@ -736,11 +787,14 @@ section {
   }
 }
 
-@media (max-width: 1399px) {
+/* @media (max-width: 799px) {
   .header-top {
     display: none;
   }
-}
+  .header.sticked {
+    height: 110px;
+  }
+} */
 
 .dark-bg {
   padding: 50px 30px;
@@ -803,13 +857,13 @@ section {
 a.btn-get-started,
 .button,
 a.cta-btn {
+  border-radius: 5px;
+  font-size: 16px;
   font-family: var(--font-secondary);
   font-weight: 600;
-  font-size: 1.15em;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 1em 1.5em;
-  border-radius: 8px;
+  padding: 0.75em 1.5em;
   border: 0;
   transition: all 0.3s;
   color: var(--text-white-color);
@@ -819,7 +873,7 @@ a.cta-btn {
 a.btn-get-started:hover,
 .button:hover,
 a.cta-btn:hover {
-  background: #339999;
+  background: #122826;
   color: var(--text-white-color) !important;
   position:relative;
   z-index:9999;
@@ -1300,8 +1354,8 @@ canvas {
 .footer-section {
   background: url(/images/hero-bg.png) center left;
   background-size: cover;
-  padding: 60px 0;
-  border-radius: 0px;
+  padding: 0;
+  border-radius: 0;
   position: relative;
   background-attachment: fixed;
 }
@@ -1525,5 +1579,35 @@ canvas {
 .flag {
   display: inline-block;
   width: 16px;
-  margin-right: 6px;
+  margin-right: 8px;
+}
+
+// About
+
+.about {
+  h4 {
+    color: #666666;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: var(--font-secondary);
+  }
+
+  .thumb {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+  .thumb::after{
+      background: #2596be none repeat scroll 0 0;
+      content: "";
+      height: 100px;
+      left: 0;
+      position: absolute;
+      top: -15px;
+      width: 100px;
+      z-index: -1;
+  }
 }

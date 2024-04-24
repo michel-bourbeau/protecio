@@ -6,52 +6,48 @@ import LanguageSelector from '@components/LanguageSelector';
 import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faHome,
-  faPhone,
-  faEnvelope,
-} from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   const { t } = useTranslation();
   const router = useRouter();
 
   return (
-    <header
-      id="header"
-      className="header align-items-center sticked stikcy-menu"
-    >
+    <header id="header" className="header align-items-center sticked">
       <div className="header-top">
-        <p>
-          <span>
-            <FontAwesomeIcon
-              icon={faHome}
-              className="fa-home"
-              style={{ marginRight: '8px' }}
-            ></FontAwesomeIcon>
-            Rivas, Nicargua. Frente al km114 carretera a Tola
-          </span>
+        <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <p>
+            {/*        <span className="direction">
+              <FontAwesomeIcon
+                icon={faHome}
+                className="fa-home"
+                style={{ marginRight: '8px' }}
+              ></FontAwesomeIcon>
+              Rivas, Nicargua. Frente al km114 carretera a Tola
+            </span> */}
 
-          <span>
-            <FontAwesomeIcon
-              icon={faPhone}
-              className="fa-phone"
-              style={{ marginRight: '8px' }}
-            ></FontAwesomeIcon>
-            +505 8895 6347
-          </span>
+            <span className="telephone">
+              <FontAwesomeIcon
+                icon={faPhone}
+                className="fa-phone"
+                style={{ marginRight: '8px' }}
+              ></FontAwesomeIcon>
+              +505 8895 6347
+            </span>
 
-          <span>
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              className="fa-envelope"
-              style={{ marginRight: '8px' }}
-            ></FontAwesomeIcon>
-            <a href="mailto:kairostechnologiesnic@hotmail.com">
-              kairostechnologiesnic@hotmail.com
-            </a>
-          </span>
-        </p>
+            {/*             <span className="email">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="fa-envelope"
+                style={{ marginRight: '8px' }}
+              ></FontAwesomeIcon>
+              <a href="mailto:kairostechnologiesnic@hotmail.com">
+                kairostechnologiesnic@hotmail.com
+              </a>
+            </span> */}
+          </p>
+          <LanguageSelector />
+        </div>
       </div>
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <div className="logo-container d-flex">
@@ -60,6 +56,12 @@ export default function Header() {
               <img
                 src="/images/kairos-bg-white.png"
                 alt="Kairos Technologies S.A."
+                className="white-logo"
+              />
+              <img
+                src="/images/kairos-bg-black.png"
+                alt="Kairos Technologies S.A."
+                className="black-logo"
               />
             </a>
           </Link>
@@ -67,8 +69,19 @@ export default function Header() {
         <nav id="navbar" className="navbar d-flex">
           <ul>
             <li>
-              <a href={`#services`} className="">
+              <a href={`/services`} className="">
                 {t('Services.title')}
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="">
+                {t('Cta.button')}
+              </a>
+            </li>
+
+            <li className="footer-social-icon htop-menu-s">
+              <a href="#">
+                <i className="fa fa-facebook-f"></i>
               </a>
             </li>
             <li>
@@ -81,7 +94,6 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <LanguageSelector />
         <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       </div>
