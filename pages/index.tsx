@@ -12,7 +12,7 @@ export const Home = () => {
   const { t } = useTranslation();
   const router = useRouter();
   const useLocal = () => {
-    if (router.locale === 'es') return '';
+    if (router.locale === 'en') return '';
     else return router.locale;
   };
   return (

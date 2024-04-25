@@ -708,6 +708,13 @@ section {
     z-index: 9996;
   }
 }
+ß
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
 
 .footer-social-icon {
   padding: 10px 0 20px;
@@ -899,12 +906,9 @@ a.cta-btn:hover {
 }
 
 @media (max-width: 991px) {
-  .hero {
-    background: url(/images/hero-bg.png) center center;
-    background-color: var(--color-secondary);
-  }
+
   .hero h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   .call-to-action {
     background: var(--color-bg-dark);
@@ -1352,7 +1356,7 @@ canvas {
 --------------------------------------------------------------*/
 
 .footer-section {
-  background: url(/images/hero-bg.png) center left;
+  background: url(/images/slider-image.jpg) center left;
   background-size: cover;
   padding: 0;
   border-radius: 0;
