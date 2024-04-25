@@ -4,15 +4,15 @@ import { NextSeo, RecipeJsonLd } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
-import Cta from '@components/Cta';
-import Services from '@components/Services';
+// import Cta from '@components/Cta';
+// import Services from '@components/Services';
 import About from '@components/About';
 
 export const Home = () => {
   const { t } = useTranslation();
   const router = useRouter();
   const useLocal = () => {
-    if (router.locale === 'en') return '';
+    if (router.locale === 'es') return '';
     else return router.locale;
   };
   return (
@@ -20,9 +20,9 @@ export const Home = () => {
       <NextSeo
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://avanzatechnologies.com/${useLocal}`}
+        canonical={`https://kairos-technologies.netlify.app/${useLocal}`}
         openGraph={{
-          url: 'https://avanzatechnologies.com/',
+          url: 'https://kairos-technologies.netlify.app/',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
@@ -39,8 +39,10 @@ export const Home = () => {
       />
       <Hero />
       <About />
-      {/*       <Services />
-      <Cta /> */}
+      {/*       
+      <Services />
+      <Cta /> 
+      */}
     </>
   );
 };

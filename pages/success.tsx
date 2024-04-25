@@ -16,21 +16,21 @@ export const Success = () => {
       <NextSeo
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://avanzatechnologies.com/${useLocal}`}
+        canonical={`https://kairos-technologies.netlify.app/${useLocal}`}
         openGraph={{
-          url: 'https://avanzatechnologies.com/',
+          url: 'https://kairos-technologies.netlify.app/',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://avanzatechnologies.com/images/banner-opengraph.jpg',
-              width: 800,
-              height: 600,
-              alt: 'Kairos Technologies S.A. - Web Development',
+              url: 'https://kairos-technologies.netlify.app/images/banner-opengraph.jpg',
+              width: 1200,
+              height: 630,
+              alt: 'Kairos Technologies - Energía Eólica y Sistemas Solares',
               type: 'image/jpeg',
             },
           ],
-          siteName: 'AvanzaTec',
+          siteName: 'Kairos Technologies S.A.',
         }}
       />
       <div className="breadcrumbs">
