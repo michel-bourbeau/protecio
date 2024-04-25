@@ -27,9 +27,9 @@ export const Home = () => {
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://avanzatechnologies.com/images/banner-opengraph.jpg',
-              width: 800,
-              height: 600,
+              url: 'https://kairos-technologies.netlify.app/images/banner-opengraph.jpg',
+              width: 1200,
+              height: 630,
               alt: 'Kairos Technologies - Energía Eólica y Sistemas Solares',
               type: 'image/jpeg',
             },
