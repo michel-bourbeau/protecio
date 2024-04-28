@@ -18,6 +18,16 @@ export const Home = () => {
   return (
     <>
       <NextSeo
+      additionalMetaTags={[
+        {
+          property: 'geo.region',
+          content: `{${t('Metadata.geoRegion')}}`,
+        },
+        {
+          property: 'geo.placename',
+          content: `{${t('Metadata.placename')}}`,
+        },
+      ]}
         title={t('Metadata.title')}
         description={t('Metadata.description')}
         canonical={`https://kairos-technologies.netlify.app/${useLocal}`}

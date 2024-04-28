@@ -73,14 +73,12 @@ export default function Header() {
                 {t('Services.title')}
               </a>
             </li>
-            <li>
-              <a href="/contact" className="">
-                {t('Cta.button')}
-              </a>
-            </li>
 
             <li className="footer-social-icon htop-menu-s">
-              <a href="#">
+              <a
+                href="https://www.facebook.com/profile.php?id=100092708182385"
+                target="_blank"
+              >
                 <i className="fa fa-facebook-f"></i>
               </a>
             </li>

@@ -31,12 +31,13 @@ body,
     --color-default: #3a3a3a;
     --color-primary: #4dcabc;
     --color-secondary: #122826;
+    --color-secondary-sticky: #02101e;
     --color-start: #3a3a3a;
     --color-end: #3a3a3a;
     --hero-card-bg: rgb(228 227 223 / 17%);
     --box-shadow-color: rgb(82 90 101 / 10%);
     --color-button: #4dcabc;
-    --hero-text-color: #fff
+    --hero-text-color: #fff,
   }
 }
 
@@ -370,7 +371,7 @@ img:hover {
 
   p {
     margin-bottom: 0;
-    color: #333;
+    color: var(--light-color);
   }
 
   span:not(.flag) {
@@ -449,6 +450,25 @@ section {
   background: var(--light-color);
 }
 
+.stikcy-menu {
+  .navbar a:hover {
+    color: var(--color-primary);
+  }
+  .navbar a{
+    color: var(--light-color);
+  }
+
+  a.btn-get-started:hover,
+  .button:hover,
+  a.cta-btn:hover {
+    background: var(--color-secondary-sticky);
+  }
+
+  .footer-social-icon a i:hover {
+    background-color: var(--color-secondary-sticky);
+  }
+}
+
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
@@ -480,16 +500,12 @@ section {
     align-items: center;
     justify-content: space-between;
     font-family: var(--font-secondary);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--menu-color);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
-  }
-
-  .stikcy-menu .navbar a:hover:not(.btn-get-started) {
-    color: var(--color-primary);
   }
 
   .navbar a i,
@@ -721,7 +737,7 @@ section {
   text-align: center;
 }
 .footer-social-icon a i {
-  background-color: #4dcabc;
+  background-color: var(--color-button);
   border-radius: 50px;
   color: #fff;
   display: inline-block;
@@ -735,7 +751,7 @@ section {
   transition: 0.3s;
 }
 .footer-social-icon a i:hover {
-  background-color: #02101e;
+  background-color: var(--color-secondary);
   color: #fff;
 }
 .footer-social-icon.htop-menu-s {
@@ -845,7 +861,7 @@ section {
   font-size: 48px;
   margin-bottom: 20px;
   margin-top: 100px;
-  color: var(--hero-text-color);
+  color: var(--light-color);
   letter-spacing: 0.7px;
   font-weight: 600;
 }
@@ -880,7 +896,7 @@ a.cta-btn {
 a.btn-get-started:hover,
 .button:hover,
 a.cta-btn:hover {
-  background: #122826;
+  background: var(--color-secondary);
   color: var(--text-white-color) !important;
   position:relative;
   z-index:9999;

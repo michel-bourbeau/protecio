@@ -2,7 +2,9 @@
   "Metadata": {
     "title": "KAIROS TECHNOLOGIES S.A.",
     "description": "Soluciones Inteligentes,Ahorros de energías,Seguridad Eléctricas y de las personas. Optimización de procesos para las industrias",
-    "keywords": "'Kairos Technologies', Energía Eólica, Sistemas Solares, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'"
+    "keywords": "'Kairos Technologies', Energía Eólica, Sistemas Solares, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'",
+    "geoRegion": "América central",
+    "placename": "Nicaragua"
   },
   "Index": {
     "title": "Bienvenido a Kairos Tecnologies"
@@ -11,10 +13,18 @@
     "title": "Soluciones Inteligentes, <guidelines>Ahorros de energías,</guidelines> Seguridad Electricas y de las personas",
     "description": "Ser una organización reconocida en el sector de servicio y proyecto en el área de energía, capaz de ofrecer soluciones confiables y seguras: valorada, aceptada y respetada en el mercado de Latinoamérica."
   },
+  "About": {
+    "title": "ACERCA DE LAS KAIROS TECHNOLOGIES",
+    "description": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
+    "photoAlt": "Imagen de un empleado de Kairos Technologies",
+    "paragraph1": "KT dispone de los recursos, experiencia, garantía de calidad y capacidad geográfica en centro América y el caribe dedicado a soluciones y servicio del mantenimiento.",
+    "paragraph2": "Su objetivo principal es reducir costos a las empresas ofreciéndoles subcontrataciones de servicios para que sus clientes se centren exclusivamente en su Core Business, optimizando sus políticas de recurso humano enfocado en la salud y seguridad.",
+    "paragraph3": "La gama de servicios de Kairos Technologies está destinada a completar sus programas de Mantenimiento, inspección, operación y gestión de suministros."
+  },
   "Cta": {
-    "title": "Tell us about your project",
-    "description": "Let’s find out how we can turn your ideas into an exciting digital reality.",
-    "button": "Contact Us"
+    "title": "",
+    "description": "",
+    "button": "Contáctenos"
   },
   "Footer": {
     "copyright": "Todos los derechos reservados",

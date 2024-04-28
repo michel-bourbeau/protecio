@@ -13,39 +13,19 @@ export default function About() {
               src="/images/who-we-are.jpg"
               width={500}
               height={500}
-              alt="Picture of the author"
+              alt={t("About.photoAlt")}
             />
           </div>
 
           <div className="col-md-7">
-            <h4>ACERCA DE LAS KAIROS TECHNOLOGIES</h4>
-            <h1>
-              Somos una empresa especializada en prestaciones de
-              soluciones, Inspecciones y servicios de mantenimientos
-              en el sector energético apostando por las energías
-              renovables.
-            </h1>
+            <h4>{t('About.title')}</h4>
+            <h1>{t('About.description')}</h1>
 
-            <p>
-              KT dispone de los recursos, experiencia, garantía de
-              calidad y capacidad geográfica en centro América y el
-              caribe dedicado a soluciones y servicio del
-              mantenimiento.
-            </p>
+            <p>{t('About.paragraph1')}</p>
 
-            <p>
-              Su objetivo principal es reducir costos a las empresas
-              ofreciéndoles subcontrataciones de servicios para que
-              sus clientes se centren exclusivamente en su Core
-              Business, optimizando sus políticas de recurso humano
-              enfocado en la salud y seguridad.
-            </p>
+            <p>{t('About.paragraph2')}</p>
 
-            <p>
-              La gama de servicios de Kairos Technologies está
-              destinada a completar sus programas de Mantenimiento,
-              inspección, operación y gestión de suministros.
-            </p>
+            <p>{t('About.paragraph3')}</p>
           </div>
         </div>
       </div>

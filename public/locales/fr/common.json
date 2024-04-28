@@ -2,7 +2,9 @@
   "Metadata": {
     "title": "Kairos Metadata",
     "description": "Kairos descriptif",
-    "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'"
+    "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'",
+    "geoRegion": "Amérique centrale",
+    "placename": "Nicaragua"
   },
   "Index": {
     "title": "Bienvenue chez Kairos Technologies"
@@ -11,10 +13,18 @@
     "title": "Soluciones Inteligentes, Ahorros de energías, Seguridad Electricas y de las personas",
     "description": "Ser una organización reconocida en el sector de servicio y proyecto en el área de energía, capaz de ofrecer soluciones confiables y seguras: valorada, aceptada y respetada en el mercado de Latinoamérica."
   },
+  "About": {
+    "title": "À PROPOS DE KAIROS TECHNOLOGIES",
+    "description": "Nous sommes une entreprise spécialisée dans la fourniture de solutions, d'inspections et de services de maintenance dans le secteur de l'énergie, en pariant sur les énergies renouvelables.",
+    "photoAlt": "Image d'un employé de Kairos Technologies",
+    "paragraph1": "KT dispose des ressources, de l'expérience, de l'assurance qualité et de la capacité géographique en Amérique centrale et dans les Caraïbes dédiées aux solutions et services de maintenance.",
+    "paragraph2": "Son objectif principal est de réduire les coûts pour les entreprises en proposant des services de sous-traitance afin que leurs clients puissent se concentrer exclusivement sur leur Core Business, en optimisant leurs politiques de ressources humaines axées sur la santé et la sécurité.",
+    "paragraph3": "La gamme de services de Kairos Technologies est destinée à compléter vos programmes de maintenance, d'inspection, d'exploitation et de gestion des approvisionnements."
+  },
   "Cta": {
-    "title": "Tell us about your project",
-    "description": "Let’s find out how we can turn your ideas into an exciting digital reality.",
-    "button": "Contáctenos"
+    "title": "",
+    "description": "",
+    "button": "Contactez-nous"
   },
   "Footer": {
     "copyright": "Tous droits réservés",

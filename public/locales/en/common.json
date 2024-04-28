@@ -1,39 +1,49 @@
 {
     "Metadata": {
       "title": "Kairos Metadata",
-      "description": "Kairos Description",
-      "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'"
+      "description": "Smart Solutions, Energy Savings, Electrical and People Safety. Process optimization for industries",
+      "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'",
+      "geoRegion": "Central America",
+      "placename": "Nicaragua"
     },
     "Index": {
       "title": "Welcome to Kairos Technologies"
     },
     "Hero": {
-      "title": "Soluciones Inteligentes, <guidelines>Ahorros de energías,</guidelines> Seguridad Electricas y de las personas",
-      "description": "Ser una organización reconocida en el sector de servicio y proyecto en el área de energía, capaz de ofrecer soluciones confiables y seguras: valorada, aceptada y respetada en el mercado de Latinoamérica."
+      "title": "Smart Solutions, <guidelines>Energy Savings,</guidelines> Electrical and People Safety",
+      "description": "To be a recognized organization in the service and project sector in the energy area, capable of offering reliable and safe solutions: valued, accepted and respected in the Latin American market."
+    },
+    "About": {
+      "title": "ABOUT KAIROS TECHNOLOGIES",
+      "description": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
+      "photoAlt": "Image of a Kairos Technologies employee",
+      "paragraph1": "KT has the resources, experience, quality assurance and geographic capacity in Central America and the Caribbean dedicated to maintenance solutions and services.",
+      "paragraph2": "Its main objective is to reduce costs to companies by offering subcontracting of services so that their clients can focus exclusively on their Core Business, optimizing their human resource policies focused on health and safety.",
+      "paragraph3": "Kairos Technologies' range of services is intended to complete your Maintenance, inspection, operation and supply management programs."
     },
     "Cta": {
-      "title": "Tell us about your project",
-      "description": "Let’s find out how we can turn your ideas into an exciting digital reality.",
+      "title": "",
+      "description": "",
       "button": "Contact Us"
     },
     "Footer": {
       "copyright": "All right reserved",
-      "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+      "infos": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies."
     },
     "Services": {
-      "title": "Nuestros servicios",
-      "description": "Somos la primera empresa en todo el país y el único en la zona con los servicios de mantenimiento en turbinas eólicas. Ubicados en el centro de América a 140km de la capital de Managua-Nicaragua.",
+      "title": "Our services",
+      "description": "We are the first company in the entire country and the only one in the area with maintenance services for wind turbines. Located in the center of America, 140km from the capital of Managua-Nicaragua.",
       "service1": {
-        "title": "Servicios de campo"
+        "title": "Field services"
       },
       "service2": {
-        "title": "Mantenimiento Preventivo"
+        "title": "Preventive Maintenance"
       },
       "service3": {
-        "title": "Mantenimiento Preventivo"
+        "title": "Preventive Maintenance"
       },
       "service4": {
-        "title": "Otros servicios especiales"
+        "title": "Other special services"
       }
     },
     "Contact": {
