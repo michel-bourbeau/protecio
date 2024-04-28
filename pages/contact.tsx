@@ -45,7 +45,7 @@ export const Contact = () => {
           siteName: 'Kairos Technologies S.A.',
         }}
       />
-      <ContactUs />
+      <ContactUs hideTitle />
     </>
   );
 };
