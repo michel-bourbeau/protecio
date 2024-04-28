@@ -73,6 +73,7 @@
       "description": "We have received your request for information regarding our services. Our team will process your request as soon as possible and contact you as soon as possible.",
       "infos": "If you have any further questions or needs, you can contact us directly by email at [email] or by phone at [phone number].",
       "button": "Back to home page"
-    }
+    },
+    "UnderConstruction": "Esta página esta en construcción"
   }
   

@@ -61,5 +61,6 @@
     "description": "We have received your request for information regarding our services. Our team will process your request as soon as possible and contact you as soon as possible.",
     "infos": "Contact success informations",
     "button": "Back to home page"
-  }
+  },
+  "UnderConstruction": "Cette page est en construction"
 }

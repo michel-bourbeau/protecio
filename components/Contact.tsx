@@ -18,7 +18,7 @@ export default function Contact({ hideTitle = false }: PropsContact) {
           <p>{t('Contact.description')}</p>
         </div>
       )}
-      <p className="construction">This page is under construction</p>
+      <p className="construction">{t('UnderConstruction')}</p>
 
       <div className="container">
         <div className="row">

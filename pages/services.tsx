@@ -28,14 +28,14 @@ export const Services = () => {
         ]}
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://kairos-technologies.netlify.app/${useLocal}`}
+        canonical={`https://kairos-technologies.net/${useLocal}`}
         openGraph={{
-          url: 'https://kairos-technologies.netlify.app/',
+          url: 'https://kairos-technologies.net',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://kairos-technologies.netlify.app/images/banner-opengraph.jpg',
+              url: 'https://kairos-technologies.net/images/banner-opengraph.jpg',
               width: 1200,
               height: 630,
               alt: 'Kairos Technologies - Energía Eólica y Sistemas Solares',

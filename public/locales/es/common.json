@@ -61,5 +61,6 @@
     "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
     "infos": "Si tiene más preguntas o necesidades, puede contactarnos directamente al correo electrónico [correo electrónico] o al teléfono [teléfono].",
     "button": "Volver a la página de inicio"
-  }
+  },
+  "UnderConstruction": "This page is under construction"
 }

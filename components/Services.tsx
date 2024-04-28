@@ -11,9 +11,7 @@ export default function Services() {
           <div className="section-header">
             <h2>{t('Services.title')}</h2>
             <p className="text-medium">{t('Services.description')}</p>
-            <p className="construction">
-              This page is under construction
-            </p>
+            <p className="construction">{t('UnderConstruction')}</p>
           </div>
         </div>
       </div>
