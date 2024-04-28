@@ -69,7 +69,7 @@ export default function Header() {
         <nav id="navbar" className="navbar d-flex">
           <ul>
             <li>
-              <a href={`/services`} className="">
+              <a href={`/${router.locale}/services`} className="">
                 {t('Services.title')}
               </a>
             </li>
@@ -84,7 +84,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href={`#contact`}
+                href={`/${router.locale}/contact`}
                 className="btn-get-started hide-on-mobile d-flex"
               >
                 {t('Cta.button')}

@@ -47,7 +47,26 @@
       }
     },
     "Contact": {
-      "title": "Contact us"
+      "title": "Contact us",
+      "description": "Benefit from 30 minutes of free consultation without obligation!",
+      "mailsubject": "About our project",
+      "getintouch": "Get in touch",
+      "form": {
+        "fields": {
+          "name": "Full name",
+           "email": "Email",
+           "subject": "Subject",
+           "message": "Write Your Message"
+        },
+        "errors": {
+          "name": "Name is required.",
+          "email": "Valid email is required.",
+          "subject": "Subject is required.",
+          "message": "Please, leave us a message."
+        },
+        "button": "Send Message",
+        "thanks": "Thank You! your message has been sent."
+      }
     },
     "Success": {
       "title": "Thank you!",

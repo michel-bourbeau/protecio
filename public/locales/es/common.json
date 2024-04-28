@@ -35,7 +35,26 @@
     "description": "Su éxito en línea es nuestra principal prioridad"
   },
   "Contact": {
-    "title": "Contáctenos"
+    "title": "Contáctenos",
+    "description": "¡Benefíciate de 30 minutos de consulta gratuita y sin compromiso!",
+    "mailsubject": "Acerca de nuestro proyecto",
+    "getintouch": "Ponerse en contacto",
+    "form": {
+      "fields": {
+        "name": "Nombre completo",
+         "email": "Correo electrónico",
+         "subject": "Asunto",
+         "message": "Escribe tu mensaje"
+      },
+      "errors": {
+        "name": "El nombre es obligatorio.",
+        "email": "Se requiere un correo electrónico válido.",
+        "subject": "El asunto es obligatorio.",
+        "message": "Por favor, déjanos un mensaje."
+      },
+      "button": "Enviar mensaje",
+      "thanks": "¡Gracias! Tu mensaje ha sido enviado."
+    }
   },
   "Success": {
     "title": "Gracias!",

@@ -37,7 +37,8 @@ body,
     --hero-card-bg: rgb(228 227 223 / 17%);
     --box-shadow-color: rgb(82 90 101 / 10%);
     --color-button: #4dcabc;
-    --hero-text-color: #fff,
+    --hero-text-color: #fff;
+    --light-bg: #eeeeee;
   }
 }
 
@@ -97,6 +98,11 @@ section {
   padding: 60px 0;
   overflow: hidden;
   background: var(--light-color);
+
+  &.services {
+    margin-top: 150px;
+    background-color: var(--light-bg);
+  }
 }
 
 .section-grey {
@@ -807,6 +813,13 @@ section {
 @media (min-width: 1365px) {
   .hero {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero {
+    min-height: 900px;
+    padding: 100px 0 50px 0;
   }
 }
 
@@ -1630,4 +1643,12 @@ canvas {
       width: 100px;
       z-index: -1;
   }
+}
+
+p.construction {
+  background-color: #ff4d15;
+  color: #fff !important;
+  padding: .5em;
+  width: 100%;
+  font-size: 18px;
 }
