@@ -740,8 +740,9 @@ section {
 
 .footer-social-icon {
   padding: 10px 0 20px;
-  text-align: center;
+  text-align: left;
 }
+
 .footer-social-icon a i {
   background-color: var(--color-button);
   border-radius: 50px;
@@ -1391,6 +1392,14 @@ canvas {
   border-radius: 0;
   position: relative;
   background-attachment: fixed;
+
+  a.link {
+    color: var(--light-color);
+    font-size: 16px;
+  }
+  a.link:hover {
+    color: var(--theme-color);
+  }
 }
 
 .footer-section:before {
@@ -1634,7 +1643,7 @@ canvas {
 }
 
   .thumb::after{
-      background: #2596be none repeat scroll 0 0;
+      background: var(--color-primary) none repeat scroll 0 0;
       content: "";
       height: 100px;
       left: 0;

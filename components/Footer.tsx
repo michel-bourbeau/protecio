@@ -50,20 +50,27 @@ export default function Footer() {
                   </p>
                   <p>
                     <i className="bi bi-envelope-fill mr-15"></i>
-                    <Link
-                      href={`mailto:kairostechnologiesnic@hotmail.com?subject=${t('Contact.mailsubject')}`}
+                    <a
+                      href={`mailto:kairostechnologiesnic@hotmail.com`}
+                      className="link"
                     >
                       kairostechnologiesnic@hotmail.com
-                    </Link>
+                    </a>
                   </p>
                 </div>
                 <div className="footer-social-icon">
                   <a
                     href="https://www.facebook.com/profile.php?id=100092708182385"
-                    className="facebook"
                     target="_blank"
                   >
-                    <i className="bi bi-facebook"></i>
+                    <i className="fa fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100092708182385"
+                    target="_blank"
+                    className="link"
+                  >
+                    Visit Us on Facebook
                   </a>
                 </div>
               </div>

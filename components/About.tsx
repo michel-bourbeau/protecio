@@ -10,10 +10,10 @@ export default function About() {
         <div className="row ">
           <div className="col-md-5 thumb">
             <Image
-              src="/images/who-we-are.jpg"
+              src="/images/kairos-worker-on-wind-turbine.jpeg"
               width={500}
               height={500}
-              alt={t("About.photoAlt")}
+              alt={t('About.photoAlt')}
             />
           </div>
 
