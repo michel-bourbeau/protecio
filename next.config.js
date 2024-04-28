@@ -7,6 +7,13 @@ module.exports = {
     locales: ['es', 'en'],
     localeDetection: true,
   },
+  images: {
+    domains: [
+      'kairos-technologies.net',
+      'www.kairos-technologies.net',
+      'kairos-technologies.netlify.app',
+    ],
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
