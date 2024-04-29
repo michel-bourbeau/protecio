@@ -1,28 +1,32 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function Vision() {
   const { t } = useTranslation();
 
   return (
     <section className="about vision">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-3 thumb">
+      <Container>
+        <Row>
+          <Col className="thumb" md={3}>
             <Image
               src="/images/vision.jpg"
               width={250}
               height={250}
               alt={t('About.photoAlt')}
             />
-          </div>
-          <div className="col-md-9">
+          </Col>
+          <Col md={9}>
             <h4>{t('Vision.title')}</h4>
             <h1>{t('Vision.description')}</h1>
             <p>{t('Vision.paragraph')}</p>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

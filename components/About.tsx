@@ -1,23 +1,27 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function About() {
   const { t } = useTranslation();
 
   return (
     <section className="about">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-5 thumb">
+      <Container>
+        <Row>
+          <Col md={5} className="thumb">
             <Image
               src="/images/kairos-worker-on-wind-turbine.jpeg"
               width={500}
               height={500}
               alt={t('About.photoAlt')}
             />
-          </div>
+          </Col>
 
-          <div className="col-md-7">
+          <Col md={7}>
             <h4>{t('About.title')}</h4>
             <h1>{t('About.description')}</h1>
 
@@ -26,9 +30,9 @@ export default function About() {
             <p>{t('About.paragraph2')}</p>
 
             <p>{t('About.paragraph3')}</p>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

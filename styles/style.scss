@@ -30,12 +30,13 @@ body,
     --light-color: #ffffff;
     --color-default: #3a3a3a;
     --color-primary: #4dcabc;
-    --color-secondary: #122826;
+    --color-secondary: rgb(18, 40, 38);
     --color-secondary-sticky: #02101e;
     --color-start: #3a3a3a;
     --color-end: #3a3a3a;
-    --hero-card-bg: rgb(228 227 223 / 17%);
-    --box-shadow-color: rgb(82 90 101 / 10%);
+    --hero-card-bg: rgba(228 227 223 / 17%);
+    --hero-card-bg-darker: rgba(18, 40, 38, .5);
+    --box-shadow-color: rgba(82 90 101 / 10%);
     --color-button: #4dcabc;
     --hero-text-color: #fff;
     --light-bg: #eeeeee;
@@ -131,11 +132,11 @@ section {
   color: #b8651d;
 }
 
-img {
+img:not(.no-effect) {
   transition: 0.3s;
 }
 
-img:hover {
+img:not(.no-effect):hover {
   transform: scale(1.1);
 }
 
@@ -1693,7 +1694,11 @@ canvas {
   }
 
   &.history {
-    background-color: var(--color-secondary);
+    background-color: var(--hero-card-bg-darker);
+
+    .paragraph {
+      margin: 3em 0 0
+    }
   }
 
   &.objective {
@@ -1704,7 +1709,84 @@ canvas {
   }
 }
 
-p.construction {
+/* bar color title */
+.witr_bar_main {
+  margin: 10px 0;
+}
+.witr_bar_inner {
+  height: 5px;
+  width: 90px;
+  background: #4dcabc;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 30px;
+}
+.text-left .witr_bar_inner {
+  margin-left: 0px;
+}
+.text-right .witr_bar_inner {
+  margin-right: 0px;
+}
+
+/* circale Bar css */
+.witr_bar_innerc {
+  position: relative;
+}
+.witr_bar_innerc::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid #4dcabc;
+  border-radius: 50%;
+  background: #1c1b1b;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: move_title_bg;
+  animation-name: move_title_bg1;
+}
+.witr_bar_innerc::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid #4dcabc;
+  border-radius: 50%;
+  background: #1c1b1b;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: move_title_bg;
+  animation-name: move_title_bg2;
+}
+@keyframes move_title_bg1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes move_title_bg2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+.construction {
   background-color: #ff4d15;
   color: #fff !important;
   padding: .5em;
