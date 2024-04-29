@@ -21,10 +21,30 @@
     "paragraph2": "Su objetivo principal es reducir costos a las empresas ofreciéndoles subcontrataciones de servicios para que sus clientes se centren exclusivamente en su Core Business, optimizando sus políticas de recurso humano enfocado en la salud y seguridad.",
     "paragraph3": "La gama de servicios de Kairos Technologies está destinada a completar sus programas de Mantenimiento, inspección, operación y gestión de suministros."
   },
+  "Mission": {
+    "title": "MISION",
+    "description": "Somos una organización especializada en servicios de mantenimiento, reacondicionamiento y montaje electromecánico de equipos e instalaciones eléctricas, enfocado en el crecimiento de nuestros clientes, ofreciendo un personal altamente capacitado, herramientas y equipos adecuados, con precios competitivos en el mercado y comprometidos con la calidad, seguridad y protección del medio ambiente en nuestras operaciones"
+  },
+  "Vision": {
+    "title": "VISION",
+    "description": "Ser una organización reconocida en el sector de servicio y proyecto en el área de energía, capaz de ofrecer soluciones confiables y seguras: valorada, aceptada y respetada en el mercado de Latinoamérica.",
+    "paragraph": "En KT nos dedicamos a crear, reforzar y comprender las condiciones de seguridad en los lugares de trabajo."
+  },
+  "History": {
+    "title": "HISTORIA",
+    "description": "KT Nace en Rivas, Nicaragua en el mes de diciembre del año 2019 con la sólida idea de ofrecer soluciones y servicios de calidad para el mantenimiento industrial. Después de una larga trayectoria en el sector eólico en las Marcas Carter 300KW-Vestas V90-Suzlon S88,Siemens Gamesa G114.",
+    "paragraph": "Convirtiéndonos en la mejor opción de profesionales entrenados y certificados para instalación, mantenimiento, operación y servicios de plantas de generación eólicas y solares. El grupo de profesionales fue creciendo de una empresa a otra compartiendo toda su experiencia en cada trabajo encomendado de esta manera se adquirieron nuevos conocimientos de acuerdo con los avances tecnológicos.."
+  },
+  "Objective": {
+    "title": "OBJETIVO DE LA EMPRESA",
+    "paragraph1": "Disponer la experiencia ganada desde el 2010 para brindar los servicios que se requieran y ser el socio perfecto para ofrecerles las soluciones más viables a cada cliente.",
+    "paragraph2": "Ofrecer servicios especializados a las grandes marcas de la industria eólica y que nuestros clientes promuevan nuestro trabajo cualquier parte que se requiera.",
+    "paragraph3": "Promover el desarrollo sostenible de la industria energética con bases de recursos renovables."
+  },
   "Cta": {
-    "title": "",
-    "description": "",
-    "button": "Contáctenos"
+    "title": "Si tiene alguna pregunta o necesita ayuda, en cualquier momento",
+    "description": "+505 8895 6347",
+    "button": "Ponerse en contacto"
   },
   "Footer": {
     "copyright": "Todos los derechos reservados",

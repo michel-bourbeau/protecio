@@ -4,9 +4,13 @@ import { NextSeo, RecipeJsonLd } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
-// import Cta from '@components/Cta';
+import Cta from '@components/Cta';
 // import Services from '@components/Services';
 import About from '@components/About';
+import Vision from '@components/Vision';
+import Mission from '@components/Mission';
+import History from '@components/History';
+import Objective from '@components/Objective';
 
 export const Home = () => {
   const { t } = useTranslation();
@@ -49,10 +53,13 @@ export const Home = () => {
       />
       <Hero />
       <About />
+      <Mission />
+      <Vision />
+      <History />
+      <Objective />
       {/*       
-      <Services />
-      <Cta /> 
-      */}
+      <Services />*/}
+      <Cta />
     </>
   );
 };

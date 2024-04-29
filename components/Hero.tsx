@@ -1,9 +1,11 @@
 import { Trans, useTranslation } from 'next-i18next';
-
+import { useRouter } from 'next/router';
 // import Particles from '@components/Particles';
 
 export default function Hero() {
   const { t } = useTranslation();
+  const router = useRouter();
+
   return (
     <section id="hero" className="hero sticked-header-offset">
       <div className="container position-relative">
@@ -22,7 +24,10 @@ export default function Hero() {
             <p>{t('Hero.description')}</p>
             <div className="social"></div>
             <div className="d-flex justify-content-start">
-              <a href="#contact" className="cta-btn">
+              <a
+                href={`/${router.locale}/contact`}
+                className="cta-btn"
+              >
                 {t('Cta.button')}
               </a>
             </div>
