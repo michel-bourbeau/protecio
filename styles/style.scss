@@ -425,7 +425,7 @@ img:not(.no-effect):hover {
 }
 
 .header .logo img {
-  max-height: 100px;
+  max-height: 90px;
 }
 
 .header.stikcy-menu {
@@ -487,7 +487,7 @@ section {
 --------------------------------------------------------------*/
 @media (min-width: 800px) {
   .navbar {
-    margin: 0 1em 0 0;
+    margin: 1em 1em 0 0;
   }
 
   .navbar ul {
@@ -701,12 +701,14 @@ section {
 
   .mobile-nav-show {
     color: var(--color-primary);
-    font-size: 28px;
+    font-size: 36px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    margin: 0 10px;
+    margin: 24px;
+    position: relative;
+    bottom: -5px;
   }
 
   .mobile-nav-hide {
