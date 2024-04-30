@@ -23,6 +23,7 @@ export default function Footer() {
                     <img
                       src="/images/kairos-bg-black.png"
                       alt="Kairos Technologies S.A"
+                      className="no-effect"
                     />
                   </a>
                 </div>
@@ -32,9 +33,9 @@ export default function Footer() {
               </div>
             </Col>
 
-            <Col className="col-lg-2 col-md-6 col-sm-12 footer-column"></Col>
-            <Col className="col-lg-2 col-md-6 col-sm-12 footer-column"></Col>
-            <Col className="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <Col lg={2} md={6} sm={12}></Col>
+            <Col lg={2} md={6} sm={12}></Col>
+            <Col xl={4} lg={4} md={6} sm={12} className="mb-50">
               <div className="contact-widget footer-widget mt-4">
                 <div className="footer-widget-heading">
                   <h3>{t('Contact.title')}</h3>

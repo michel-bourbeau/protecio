@@ -22,7 +22,7 @@ export default function Vision() {
           </Col>
           <Col md={9}>
             <h4>{t('Vision.title')}</h4>
-            <h1>{t('Vision.description')}</h1>
+            <p className="large-text">{t('Vision.description')}</p>
             <p>{t('Vision.paragraph')}</p>
           </Col>
         </Row>

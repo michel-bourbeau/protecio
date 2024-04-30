@@ -77,6 +77,10 @@ h6 {
 
 p {
   font-size: 1.1em;
+
+  &.large-text {
+    font-size: 2em;
+  }
 }
 
 .text-medium {
@@ -828,7 +832,7 @@ section {
 
 @media (max-width: 575px) {
   .hero {
-    min-height: 900px;
+    min-height: 800px;
     padding: 100px 0 50px 0;
   }
 }
@@ -1290,13 +1294,11 @@ canvas {
   border-radius: 0px;
   overflow: hidden;
   position: relative;
-
-
-    background-image: url(/images/call-to-action.jpg);
-    background-position: center center;
-    background-size: cover;
-    padding: 100px 0px 100px;
-    position: relative;
+  background-image: url(/images/call-to-action.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0px 100px;
+  position: relative;
   
   &:before {
     position: absolute;
@@ -1709,6 +1711,19 @@ canvas {
       margin-bottom: 12px;
     }
   }
+}
+
+.mission {
+  background: var(--color-bg-dark);
+  padding: 150px 0px;
+  border-radius: 0px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(/images/service-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0px 100px;
+  position: relative;
 }
 
 /* bar color title */

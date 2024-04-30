@@ -17,15 +17,6 @@ export default function Header() {
       <div className="header-top">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <p>
-            {/*        <span className="direction">
-              <FontAwesomeIcon
-                icon={faHome}
-                className="fa-home"
-                style={{ marginRight: '8px' }}
-              ></FontAwesomeIcon>
-              Rivas, Nicargua. Frente al km114 carretera a Tola
-            </span> */}
-
             <span className="telephone">
               <FontAwesomeIcon
                 icon={faPhone}
@@ -34,17 +25,6 @@ export default function Header() {
               ></FontAwesomeIcon>
               +505 8895 6347
             </span>
-
-            {/*             <span className="email">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="fa-envelope"
-                style={{ marginRight: '8px' }}
-              ></FontAwesomeIcon>
-              <a href="mailto:kairostechnologiesnic@hotmail.com">
-                kairostechnologiesnic@hotmail.com
-              </a>
-            </span> */}
           </p>
           <LanguageSelector />
         </div>
