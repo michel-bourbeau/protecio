@@ -22,7 +22,6 @@ export default function Hero() {
               <span className="circle"></span>
             </h2>
             <p>{t('Hero.description')}</p>
-            <div className="social"></div>
             <div className="d-flex justify-content-start">
               <a
                 href={`/${router.locale}/contact`}

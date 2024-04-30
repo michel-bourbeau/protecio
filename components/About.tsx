@@ -24,9 +24,8 @@ export default function About() {
 
           <Col md={7}>
             <h4>{t('About.title')}</h4>
-            <p className="large-text">{t('About.description')}</p>
 
-            <p>{t('About.paragraph1')}</p>
+            <p className="large-text">{t('About.paragraph1')}</p>
 
             <p>{t('About.paragraph2')}</p>
 
