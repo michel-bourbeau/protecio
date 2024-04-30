@@ -48,7 +48,8 @@
   },
   "Footer": {
     "copyright": "Tous droits réservés",
-    "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+    "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
+    "createdBy": "Site créé par"
   },
   "Services": {
     "title": "Nos services",

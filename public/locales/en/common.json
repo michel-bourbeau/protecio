@@ -48,7 +48,8 @@
     },
     "Footer": {
       "copyright": "All right reserved",
-      "infos": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies."
+      "infos": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
+      "createdBy": "Website created by"
     },
     "Services": {
       "title": "Our services",

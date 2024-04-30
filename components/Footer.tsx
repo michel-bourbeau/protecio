@@ -1,15 +1,19 @@
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function Footer() {
   const { t } = useTranslation();
 
   return (
     <footer id="footer" className="footer-section">
-      <div className="container">
+      <Container>
         <div className="footer-content pt-5 pb-5">
-          <div className="row">
-            <div className="col-xl-4 col-lg-4 mb-50">
+          <Row>
+            <Col className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
                   <a
@@ -26,11 +30,11 @@ export default function Footer() {
                   <p>{t('Footer.infos')}</p>
                 </div>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-2 col-md-6 col-sm-12 footer-column"></div>
-            <div className="col-lg-2 col-md-6 col-sm-12 footer-column"></div>
-            <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <Col className="col-lg-2 col-md-6 col-sm-12 footer-column"></Col>
+            <Col className="col-lg-2 col-md-6 col-sm-12 footer-column"></Col>
+            <Col className="col-xl-4 col-lg-4 col-md-6 mb-50">
               <div className="contact-widget footer-widget mt-4">
                 <div className="footer-widget-heading">
                   <h3>{t('Contact.title')}</h3>
@@ -74,20 +78,25 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-xl-6 col-lg-6 text-left text-lg-left">
-              <div className="copyright-text">
-                <p>
-                  Kairos Technologies S.A. ©{' '}
-                  {new Date().getFullYear()} - {t('Footer.copyright')}
-                </p>
-              </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
+          <Row className="copyright-text">
+            <Col md={6}>
+              <p>
+                Kairos Technologies S.A. © {new Date().getFullYear()}{' '}
+                - {t('Footer.copyright')}
+              </p>
+              <p>
+                {t('Footer.createdBy')}
+                {` `}
+                <Link href={`https://avanzatechnologies.com/`}>
+                  <a target="_blank">AvanzaTec</a>
+                </Link>
+              </p>
+            </Col>
+          </Row>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 }
