@@ -13,6 +13,10 @@ export default function Document() {
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
+      <link
+        href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css"
+        rel="stylesheet"
+      />
       <Head />
       <body>
         <Main />
