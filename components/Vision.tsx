@@ -22,10 +22,12 @@ export default function Vision() {
           </Col>
           <Col md={8}>
             <h2 className="subtitle mt-2">{t('Vision.title')}</h2>
-            <p className="large-text mt-4">
+            <p className="medium-text mt-4">
               {t('Vision.description')}
             </p>
-            <p className="large-text mt-4">{t('Vision.paragraph')}</p>
+            <p className="medium-text mt-4">
+              {t('Vision.paragraph')}
+            </p>
           </Col>
         </Row>
       </Container>

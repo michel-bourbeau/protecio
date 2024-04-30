@@ -14,7 +14,9 @@ export default function Mission() {
         <Row>
           <Col md={8}>
             <h2 className="subtitle mt-2">{t('Mission.title')}</h2>
-            <p className="mt-4 mb-5">{t('Mission.description')}</p>
+            <p className="medium-text mt-4 mb-5">
+              {t('Mission.description')}
+            </p>
           </Col>
           <Col className="thumb" md={4}>
             <Image

@@ -10,7 +10,7 @@ export default function History() {
 
   return (
     <section className="about history">
-      <Container>
+      <Container className="aos-init aos-animate" data-aos="zoom-out">
         <Row>
           <Col>
             <div className="witr_section_title">
@@ -22,20 +22,15 @@ export default function History() {
               </div>
             </div>
             <Row className="paragraph">
-              <Col md={3}>
-                <p>{t('History.description')}</p>
+              <Col md={6}>
+                <p className="medium-text">
+                  {t('History.description')}
+                </p>
               </Col>
-              <Col md={5} className="thumb">
-                <Image
-                  src="/images/history-2.jpg"
-                  width={512}
-                  height={350}
-                  alt={t('About.photoAlt')}
-                  className="no-effect"
-                />
-              </Col>
-              <Col md={4}>
-                <p>{t('History.paragraph')}</p>
+              <Col md={6}>
+                <p className="medium-text">
+                  {t('History.paragraph')}
+                </p>
               </Col>
             </Row>
           </Col>
