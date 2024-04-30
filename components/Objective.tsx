@@ -1,31 +1,33 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function Objective() {
   const { t } = useTranslation();
 
   return (
     <section className="about objective">
-      <div className="container">
-        <div className="row ">
-          <div className="col-md-3 thumb">
+      <Container>
+        <Row>
+          <Col md={4} className="thumb">
             <Image
-              src="/images/vision.jpg"
-              width={250}
-              height={250}
+              src="/images/vision2.jpeg"
+              width={1125}
+              height={741}
               alt={t('About.photoAlt')}
             />
-          </div>
-          <div className="col-md-9">
-            <h4>{t('Objective.title')}</h4>
-            <ul>
-              <li>{t('Objective.paragraph1')}</li>
-              <li>{t('Objective.paragraph2')}</li>
-              <li>{t('Objective.paragraph3')}</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+          </Col>
+          <Col md={8}>
+            <h2 className="subtitle mt-4">{t('Objective.title')}</h2>
+            <div className="p-2">{t('Objective.paragraph1')}</div>
+            <div className="p-2">{t('Objective.paragraph2')}</div>
+            <div className="p-2">{t('Objective.paragraph3')}</div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

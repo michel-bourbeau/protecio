@@ -13,14 +13,14 @@ export default function Mission() {
       <Container>
         <Row>
           <Col md={8}>
-            <h4>{t('Mission.title')}</h4>
-            <p className="large-text">{t('Mission.description')}</p>
+            <h2 className="subtitle mt-2">{t('Mission.title')}</h2>
+            <p className="mt-4 mb-5">{t('Mission.description')}</p>
           </Col>
           <Col className="thumb" md={4}>
             <Image
-              src="/images/blog-thumb-02.jpg"
-              width={400}
-              height={400}
+              src="/images/wind-turbine.jpeg"
+              width={981}
+              height={664}
               alt={t('About.photoAlt')}
             />
           </Col>

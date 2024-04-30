@@ -83,6 +83,15 @@ p {
   }
 }
 
+.subtitle {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.text-large {
+  font-size: 2em;
+}
+
 .text-medium {
   font-size: 1.5em;
 }
@@ -1299,14 +1308,13 @@ canvas {
 
 .call-to-action {
   background: var(--color-bg-dark);
-  padding: 150px 0px;
+  padding: 100px 24px;
   border-radius: 0px;
   overflow: hidden;
   position: relative;
   background-image: url(/images/call-to-action.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 100px 0px 100px;
   position: relative;
   
   &:before {
@@ -1670,13 +1678,6 @@ canvas {
 // About
 
 .about {
-  h4 {
-    color: #666666;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-family: var(--font-secondary);
-  }
 
   .thumb {
     padding-left: 15px;
@@ -1724,14 +1725,12 @@ canvas {
 
 .mission {
   background: var(--color-bg-dark);
-  padding: 150px 0px;
   border-radius: 0px;
   overflow: hidden;
   position: relative;
   background-image: url(/images/service-bg.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 100px 0px 100px;
   position: relative;
 }
 

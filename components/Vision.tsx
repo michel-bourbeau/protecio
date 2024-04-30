@@ -12,18 +12,20 @@ export default function Vision() {
     <section className="about vision">
       <Container>
         <Row>
-          <Col className="thumb" md={3}>
+          <Col className="thumb" md={4}>
             <Image
-              src="/images/vision.jpg"
-              width={250}
-              height={250}
+              src="/images/vision3.jpg"
+              width={901}
+              height={677}
               alt={t('About.photoAlt')}
             />
           </Col>
-          <Col md={9}>
-            <h4>{t('Vision.title')}</h4>
-            <p className="large-text">{t('Vision.description')}</p>
-            <p>{t('Vision.paragraph')}</p>
+          <Col md={8}>
+            <h2 className="subtitle mt-2">{t('Vision.title')}</h2>
+            <p className="large-text mt-4">
+              {t('Vision.description')}
+            </p>
+            <p className="large-text mt-4">{t('Vision.paragraph')}</p>
           </Col>
         </Row>
       </Container>
