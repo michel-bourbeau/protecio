@@ -3,42 +3,25 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 type PropsContact = { hideTitle?: boolean };
 
 export default function Contact({ hideTitle = false }: PropsContact) {
   const { t } = useTranslation();
 
-  // const [isVisible, setIsVisible] = useState(true);
-
   return (
     <div className="contact-section section">
-      {hideTitle !== true && (
-        <div className="section-header">
-          <h2>{t('Contact.title')}</h2>
-          <p>{t('Contact.description')}</p>
-        </div>
-      )}
       <p className="construction">{t('UnderConstruction')}</p>
 
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-5 col-md-12" data-aos="fade-right">
-            <div className="">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="single-contact-info-box">
-                    <Image
-                      src="/images/slider-bg.jpg"
-                      width={1024}
-                      height={768}
-                      alt={t('Contact.title')}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-7 col-md-12">
+      <Container className="container">
+        <Row>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col>
             <div className="contact-form-box contact-form contact-form-3">
               <div className="form-container-box">
                 <form
@@ -132,24 +115,14 @@ export default function Contact({ hideTitle = false }: PropsContact) {
                           {t('Contact.form.button')}
                         </button>
                       </div>
-                      {/* {isVisible && (
-                        <div className="messages">
-                          <div
-                            className="alert alert alert-success alert-dismissable alert-dismissable"
-                            id="msgSubmit"
-                          >
-                            {t('Contact.form.thanks')}
-                          </div>
-                        </div>
-                      )} */}
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
