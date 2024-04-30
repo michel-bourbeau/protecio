@@ -4,7 +4,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
-import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import mapboxgl from 'mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
 mapboxgl.accessToken =
   'pk.eyJ1IjoiYXZhbnphdGVjIiwiYSI6ImNsdm1peG5wdDAzMHEycnM0NXMxMmIwNWwifQ.fHpUy3mYPVhZdGrL83p1Fw';
@@ -16,8 +16,8 @@ import Col from 'react-bootstrap/Col';
 export default function About() {
   const { t } = useTranslation();
 
-  const mapContainer = useRef(null);
-  const map = useRef(null);
+  const mapContainer = useRef<any>(null);
+  const map = useRef<mapboxgl.Map | any>(null);
 
   // Rivas 11.471338, -85.859057
   // Nicaragua 12.960367413976618, -85.10190884542044
