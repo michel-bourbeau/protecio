@@ -383,11 +383,6 @@ img:not(.no-effect):hover {
   p {
     margin-bottom: 0;
     color: var(--light-color);
-    padding-left: 2em;
-  }
-
-  button {
-    padding-right: 2em;
   }
 
   span:not(.flag) {
@@ -425,7 +420,6 @@ img:not(.no-effect):hover {
 
 .header .logo-container {
   flex: 1;
-  padding-left: 2em
 }
 
 .header .logo img {
@@ -490,6 +484,19 @@ section {
 # Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 800px) {
+  .header .logo-container {
+    padding-left: 2em
+  }
+
+  .header-top { 
+    button {
+      padding-right: 2em;
+    }
+    p {
+      padding-left: 2em;
+    }
+  }
+
   .navbar {
     margin: 1em 1em 0 0;
   }
