@@ -1,98 +1,97 @@
 {
-    "Metadata": {
-      "title": "KAIROS TECHNOLOGIES S.A. - POWERING A GREENER TOMORROW, SUSTAINABILITY, RENEWABLE ENERGY",
-      "description": "Kairos Technologies is a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
-      "keywords": "Kairos Technologies, Energy solutions, Inspections, Maintenance services, Renewable energy, Sustainable energy, Energy sector, Green technology, Environmental solutions, Clean energy, Eco-friendly services, Energy efficiency, Renewable resources, Alternative energy, Solar power, Wind energy, Sustainable development",
-      "geoRegion": "Central America"
-    },
-    "Index": {
-      "title": "Welcome to Kairos Technologies"
-    },
-    "Hero": {
-      "title": "POWERING <guidelines>A GREENER TOMORROW,</guidelines>  SUSTAINABILITY, RENEWABLE ENERGY",
-      "description": "KAIROS TECHNOLOGIES We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies."
-    },
-    "About": {
-      "title": "ABOUT KAIROS TECHNOLOGIES",
-      "description": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
-      "photoAlt": "Image of a Kairos Technologies employee",
-      "paragraph1": "KT has the resources, experience, quality assurance and geographic capacity in Central America and the Caribbean dedicated to maintenance solutions and services.",
-      "paragraph2": "Its main objective is to reduce costs to companies by offering subcontracting of services so that their clients can focus exclusively on their Core Business, optimizing their human resource policies focused on health and safety.",
-      "paragraph3": "Kairos Technologies' range of services is intended to complete your Maintenance, inspection, operation and supply management programs."
-    },
-    "Mission": {
-      "title": "MISSION",
-      "description": "We are an organization specialized in maintenance, reconditioning and electromechanical assembly services of electrical equipment and installations, focused on the growth of our clients, offering highly trained personnel, adequate tools and equipment, with competitive prices in the market and committed to quality, safety and environmental protection in our operations"
-    },
-    "Vision": {
-      "title": "VISION",
-      "description": "To be a recognized organization in the service and project sector in the energy area, capable of offering reliable and safe solutions: valued, accepted and respected in the Latin American market.",
-      "paragraph": "At KT we are dedicated to creating, reinforcing and understanding safety conditions in the workplace."
-    },
-    "History": {
-      "title": "HISTORIA",
-      "description": "KT Nace en Rivas, Nicaragua en el mes de diciembre del año 2019 con la sólida idea de ofrecer soluciones y servicios de calidad para el mantenimiento industrial. Después de una larga trayectoria en el sector eólico en las Marcas Carter 300KW-Vestas V90-Suzlon S88,Siemens Gamesa G114.",
-      "paragraph": "Convirtiéndonos en la mejor opción de profesionales entrenados y certificados para instalación, mantenimiento, operación y servicios de plantas de generación eólicas y solares. El grupo de profesionales fue creciendo de una empresa a otra compartiendo toda su experiencia en cada trabajo encomendado de esta manera se adquirieron nuevos conocimientos de acuerdo con los avances tecnológicos.."
-    },
-    "Objective": {
-      "title": "COMPANY OBJECTIVE",
-      "paragraph1": "Have the experience gained since 2010 to provide the services required and be the perfect partner to offer the most viable solutions to each client.",
-      "paragraph2": "Offer specialized services to the big brands in the wind industry and have our clients promote our work wherever required.",
-      "paragraph3": "Promote the sustainable development of the energy industry with renewable resource bases."
-    },
-    "Cta": {
-      "title": "If you have more questions, do not hesitate to get in touch with us!",
-      "description": "+505 8895 6347",
-      "button": "Get In Touch"
-    },
-    "Footer": {
-      "copyright": "All right reserved",
-      "infos": "We are a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
-      "createdBy": "Website created by"
-    },
-    "Services": {
-      "title": "Nuestros servicios",
-      "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
-      "hero": {
-        "title": "Nuestros servicios",
-        "description": "Soluciones Inteligentes, <guidelines>Ahorros de energías, </guidelines>Seguridad Eléctricas y de las personas"
-      }
-    },
-    "Contact": {
-      "title": "Contact us",
-      "description": "Benefit from 30 minutes of free consultation without obligation!",
-      "mailsubject": "About our project",
-      "getintouch": "Get in touch",
-      "form": {
-        "fields": {
-          "name": "Full name",
-           "email": "Email",
-           "subject": "Subject",
-           "message": "Write Your Message"
-        },
-        "errors": {
-          "name": "Name is required.",
-          "email": "Valid email is required.",
-          "subject": "Subject is required.",
-          "message": "Please, leave us a message."
-        },
-        "button": "Send Message",
-        "thanks": "Thank You! your message has been sent."
-      }
-    },
-    "Success": {
-      "title": "Thank you!",
-      "description": "We have received your request for information regarding our services. Our team will process your request as soon as possible and contact you as soon as possible.",
-      "infos": "If you have any further questions or needs, you can contact us directly by email at [email] or by phone at [phone number].",
-      "button": "Back to home page"
-    },
-    "UnderConstruction": "This page is under construction",
-    "Valors": {
-      "title": "VALORES",
-      "valor1": "<title>Ética y Moral</title><paragraph>Respeto hacia nuestros proveedores, clientes internos y externos.</paragraph>",
-      "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
-      "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
-      "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
+  "Metadata": {
+    "title": "KAIROS TECHNOLOGIES S.A. - DRIVING A GREENER TOMORROW, SUSTAINABILITY, RENEWABLE ENERGY",
+    "description": "Kairos Technologies is a company specialized in providing solutions, inspections, and maintenance services in the energy sector, focusing on renewable energies.",
+    "keywords": "Kairos Technologies, Energy solutions, Inspections, Maintenance services, Renewable energies, Sustainable energy, Energy sector, Green technology, Environmental solutions, Clean energy, Ecological services, Energy efficiency, Renewable resources, Alternative energy, Solar energy, Wind energy, Sustainable development",
+    "geoRegion": "Central America"
+  },
+  "Index": {
+    "title": "Welcome to Kairos Technologies"
+  },
+  "Hero": {
+    "title": "POWERING <guidelines>A GREENER TOMORROW,</guidelines>  SUSTAINABILITY, RENEWABLE ENERGY",
+    "description": "KAIROS TECHNOLOGIES is a company specialized in providing solutions, inspections, and maintenance services in the energy sector, focusing on renewable energies."
+  },
+  "About": {
+    "title": "ABOUT KAIROS TECHNOLOGIES",
+    "description": "We are a company specialized in providing solutions, inspections, and maintenance services in the energy sector, focusing on renewable energies.",
+    "photoAlt": "Image of a Kairos Technologies employee",
+    "paragraph1": "KT has the resources, experience, quality assurance, and geographical capacity in Central America and the Caribbean dedicated to solutions and maintenance services.",
+    "paragraph2": "Our main goal is to reduce costs for companies by offering them service subcontracting, allowing our clients to focus exclusively on their core business, optimizing their human resource policies focused on health and safety.",
+    "paragraph3": "Kairos Technologies' range of services is aimed at complementing your Maintenance, Inspection, Operation, and Supply Management programs."
+  },
+  "Mission": {
+    "title": "MISSION",
+    "description": "We are an organization specialized in maintenance, refurbishment, and electromechanical assembly of electrical equipment and installations, focused on the growth of our clients, offering highly trained personnel, appropriate tools and equipment, with competitive prices in the market and committed to quality, safety, and environmental protection in our operations."
+  },
+  "Vision": {
+    "title": "VISION",
+    "description": "To be a recognized organization in the service and project sector in the energy area, capable of offering reliable and safe solutions: valued, accepted, and respected in the Latin American market.",
+    "paragraph": "At KT, we are dedicated to creating, reinforcing, and understanding safety conditions in the workplace."
+  },
+  "History": {
+    "title": "HISTORY",
+    "description": "KT was founded in Rivas, Nicaragua, in December 2019 with the solid idea of offering quality solutions and services for industrial maintenance. After a long experience in the wind sector with brands Carter 300KW-Vestas V90-Suzlon S88, Siemens Gamesa G114.",
+    "paragraph": "We have become the best choice for trained and certified professionals for the installation, maintenance, operation, and services of wind and solar generation plants. The group of professionals continued to grow from one company to another, sharing all their experience with each assigned task, thus acquiring new knowledge according to technological advances."
+  },
+  "Objective": {
+    "title": "COMPANY OBJECTIVE",
+    "paragraph1": "To use the experience gained since 2010 to provide the necessary services and be the perfect partner to offer the most viable solutions to each client.",
+    "paragraph2": "To offer specialized services to major brands in the wind industry and have our clients promote our work wherever it is required.",
+    "paragraph3": "To promote sustainable development in the energy industry based on renewable resources."
+  },
+  "Cta": {
+    "title": "If you have any questions or need assistance, anytime",
+    "description": "+505 8895 6347",
+    "button": "Contact Us"
+  },
+  "Footer": {
+    "copyright": "All rights reserved",
+    "infos": "We are a company specialized in providing solutions, inspections, and maintenance services in the energy sector, focusing on renewable energies.",
+    "createdBy": "Website created by"
+  },
+  "Services": {
+    "title": "Our Services",
+    "description": "We are the first company in the country and the only one in the region offering maintenance services for wind turbines. Located in the center of America, 140 km from the capital of Managua, Nicaragua.",
+    "hero": {
+      "title": "Our Services",
+      "description": "Smart Solutions, <guidelines>Energy Savings, </guidelines>Electrical and Personal Safety"
     }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "description": "Benefit from 30 minutes of free and non-binding consultation!",
+    "mailsubject": "About our project",
+    "getintouch": "Get in touch",
+    "form": {
+      "fields": {
+        "name": "Full Name",
+         "email": "Email Address",
+         "subject": "Subject",
+         "message": "Write your message"
+      },
+      "errors": {
+        "name": "Name is required.",
+        "email": "A valid email address is required.",
+        "subject": "Subject is required.",
+        "message": "Please leave a message."
+      },
+      "button": "Send Message",
+      "thanks": "Thank you! Your message has been sent."
+    }
+  },
+  "Success": {
+    "title": "Thank You!",
+    "description": "We have received your request for information about our services. Our team will process your request as soon as possible and will contact you shortly.",
+    "infos": "If you have further questions or needs, you can contact us directly via email at [email] or by phone at [phone].",
+    "button": "Back to Homepage"
+  },
+  "UnderConstruction": "This page is under construction",
+  "Values": {
+    "title": "VALUES",
+    "value1": "<title>Ethics and Morality</title><paragraph>Respect towards our suppliers, internal and external clients.</paragraph>",
+    "value2": "<title>Honesty</title><paragraph>Value oriented towards the development of transparent and sincere work behaviors.</paragraph>",
+    "value3": "<title>Responsibility</title><paragraph>Work value oriented towards the reliable and proper fulfillment of organizational commitments made and the effective resolution of encountered problems.</paragraph>",
+    "value4": "<title>Work</title><paragraph>Dedication, Perseverance, and facing challenges with readiness.</paragraph>"
   }
-  
+}
