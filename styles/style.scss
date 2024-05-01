@@ -1451,6 +1451,7 @@ canvas {
   a.link {
     color: var(--light-color);
     font-size: 16px;
+    letter-spacing: -.25px;
   }
   a.link:hover {
     color: var(--theme-color);
@@ -1553,7 +1554,7 @@ canvas {
 .footer-social-icon a {
   color: #fff;
   font-size: 48px;
-  margin-right: 15px;
+  margin-right: 8px;
 }
 
 .footer-social-icon i {
@@ -1632,14 +1633,22 @@ canvas {
   padding: 25px 0;
 }
 
-.copyright-text p {
-  margin: 0;
-  font-size: 14px;
-  color: #b9b9b9;
-}
+.copyright-text {
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #b9b9b9;
 
-.copyright-text p a {
-  color: var(--color-primary);
+    a {
+      color: var(--color-primary);
+    }
+
+    &.avanzatec {
+      color: var(--color-start);
+      font-size: .8em;
+      margin-top: 1em;
+    }
+  }
 }
 
 .footer-menu li {
@@ -1682,25 +1691,6 @@ canvas {
 // About
 
 .about {
-
-  .thumb {
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    z-index: 1;
-}
-
-  .thumb::after{
-      background: var(--color-primary) none repeat scroll 0 0;
-      content: "";
-      height: 100px;
-      left: 0;
-      position: absolute;
-      top: -15px;
-      width: 100px;
-      z-index: -1;
-  }
-
   &.mission,
   &.history {
     background-color: var(--color-bg);
@@ -1850,4 +1840,25 @@ canvas {
 
 .map-container {
   height: 500px;
+}
+
+.thumb {
+  padding-left: 8px;
+  position: relative;
+  z-index: 1;
+
+  > span {
+    border-radius: 5px;
+  }
+}
+
+.thumb::after{
+    background: var(--color-primary) none repeat scroll 0 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: -8px;
+    width: 100px;
+    z-index: -1;
 }

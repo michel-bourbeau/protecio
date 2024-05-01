@@ -87,7 +87,7 @@ export default function Footer() {
                 Kairos Technologies S.A. © {new Date().getFullYear()}{' '}
                 - {t('Footer.copyright')}
               </p>
-              <p>
+              <p className="avanzatec">
                 {t('Footer.createdBy')}
                 {` `}
                 <Link href={`https://avanzatechnologies.com/`}>
