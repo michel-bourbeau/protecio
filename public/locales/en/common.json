@@ -3,8 +3,7 @@
       "title": "KAIROS TECHNOLOGIES S.A. - POWERING A GREENER TOMORROW, SUSTAINABILITY, RENEWABLE ENERGY",
       "description": "Kairos Technologies is a company specialized in providing solutions, inspections and maintenance services in the energy sector, betting on renewable energies.",
       "keywords": "Kairos Technologies, Energy solutions, Inspections, Maintenance services, Renewable energy, Sustainable energy, Energy sector, Green technology, Environmental solutions, Clean energy, Eco-friendly services, Energy efficiency, Renewable resources, Alternative energy, Solar power, Wind energy, Sustainable development",
-      "geoRegion": "Central America",
-      "placename": "Nicaragua"
+      "geoRegion": "Central America"
     },
     "Index": {
       "title": "Welcome to Kairos Technologies"
@@ -52,19 +51,11 @@
       "createdBy": "Website created by"
     },
     "Services": {
-      "title": "Our services",
-      "description": "We are the first company in the entire country and the only one in the area with maintenance services for wind turbines. Located in the center of America, 140km from the capital of Managua-Nicaragua.",
-      "service1": {
-        "title": "Field services"
-      },
-      "service2": {
-        "title": "Preventive Maintenance"
-      },
-      "service3": {
-        "title": "Preventive Maintenance"
-      },
-      "service4": {
-        "title": "Other special services"
+      "title": "Nuestros servicios",
+      "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
+      "hero": {
+        "title": "Nuestros servicios",
+        "description": "Soluciones Inteligentes, <guidelines>Ahorros de energías, </guidelines>Seguridad Eléctricas y de las personas"
       }
     },
     "Contact": {
@@ -95,6 +86,13 @@
       "infos": "If you have any further questions or needs, you can contact us directly by email at [email] or by phone at [phone number].",
       "button": "Back to home page"
     },
-    "UnderConstruction": "This page is under construction"
+    "UnderConstruction": "This page is under construction",
+    "Valors": {
+      "title": "VALORES",
+      "valor1": "<title>Ética y Moral</title><paragraph>Respeto hacia nuestros proveedores, clientes internos y externos.</paragraph>",
+      "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
+      "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
+      "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
+    }
   }
   

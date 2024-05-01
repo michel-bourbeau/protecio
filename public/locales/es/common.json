@@ -3,8 +3,7 @@
     "title": "KAIROS TECHNOLOGIES S.A. - IMPULSANDO UN MAÑANA MÁS VERDE, SOSTENIBILIDAD, ENERGÍA RENOVABLE",
     "description": "Kairos Technologies es una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
     "keywords": "Kairos Technologies, Soluciones energéticas, Inspecciones, Servicios de mantenimiento, Energías renovables, Energía sostenible, Sector energético, Tecnología verde, Soluciones medioambientales, Energía limpia, Servicios ecológicos, Eficiencia energética, Recursos renovables, Energía alternativa, Energía solar, Energía eólica, Sostenible desarrollo",
-    "geoRegion": "América central",
-    "placename": "Nicaragua"
+    "geoRegion": "América central"
   },
   "Index": {
     "title": "Bienvenido a Kairos Tecnologies"
@@ -53,7 +52,11 @@
   },
   "Services": {
     "title": "Nuestros servicios",
-    "description": "Su éxito en línea es nuestra principal prioridad"
+    "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
+    "hero": {
+      "title": "Nuestros Servicios",
+      "description": "Soluciones Inteligentes, <guidelines>Ahorros de energías, </guidelines>Seguridad Eléctricas y de las personas"
+    }
   },
   "Contact": {
     "title": "Contáctenos",
@@ -83,5 +86,12 @@
     "infos": "Si tiene más preguntas o necesidades, puede contactarnos directamente al correo electrónico [correo electrónico] o al teléfono [teléfono].",
     "button": "Volver a la página de inicio"
   },
-  "UnderConstruction": "Esta página esta en construcción"
+  "UnderConstruction": "Esta página esta en construcción",
+  "Valors": {
+    "title": "VALORES",
+    "valor1": "<title>Ética y Moral</title><paragraph>Respeto hacia nuestros proveedores, clientes internos y externos.</paragraph>",
+    "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
+    "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
+    "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
+  }
 }

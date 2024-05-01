@@ -25,9 +25,9 @@ export default function Vision() {
             <p className="medium-text mt-4">
               {t('Vision.description')}
             </p>
-            <p className="medium-text mt-4">
+            <h5 className="medium-text mt-4">
               {t('Vision.paragraph')}
-            </p>
+            </h5>
           </Col>
         </Row>
       </Container>

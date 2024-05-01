@@ -1,10 +1,12 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { NextSeo, RecipeJsonLd } from 'next-seo';
+import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
-import OurServices from '@components/Services';
+import ServiciosDeCampo from '@components/services/ServiciosDeCampo';
+import MantenimientoPreventivo from '@components/services/MantenimientoPreventivo';
+import OtrosServiciosEspeciales from '@components/services/OtrosServiciosEspeciales';
 
 export const Services = () => {
   const { t } = useTranslation();
@@ -20,10 +22,6 @@ export const Services = () => {
           {
             property: 'geo.region',
             content: `{${t('Metadata.geoRegion')}}`,
-          },
-          {
-            property: 'geo.placename',
-            content: `{${t('Metadata.placename')}}`,
           },
         ]}
         title={t('Metadata.title')}
@@ -45,7 +43,15 @@ export const Services = () => {
           siteName: 'Kairos Technologies S.A.',
         }}
       />
-      <OurServices />
+      <Hero
+        title={t('Services.hero.title')}
+        description={t('Services.hero.description')}
+        id="ourServicesPage"
+        isPage
+      />
+      <ServiciosDeCampo />
+      <MantenimientoPreventivo />
+      <OtrosServiciosEspeciales />
     </>
   );
 };

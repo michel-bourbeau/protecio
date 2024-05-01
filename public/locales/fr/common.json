@@ -3,8 +3,7 @@
     "title": "KAIROS TECHNOLOGIES S.A. - PROMOUVOIR UN DEMAIN PLUS VERT ET DURABLE AVEC UNE ÉNERGIE RENOUVELABLE",
     "description": "Nous sommes une entreprise spécialisée dans la fourniture de solutions, d'inspections et de services de maintenance dans le secteur de l'énergie, en pariant sur les énergies renouvelables.",
     "keywords": "'Kairos', Wind Power, Solar Systems, 'Nicaragua', 'Costa Rica', 'Honduras', 'Guatemala'",
-    "geoRegion": "Amérique centrale",
-    "placename": "Nicaragua"
+    "geoRegion": "Amérique centrale"
   },
   "Index": {
     "title": "Bienvenue chez Kairos Technologies"
@@ -52,8 +51,12 @@
     "createdBy": "Site créé par"
   },
   "Services": {
-    "title": "Nos services",
-    "description": "Votre succès en ligne est notre priorité absolue."
+    "title": "Nuestros servicios",
+    "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
+    "hero": {
+      "title": "Nuestros servicios",
+      "description": "Soluciones Inteligentes, <guidelines>Ahorros de energías, </guidelines>Seguridad Eléctricas y de las personas"
+    }
   },
   "Contact": {
     "title": "Contactez-nous",
@@ -83,5 +86,12 @@
     "infos": "Contact success informations",
     "button": "Back to home page"
   },
-  "UnderConstruction": "Cette page est en construction"
+  "UnderConstruction": "Cette page est en construction",
+  "Valors": {
+    "title": "VALORES",
+    "valor1": "<title>Ética y Moral</title><paragraph>Respeto hacia nuestros proveedores, clientes internos y externos.</paragraph>",
+    "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
+    "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
+    "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
+  }
 }

@@ -1,16 +1,16 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { NextSeo, RecipeJsonLd } from 'next-seo';
+import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
 import Cta from '@components/Cta';
-// import Services from '@components/Services';
 import About from '@components/About';
 import Vision from '@components/Vision';
 import Mission from '@components/Mission';
 import History from '@components/History';
 import Objective from '@components/Objective';
+import Valors from '@components/Valors';
 
 export const Home = () => {
   const { t } = useTranslation();
@@ -51,14 +51,13 @@ export const Home = () => {
           siteName: 'Kairos Technologies S.A.',
         }}
       />
-      <Hero />
+      <Hero button />
       <About />
       <Mission />
       <Vision />
-      <History />
+      <Valors />
       <Objective />
-      {/*       
-      <Services />*/}
+      <History />
       <Cta />
     </>
   );
