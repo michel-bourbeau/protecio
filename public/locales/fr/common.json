@@ -66,18 +66,18 @@
     "form": {
       "fields": {
         "name": "Nom complet",
-         "email": "Adresse e-mail",
-         "subject": "Sujet",
-         "message": "Écrivez votre message"
+        "email": "Courriel",
+        "subject": "Sujet",
+        "message": "Écrivez votre message"
       },
       "errors": {
-        "name": "Le nom est obligatoire.",
+        "name": "Le nom est requis.",
         "email": "Une adresse e-mail valide est requise.",
         "subject": "Le sujet est obligatoire.",
-        "message": "Veuillez laisser un message."
+        "message": "S'il vous plaît, laissez-nous un message."
       },
       "button": "Envoyer le message",
-      "thanks": "Merci ! Votre message a été envoyé."
+      "thanks": "Merci! Votre message a été envoyé."
     }
   },
   "Success": {

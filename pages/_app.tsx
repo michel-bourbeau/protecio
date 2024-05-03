@@ -7,10 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '@styles/style.scss';
 
-// import Font Awesome CSS
-import '@fortawesome/fontawesome-svg-core/styles.css';
-import { config } from '@fortawesome/fontawesome-svg-core';
-
 function Application({ Component, pageProps }: AppProps) {
   return (
     <Layout>
