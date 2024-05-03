@@ -108,7 +108,7 @@ p {
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10em 0;
   overflow: hidden;
 }
 
@@ -638,6 +638,10 @@ section {
 # Mobile Navigation
 --------------------------------------------------------------*/
 @media (max-width: 799px) {
+  section {
+    padding: 7em 0;
+  }
+
   img:not(.no-effect):hover {
     transform: scale(1);
   }
