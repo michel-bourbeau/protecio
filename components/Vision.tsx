@@ -12,7 +12,7 @@ export default function Vision() {
     <section className="about vision">
       <Container>
         <Row>
-          <Col className="thumb" md={4}>
+          <Col className="thumb" md={4} data-aos="fade-right">
             <Image
               src="/images/vision3.jpg"
               width={901}

@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
@@ -12,13 +14,13 @@ export default function Mission() {
     <section className="about mission">
       <Container>
         <Row>
-          <Col md={8}>
+          <Col md={7}>
             <h2 className="subtitle mt-2">{t('Mission.title')}</h2>
             <p className="medium-text mt-4 mb-5">
               {t('Mission.description')}
             </p>
           </Col>
-          <Col className="thumb" md={4}>
+          <Col className="thumb" md={5} data-aos="fade-left">
             <Image
               src="/images/wind-turbine.jpeg"
               width={981}

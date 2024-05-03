@@ -24,7 +24,7 @@ export default function Hero({
       <div className="container position-relative">
         <div className="row gy-5">
           <div className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
-            <h2>
+            <h1 data-aos="fade-left">
               <Trans
                 i18nKey={title} // optional -> fallbacks to defaults if not provided
                 components={{
@@ -33,7 +33,7 @@ export default function Hero({
                 }}
               />
               <span className="circle"></span>
-            </h2>
+            </h1>
             {isPage ? (
               <h3>
                 <Trans

@@ -13,7 +13,7 @@ export type LayoutProps = {
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="body-wrap">
+    <div className="body-wrap aos-init aos-animate">
       <BootstrapClient />
       <AOSInit />
       <Header />

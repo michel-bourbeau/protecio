@@ -1,5 +1,6 @@
+'use client';
+
 import { useTranslation } from 'next-i18next';
-import Image from 'next/image';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,7 +11,7 @@ export default function History() {
 
   return (
     <section className="about history">
-      <Container className="aos-init aos-animate" data-aos="zoom-out">
+      <Container data-aos="zoom-out">
         <Row>
           <Col>
             <div className="witr_section_title">

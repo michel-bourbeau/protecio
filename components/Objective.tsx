@@ -1,3 +1,5 @@
+'use client';
+
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
@@ -12,7 +14,7 @@ export default function Objective() {
     <section className="about objective">
       <Container>
         <Row>
-          <Col md={4} className="thumb">
+          <Col md={4} className="thumb" data-aos="fade-right">
             <Image
               src="/images/vision2.jpeg"
               width={1125}
@@ -22,9 +24,9 @@ export default function Objective() {
           </Col>
           <Col md={8}>
             <h2 className="subtitle mt-4">{t('Objective.title')}</h2>
-            <div className="p-2">{t('Objective.paragraph1')}</div>
-            <div className="p-2">{t('Objective.paragraph2')}</div>
-            <div className="p-2">{t('Objective.paragraph3')}</div>
+            <p>{t('Objective.paragraph1')}</p>
+            <p>{t('Objective.paragraph2')}</p>
+            <p>{t('Objective.paragraph3')}</p>
           </Col>
         </Row>
       </Container>

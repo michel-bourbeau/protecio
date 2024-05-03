@@ -1,4 +1,5 @@
-import Link from 'next/link';
+'use client';
+
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 
@@ -9,7 +10,7 @@ export default function Cta() {
   return (
     <section id="call-to-action" className="call-to-action">
       <div
-        className="container text-left align-items-center aos-init aos-animate"
+        className="container text-left align-items-center"
         data-aos="zoom-out"
       >
         <div className="row gy-4">

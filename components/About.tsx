@@ -13,7 +13,7 @@ export default function About() {
     <section className="about">
       <Container>
         <Row>
-          <Col md={5} className="thumb">
+          <Col md={5} className="thumb" data-aos="fade-right">
             <Image
               src="/images/kairos-worker-on-wind-turbine.jpeg"
               width={500}

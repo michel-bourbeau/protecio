@@ -1,5 +1,6 @@
+'use client';
+
 import { Trans, useTranslation } from 'next-i18next';
-import Image from 'next/image';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,7 +11,7 @@ export default function Valors() {
 
   return (
     <section className="about valors">
-      <Container className="aos-init aos-animate">
+      <Container>
         <Row>
           <Col>
             <div className="witr_section_title">
@@ -23,7 +24,7 @@ export default function Valors() {
             </div>
             <Row>
               <Col md={9}>
-                <div className="p-2" data-aos="zoom-out">
+                <div data-aos="zoom-out">
                   <Trans
                     i18nKey={t('Valors.valor1')} // optional -> fallbacks to defaults if not provided
                     components={{
@@ -33,7 +34,7 @@ export default function Valors() {
                     }}
                   />
                 </div>
-                <div className="p-2" data-aos="zoom-out">
+                <div data-aos="zoom-out">
                   <Trans
                     i18nKey={t('Valors.valor2')} // optional -> fallbacks to defaults if not provided
                     components={{
@@ -45,7 +46,7 @@ export default function Valors() {
                 </div>
               </Col>
               <Col md={9}>
-                <div className="p-2" data-aos="zoom-out">
+                <div data-aos="zoom-out">
                   <Trans
                     i18nKey={t('Valors.valor3')} // optional -> fallbacks to defaults if not provided
                     components={{
@@ -55,7 +56,7 @@ export default function Valors() {
                     }}
                   />
                 </div>
-                <div className="p-2" data-aos="zoom-out">
+                <div data-aos="zoom-out">
                   <Trans
                     i18nKey={t('Valors.valor4')} // optional -> fallbacks to defaults if not provided
                     components={{
