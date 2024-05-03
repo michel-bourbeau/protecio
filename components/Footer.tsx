@@ -33,8 +33,7 @@ export default function Footer() {
               </div>
             </Col>
 
-            <Col lg={2} md={6} sm={12}></Col>
-            <Col lg={2} md={6} sm={12}></Col>
+            <Col lg={4} md={6} sm={12}></Col>
             <Col xl={4} lg={4} md={6} sm={12} className="mb-50">
               <div className="contact-widget footer-widget mt-4">
                 <div className="footer-widget-heading">

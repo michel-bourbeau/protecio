@@ -22,7 +22,7 @@ export default function Objective() {
               alt={t('About.photoAlt')}
             />
           </Col>
-          <Col md={8}>
+          <Col md={8} data-aos="zoom-out">
             <h2 className="subtitle mt-4">{t('Objective.title')}</h2>
             <p>{t('Objective.paragraph1')}</p>
             <p>{t('Objective.paragraph2')}</p>
