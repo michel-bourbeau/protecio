@@ -10,7 +10,7 @@ export default function History() {
   const { t } = useTranslation();
 
   return (
-    <section className="about history">
+    <section className="history">
       <Container data-aos="zoom-out">
         <Row>
           <Col>

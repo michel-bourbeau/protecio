@@ -11,21 +11,25 @@ export default function Mission() {
   const { t } = useTranslation();
 
   return (
-    <section className="about mission">
+    <section className="mission">
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className="subtitle mt-2">{t('Mission.title')}</h2>
-            <p className="medium-text mt-4 mb-5">
+            <h2 className="subtitle">{t('Mission.title')}</h2>
+            <p className="medium-text mt-4">
               {t('Mission.description')}
             </p>
           </Col>
-          <Col className="thumb" md={5} data-aos="fade-left">
+          <Col
+            className="thumb hide-mobile"
+            md={5}
+            data-aos="fade-left"
+          >
             <Image
-              src="/images/wind-turbine.jpeg"
-              width={981}
-              height={664}
-              alt={t('About.photoAlt')}
+              src="/images/kairos-technologies-mission.jpg"
+              width={900}
+              height={550}
+              alt={`Kairos Technologies ${t('Mission.title')}`}
             />
           </Col>
         </Row>

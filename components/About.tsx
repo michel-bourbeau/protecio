@@ -23,7 +23,7 @@ export default function About() {
           </Col>
 
           <Col md={7}>
-            <h2 className="subtitle mt-2">{t('About.title')}</h2>
+            <h2 className="subtitle">{t('About.title')}</h2>
 
             <p className="large-text mt-4">{t('About.paragraph1')}</p>
 

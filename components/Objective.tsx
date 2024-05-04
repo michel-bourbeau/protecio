@@ -11,7 +11,7 @@ export default function Objective() {
   const { t } = useTranslation();
 
   return (
-    <section className="about objective">
+    <section className="objective">
       <Container>
         <Row>
           <Col md={4} className="thumb" data-aos="fade-right">
@@ -23,7 +23,7 @@ export default function Objective() {
             />
           </Col>
           <Col md={8} data-aos="zoom-out">
-            <h2 className="subtitle mt-4">{t('Objective.title')}</h2>
+            <h2 className="subtitle">{t('Objective.title')}</h2>
             <p>{t('Objective.paragraph1')}</p>
             <p>{t('Objective.paragraph2')}</p>
             <p>{t('Objective.paragraph3')}</p>

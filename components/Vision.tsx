@@ -9,7 +9,7 @@ export default function Vision() {
   const { t } = useTranslation();
 
   return (
-    <section className="about vision">
+    <section className="vision">
       <Container>
         <Row>
           <Col className="thumb" md={4} data-aos="fade-right">
@@ -20,8 +20,8 @@ export default function Vision() {
               alt={t('About.photoAlt')}
             />
           </Col>
-          <Col md={8}>
-            <h2 className="subtitle mt-2">{t('Vision.title')}</h2>
+          <Col md={8} className="order-sm-0">
+            <h2 className="subtitle">{t('Vision.title')}</h2>
             <p className="medium-text mt-4">
               {t('Vision.description')}
             </p>

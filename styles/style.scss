@@ -22,7 +22,6 @@ body,
     --text-white: #ffffff;
     --section-bg-alt: #f8f8f8;
     --light-color: #ffffff;
-    --hero-card-bg-darker: rgba(18, 40, 38, .5);
   }
 }
 
@@ -62,11 +61,16 @@ p {
 
   &.large-text {
     font-size: 2em;
+    line-height: 1.25;
   }
 
   &.medium-text {
     font-size: 1.5em;
   }
+}
+
+.container {
+  position: relative;
 }
 
 .subtitle {
@@ -90,7 +94,7 @@ p {
 # Sections 
 --------------------------------------------------------------*/
 section {
-  padding: 10em 0;
+  padding: 7em 0;
   overflow: hidden;
   background: var(--light-color);
 }
@@ -229,13 +233,6 @@ img:not(.no-effect):hover {
   }
 }
 
-@media (max-width: 575px) {
-  .topbar .contact-info i a,
-  .topbar .contact-info i span {
-    font-size: 13px;
-  }
-}
-
 .topbar {
   .contact-info i a {
     line-height: 0;
@@ -272,7 +269,6 @@ img:not(.no-effect):hover {
 
   span:not(.flag) {
     display: inline-block;
-    margin-right: 2em
   }
 
   a:not(.dropdown-item) {
@@ -515,139 +511,6 @@ img:not(.no-effect):hover {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 799px) {
-  section {
-    padding: 7em 0;
-  }
-
-  img:not(.no-effect):hover {
-    transform: scale(1);
-  }
-
-  p.large-text {
-    font-size: 1.5em;
-  }
-
-  .navbar {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 100%;
-    max-width: 400px;
-    bottom: 0;
-    transition: 0.3s;
-    z-index: 9997;
-
-    a.btn {
-      margin: 0;
-      border-radius: 0;
-      font-weight: 500;
-      padding: 1em;
-      font-size: 15px;
-      background-color: #00796b;
-
-      &:hover {
-        background: var(--color-secondary);
-      }
-    }
-  }
-
-  .navbar ul {
-    position: absolute;
-    inset: 0;
-    padding: 5em 0 1em 0;
-    margin: 0;
-    background: var(--color-secondary);
-    overflow-y: auto;
-    transition: 0.3s;
-    z-index: 9998;
-
-    .footer-social-icon.htop-menu-s {
-      display: none
-    }
-
-    li {
-      border-bottom: 1px solid #02101e;
-    }
-  }
-
-  .navbar a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em;
-    font-size: 15px;
-    color: rgb(255 255 255);
-    white-space: nowrap;
-    transition: 0.3s;
-    background-color: var(--color-primary);
-  }
-
-  .navbar a:hover,
-  .navbar .active,
-  .navbar .active:focus,
-  .navbar li:hover > a {
-    color: var(--text-white);
-    background: var(--color-secondary);
-  }
-
-  .navbar .dropdown ul,
-  .navbar .dropdown .dropdown ul {
-    position: static;
-    display: none;
-    padding: 10px 0;
-    margin: 10px 20px;
-    transition: all 0.5s ease-in-out;
-    background-color: var(--color-primary);
-  }
-
-  .navbar .dropdown > .dropdown-active,
-  .navbar .dropdown .dropdown > .dropdown-active {
-    display: block;
-  }
-
-  .mobile-nav-show {
-    color: var(--color-primary);
-    font-size: 36px;
-    cursor: pointer;
-    line-height: 0;
-    transition: 0.5s;
-    z-index: 9999;
-    margin: 24px;
-    position: relative;
-    bottom: -5px;
-  }
-
-  .mobile-nav-hide {
-    color: var(--text-white);
-    font-size: 32px;
-    cursor: pointer;
-    line-height: 0;
-    transition: 0.5s;
-    position: fixed;
-    right: 20px;
-    top: 20px;
-    z-index: 9999;
-  }
-
-  .mobile-nav-active {
-    overflow: hidden;
-  }
-
-  .mobile-nav-active .navbar {
-    right: 0;
-  }
-
-  .mobile-nav-active .navbar:before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: rgb(0 0 0 / 80%);
-    z-index: 9996;
-  }
-}
-ß
-
 .hero h1 {
   font-size: 42px;
   margin-bottom: 20px;
@@ -700,7 +563,7 @@ img:not(.no-effect):hover {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/slider-image.jpg) center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/kairos-technologies-wind-turbine-cloud-bg-desktop.jpg) center center;
   background-color: var(--color-secondary);
   background-size: cover;
   padding: 50px 0 0 0;
@@ -725,27 +588,6 @@ img:not(.no-effect):hover {
 
   &#ourServicesPage {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/slider-image.jpg) center top;
-  }
-}
-
-
-@media (min-width: 1365px) {
-  .hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 575px) {
-  .hero {
-    min-height: 800px;
-    padding: 100px 0 50px 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/slider-image-575.jpg) center top;
-  }
-}
-
-@media (max-width: 799px) {
-  .hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/slider-image-799.jpg) center top;
   }
 }
 
@@ -828,49 +670,6 @@ a.btn {
   z-index:9999;
 }
 
-@media (max-width: 991px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .call-to-action {
-    background: var(--color-secondary);
-    padding: 150px 60px;
-    border-radius: 0px;
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 767px) {
-  .button-contact-header {
-    display: none
-  }
-  .text-left.caption {
-    text-align: center;
-  }
-  .caption .justify-content-start {
-    justify-content: center !important;
-  }
-  .caption .social {
-    justify-content: center;
-  }
-
-  .icon-boxes .card-two {
-    margin-top: var(--bs-gutter-y);
-    margin-bottom: 0px;
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-  }
-}
-@media (min-width: 768px) {
-  .btn{
-    font-size: 14px;
-  }
-  .icon-boxes .card-two {
-    margin-top: -20px;
-    margin-bottom: -20px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -910,7 +709,7 @@ a.btn {
   border-radius: 0px;
   overflow: hidden;
   position: relative;
-  background-image: url(/images/call-to-action.jpg);
+  background-image: url(/images/kairos-technologies-solar-panels-bg.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1174,51 +973,37 @@ canvas {
 
 // About
 
-.about {
-  &.mission,
-  &.history,
-  &.valors {
-    background-color: var(--color-primary);
-    color: var(--light-color);
+.mission,
+.history,
+.valors {
+  color: var(--light-color);
 
-    h4 {
-      color: var(--text-white);
-    }
+  h4 {
+    color: var(--text-white);
   }
+}
 
-  &.history, &.valors {
-    background-color: var(--hero-card-bg-darker);
-    .paragraph {
-      margin: 3em 0 0
-    }
+.history,
+.valors {
+  .paragraph {
+    margin: 3em 0 0
   }
+}
 
-  &.valors,
-  &.objective {
-    p {
-      font-size: 1.35em;
-      margin-bottom: 1.5em
-    }
+.valors,
+.objective {
+  p {
+    font-size: 1.35em;
+    margin-bottom: 1.5em
   }
 }
 
 .mission {
-  background: var(--color-secondary);
+  background-color: var(--color-secondary);
   border-radius: 0px;
   overflow: hidden;
   position: relative;
-  background-image: url(/images/service-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.history {
-  background: var(--color-secondary);
-  border-radius: 0px;
-  overflow: hidden;
-  position: relative;
-  background-image: url(/images/history-bg.jpeg);
+  background-image: url(/images/kairos-technologies-solar-panels-bg.jpg); // BG Changed
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1226,27 +1011,68 @@ canvas {
   &::before {
     content: '';
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.6;
+    background: #000000;
     z-index: 0;
-    margin-top: 0;
-    background: var(--color-secondary);
+    opacity: 0.75;
+  }
+
+  .witr_section_title {
+    position: relative;
+    z-index: 99;
+  }
+}
+
+.history {
+  background: url(/images/slider-image.jpg) center left;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 0;
+    opacity: 0.8;
   }
 }
 
 .valors {
-  background: var(--color-secondary);
-  border-radius: 0px;
-  overflow: hidden;
-  position: relative;
-  background-image: url(/images/valors-bg.jpg);
-  background-position: center center;
+  background: url(/images/slider-image.jpg) center left;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 0;
+    opacity: 0.8;
+  }
+
+  .witr_section_title {
+    position: relative;
+    z-index: 99;
+  }
 
   h3 {
     color: var(--color-primary);
@@ -1380,3 +1206,179 @@ canvas {
   // vcolor: #fff;
   padding: 5px 0;
 }
+
+// Media Breakpoint
+
+// X-Small
+@media (max-width: 575px) {
+  .hide-mobile {
+    display: none
+  }
+
+  section {
+    padding: 3em 0;
+  }
+
+  .topbar .contact-info i {
+    a, span {
+      font-size: 13px;
+    }
+
+  }
+
+  .hero {
+    min-height: 800px;
+    padding: 100px 0 50px 0;
+  }
+  
+  .about, 
+  .vision,
+  .objective {
+    .thumb {
+      order: 1;
+      margin-top: 2em
+    }
+
+    .subtitle {
+      margin-top: 0
+    }
+  }
+}
+
+// Small
+@media (max-width: 767px) {}
+
+// Medium
+@media (max-width: 799px) {
+  .vision, .objective {
+    .thumb {
+      margin-top: 2.5em
+    }
+  }
+
+  .header-top span:not(.flag) {
+    margin-right: 0;
+  }
+
+  .hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/kairos-technologies-wind-turbine-cloud-bg-mobile.jpg) center top;
+  }
+
+  img:not(.no-effect):hover {
+    transform: scale(1);
+  }
+
+  p.large-text {
+    font-size: 1.65em;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 400px;
+    bottom: 0;
+    transition: 0.3s;
+    z-index: 9997;
+
+    a.btn {
+      margin: 0;
+      border-radius: 0;
+      font-weight: 500;
+      padding: 1em;
+      font-size: 15px;
+      background-color: #00796b;
+
+      &:hover {
+        background: var(--color-secondary);
+      }
+    }
+  }
+
+  .navbar ul {
+    position: absolute;
+    inset: 0;
+    padding: 5em 0 1em 0;
+    margin: 0;
+    background: var(--color-secondary);
+    overflow-y: auto;
+    transition: 0.3s;
+    z-index: 9998;
+
+    .footer-social-icon.htop-menu-s {
+      display: none
+    }
+
+    li {
+      border-bottom: 1px solid #02101e;
+    }
+  }
+
+  .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 15px;
+    color: rgb(255 255 255);
+    white-space: nowrap;
+    transition: 0.3s;
+    background-color: var(--color-primary);
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover > a {
+    color: var(--text-white);
+    background: var(--color-secondary);
+  }
+
+  .mobile-nav-show {
+    color: var(--color-primary);
+    font-size: 36px;
+    cursor: pointer;
+    line-height: 0;
+    transition: 0.5s;
+    z-index: 9999;
+    margin: 24px;
+    position: relative;
+    bottom: -5px;
+  }
+
+  .mobile-nav-hide {
+    color: var(--text-white);
+    font-size: 32px;
+    cursor: pointer;
+    line-height: 0;
+    transition: 0.5s;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+  }
+
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+
+  .mobile-nav-active .navbar {
+    right: 0;
+  }
+
+  .mobile-nav-active .navbar:before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgb(0 0 0 / 80%);
+    z-index: 9996;
+  }
+}
+
+// Large
+@media (max-width: 991px) {}
+
+// X-Large
+@media (min-width: 1365px) {}
+

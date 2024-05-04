@@ -23,7 +23,7 @@ export default function Hero({
     <section id={id} className="hero sticked-header-offset">
       <div className="container position-relative">
         <div className="row gy-5">
-          <div className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption">
+          <div className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left">
             <h1 data-aos="fade-down">
               <Trans
                 i18nKey={title} // optional -> fallbacks to defaults if not provided

@@ -10,7 +10,7 @@ export default function Valors() {
   const { t } = useTranslation();
 
   return (
-    <section className="about valors">
+    <section className="valors">
       <Container>
         <Row>
           <Col>
