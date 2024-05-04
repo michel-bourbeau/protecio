@@ -40,6 +40,7 @@ export default function Header() {
                   width={256}
                   height={128}
                   alt={`Kairos Technologies S.A`}
+                  className="no-effect"
                 />
               </span>
 
@@ -49,6 +50,7 @@ export default function Header() {
                   width={256}
                   height={128}
                   alt={`Kairos Technologies S.A`}
+                  className="no-effect"
                 />
               </span>
             </a>

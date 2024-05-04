@@ -16,7 +16,7 @@ body,
     scroll-behavior: smooth;
 
     --color-primary: #4dcabc;
-    --color-wcag: #31A597;
+    --color-wcag: #4dcabc; //188175
     --color-secondary: #122826;
     --color-accent: #b8651d;
     --text-color: #3a3a3a;
@@ -123,6 +123,13 @@ img:not(.no-effect) {
 
 img:not(.no-effect):hover {
   transform: scale(1.1);
+}
+
+.white-logo, .black-logo {
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 /*--------------------------------------------------------------
