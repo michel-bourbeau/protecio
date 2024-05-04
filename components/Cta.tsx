@@ -19,7 +19,7 @@ export default function Cta() {
             {/*  <p>{t('Cta.description')}</p> */}
           </div>
           <div className="col-lg-3 d-flex align-items-center">
-            <a href={`/${router.locale}/contact`} className="cta-btn">
+            <a href={`/${router.locale}/contact`} className="btn">
               {t('Cta.button')}
             </a>
           </div>

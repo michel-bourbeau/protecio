@@ -16,8 +16,8 @@ export default function About() {
           <Col md={5} className="thumb" data-aos="fade-right">
             <Image
               src="/images/kairos-worker-on-wind-turbine.jpeg"
-              width={500}
-              height={500}
+              width={807}
+              height={816}
               alt={t('About.photoAlt')}
             />
           </Col>

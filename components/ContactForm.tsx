@@ -31,7 +31,7 @@ export default function ContactForm() {
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
-        <button className="button" type="submit">
+        <button className="btn" type="submit">
           {t('contact.form.send')}
         </button>
       </p>

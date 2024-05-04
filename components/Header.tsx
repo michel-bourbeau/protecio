@@ -65,7 +65,7 @@ export default function Header() {
             <li>
               <a
                 href={`/${router.locale}/contact`}
-                className="btn-get-started hide-on-mobile d-flex"
+                className="btn hide-on-mobile d-flex"
               >
                 {t('Cta.button')}
               </a>

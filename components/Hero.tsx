@@ -57,10 +57,7 @@ export default function Hero({
             )}
             <div className="d-flex justify-content-start">
               {button && (
-                <a
-                  href={`/${router.locale}/contact`}
-                  className="cta-btn"
-                >
+                <a href={`/${router.locale}/contact`} className="btn">
                   {t('Cta.button')}
                 </a>
               )}

@@ -14,12 +14,10 @@ export default function About() {
   const mapContainer = useRef<any>(null);
   const map = useRef<mapboxgl.Map | any>(null);
 
-  // Rivas 11.471338, -85.859057
-  // Nicaragua 12.960367413976618, -85.10190884542044
-  // Rond point Rivas 11.444187, -85.826933
+  // Kairos : 11.444956, -85.855095
 
-  const [lng, setLng] = useState(-85.826933);
-  const [lat, setLat] = useState(11.444187);
+  const [lng, setLng] = useState(-85.855095);
+  const [lat, setLat] = useState(11.444956);
   const [zoom, setZoom] = useState(12);
 
   useEffect(() => {

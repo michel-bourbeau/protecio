@@ -3,7 +3,7 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
-// import Map from '@components/Map';
+import Map from '@components/Map';
 import FormContact from './Forms/FormContact';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,12 +15,14 @@ export default function Contact({ hideTitle = false }: PropsContact) {
   const { t } = useTranslation();
 
   return (
-    <div className="contact-section section">
+    <section className="contact-section section">
       <p className="construction">{t('UnderConstruction')}</p>
 
       <Container className="container">
         <Row>
-          <Col></Col>
+          <Col>
+            <Map />
+          </Col>
         </Row>
         <Row>
           <Col>
@@ -30,6 +32,6 @@ export default function Contact({ hideTitle = false }: PropsContact) {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 }
