@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import LanguageSelector from '@components/LanguageSelector';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -33,16 +34,23 @@ export default function Header() {
         <div className="logo-container d-flex">
           <Link href="/" locale={`${router.locale}`}>
             <a className="logo align-items-center">
-              <img
-                src="/images/kairos-bg-white.png"
-                alt="Kairos Technologies S.A."
-                className="white-logo"
-              />
-              <img
-                src="/images/kairos-bg-black.png"
-                alt="Kairos Technologies S.A."
-                className="black-logo"
-              />
+              <span className="white-logo">
+                <Image
+                  src="/images/kairos-bg-white.png"
+                  width={256}
+                  height={128}
+                  alt={`Kairos Technologies S.A`}
+                />
+              </span>
+
+              <span className="black-logo">
+                <Image
+                  src="/images/kairos-bg-black.png"
+                  width={256}
+                  height={128}
+                  alt={`Kairos Technologies S.A`}
+                />
+              </span>
             </a>
           </Link>
         </div>
@@ -58,6 +66,7 @@ export default function Header() {
               <a
                 href="https://www.facebook.com/profile.php?id=100092708182385"
                 target="_blank"
+                aria-label={t('Index.facebookIcon')}
               >
                 <i className="fa fa-facebook-f"></i>
               </a>

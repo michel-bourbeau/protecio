@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -20,9 +21,11 @@ export default function Footer() {
                     href="index.html"
                     className="logo d-flex align-items-center"
                   >
-                    <img
+                    <Image
                       src="/images/kairos-bg-black.png"
-                      alt="Kairos Technologies S.A"
+                      width={256}
+                      height={128}
+                      alt={`Kairos Technologies S.A`}
                       className="no-effect"
                     />
                   </a>
