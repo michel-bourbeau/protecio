@@ -16,6 +16,7 @@ body,
     scroll-behavior: smooth;
 
     --color-primary: #4dcabc;
+    --color-wcag: #31A597;
     --color-secondary: #122826;
     --color-accent: #b8651d;
     --text-color: #3a3a3a;
@@ -76,6 +77,14 @@ p {
 .subtitle {
   color: var(--color-primary);
   font-weight: 600;
+}
+
+.about,
+.vision,
+.objective {
+  .subtitle {
+    color: var(--color-wcag)
+  }
 }
 
 .text-large {
@@ -257,7 +266,7 @@ img:not(.no-effect):hover {
 }
 
 .header-top {
-  background: var(--color-primary);
+  background: var(--color-wcag);
   padding: 10px 0;
   font-family: var(--font-secondary);
   width: 100%;
@@ -317,11 +326,11 @@ img:not(.no-effect):hover {
     }
 
     .logo h1 {
-      color: var(--color-primary);
+      color: var(--color-wcag);
     }
 
     .navbar a:hover {
-      color: var(--color-primary);
+      color: var(--color-wcag);
     }
     .navbar a{
       color: var(--light-color);
@@ -345,10 +354,10 @@ img:not(.no-effect):hover {
       font-size: 30px;
       margin: 0;
       letter-spacing: 0.8px;
-      color: var(--color-primary);
+      color: var(--color-wcag);
 
       span {
-        color: var(--color-primary);
+        color: var(--color-wcag);
       }
     }
 
@@ -427,7 +436,7 @@ img:not(.no-effect):hover {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: var(--color-primary);
+    color: var(--color-wcag);
   }
 
   .navbar .dropdown ul {
@@ -464,7 +473,7 @@ img:not(.no-effect):hover {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover > a {
-    color: var(--color-primary);
+    color: var(--color-wcag);
   }
 
   .navbar .dropdown:hover > ul {
@@ -523,7 +532,7 @@ img:not(.no-effect):hover {
 }
 
 .footer-social-icon a i {
-  background-color: var(--color-primary);
+  background-color: var(--color-wcag);
   border-radius: 50px;
   color: var(--text-white);
   display: inline-block;
@@ -612,14 +621,14 @@ img:not(.no-effect):hover {
 }
 
 .social a:hover {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
+  color: var(--color-wcag);
+  border-color: var(--color-wcag);
 }
 
 .social i {
   font-size: 14px;
   margin: 0 2px;
-  color: var(--color-primary);
+  color: var(--color-wcag);
 }
 .mr-20 {
   margin-right: 20px !important;
@@ -647,7 +656,7 @@ img:not(.no-effect):hover {
 
 a.btn {
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.15em;
   font-family: var(--font-secondary);
   font-weight: 600;
   letter-spacing: 1px;
@@ -656,7 +665,7 @@ a.btn {
   border: 0;
   transition: all 0.3s;
   color: var(--text-white);
-  background: var(--color-primary);
+  background: var(--color-wcag);
 }
 
 .btn:hover {
@@ -677,7 +686,7 @@ a.btn {
 }
 
 .services .title {
-  color: var(--color-primary);
+  color: var(--color-wcag);
 }
 
 .services p {
@@ -1094,6 +1103,79 @@ a.btn {
   }
 }
 
+.witr_section_title {
+  position: relative;
+}
+.witr_section_title_inner {
+  position: relative;
+  z-index: 1;
+}
+
+.witr_bar_inner {
+  height: 5px;
+  width: 90px;
+  background: #4dcabc;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 30px;
+}
+
+.witr_bar_innerc::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid #4dcabc;
+  border-radius: 50%;
+  background: #1c1b1b;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: move_title_bg;
+  animation-name: move_title_bg1;
+}
+
+.witr_bar_innerc::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid #4dcabc;
+  border-radius: 50%;
+  background: #1c1b1b;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: move_title_bg;
+  animation-name: move_title_bg2;
+}
+
+@keyframes move_title_bg1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes move_title_bg2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 100%;
+  }
+}
+
 // Small
 @media (max-width: 767px) {}
 
@@ -1173,7 +1255,7 @@ a.btn {
     color: rgb(255 255 255);
     white-space: nowrap;
     transition: 0.3s;
-    background-color: var(--color-primary);
+    background-color: var(--color-wcag);
   }
 
   .navbar a:hover,
@@ -1185,7 +1267,7 @@ a.btn {
   }
 
   .mobile-nav-show {
-    color: var(--color-primary);
+    color: var(--color-wcag);
     font-size: 36px;
     cursor: pointer;
     line-height: 0;
