@@ -1095,19 +1095,6 @@ a.btn {
     min-height: 800px;
     padding: 100px 0 50px 0;
   }
-
-  .about, 
-  .vision,
-  .objective {
-    .thumb {
-      order: 1;
-      margin-top: 2em
-    }
-
-    .subtitle {
-      margin-top: 0
-    }
-  }
 }
 
 .witr_section_title {
@@ -1184,7 +1171,20 @@ a.btn {
 }
 
 // Small
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  .about, 
+  .vision,
+  .objective {
+    .thumb {
+      order: 1;
+      margin-top: 2em
+    }
+
+    .subtitle {
+      margin-top: 0
+    }
+  }
+}
 
 // Medium
 @media (max-width: 799px) {
