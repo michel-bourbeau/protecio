@@ -300,6 +300,10 @@ img:not(.no-effect):hover {
   font-family: var(--font-secondary);
   width: 100%;
 
+  .dropdown {
+    z-index: 99999
+  }
+
   p {
     margin-bottom: 0;
     color: var(--light-color);
