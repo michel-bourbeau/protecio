@@ -18,7 +18,7 @@ export default function About() {
 
   const [lng, setLng] = useState(-85.855095);
   const [lat, setLat] = useState(11.444956);
-  const [zoom, setZoom] = useState(12);
+  const [zoom, setZoom] = useState(13);
 
   useEffect(() => {
     if (map.current) return; // initialize map only once

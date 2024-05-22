@@ -14,9 +14,9 @@ export default function ServiciosDeCampo() {
         <Row>
           <Col md={3} className="text-center">
             <Image
-              src="/images/projects-1.png"
-              width={500}
-              height={500}
+              src="/images/projects/project-01.jpg"
+              width={838}
+              height={620}
               alt={t('About.photoAlt')}
             />
           </Col>

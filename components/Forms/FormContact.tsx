@@ -6,11 +6,7 @@ import { useRouter } from 'next/router';
 
 type PropsContact = { hideTitle?: boolean };
 
-import Toast from 'react-bootstrap/Toast';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
+import { Toast, Button, Col, Form, Row } from 'react-bootstrap';
 
 export default function Contact({ hideTitle = false }: PropsContact) {
   const router = useRouter();

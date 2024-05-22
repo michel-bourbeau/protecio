@@ -14,14 +14,14 @@ export default function OtrosServiciosEspeciales() {
         <Row>
           <Col md={3} className="text-center">
             <Image
-              src="/images/projects-1.png"
-              width={500}
-              height={500}
+              src="/images/projects/project-04.jpg"
+              width={838}
+              height={620}
               alt={t('About.photoAlt')}
             />
           </Col>
           <Col md={9} className="text-left">
-            <h2>OTROS SERVICIOS ESPECIALES</h2>
+            <h2>Otros servicios especiales</h2>
             <ul>
               <li>
                 {' '}

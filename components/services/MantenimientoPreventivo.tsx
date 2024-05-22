@@ -9,14 +9,20 @@ export default function MantenimientoPreventivo() {
   const { t } = useTranslation();
 
   return (
-    <section className="solar-panel">
+    <section className="alt">
       <Container>
         <Row>
           <Col md={3} className="text-center">
             <Image
-              src="/images/projects-1.png"
-              width={500}
-              height={500}
+              src="/images/projects/project-02.jpg"
+              width={838}
+              height={620}
+              alt={t('About.photoAlt')}
+            />
+            <Image
+              src="/images/projects/project-03.jpg"
+              width={838}
+              height={620}
               alt={t('About.photoAlt')}
             />
           </Col>

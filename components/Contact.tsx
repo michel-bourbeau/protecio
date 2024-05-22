@@ -11,17 +11,40 @@ import Col from 'react-bootstrap/Col';
 
 type PropsContact = { hideTitle?: boolean };
 
-export default function Contact({ hideTitle = false }: PropsContact) {
+export default function Contact() {
   const { t } = useTranslation();
 
   return (
     <section className="contact-section section">
-      <p className="construction">{t('UnderConstruction')}</p>
-
       <Container className="container">
         <Row>
-          <Col>
-            <Map />
+          <Col md={3}>
+            <h4>
+              Somos la primera empresa en todo el país y el único en
+              la zona con los servicios de mantenimiento en turbinas
+              eólicas. Ubicados en el centro de América a 140km de la
+              capital de Managua-Nicaragua.
+            </h4>
+            <p>
+              Rivas,Nicargua.
+              <br />
+              Frente al km114 carretera a Tola
+            </p>
+            <p>Teléfonos</p>
+            <ul>
+              <li>+505 8895 6347</li>
+              <li>+5055 8257 6611</li>
+              <li>+505 8399 7398</li>
+            </ul>
+          </Col>
+          <Col md={9}>
+            <Image
+              src="/images/map-rivas.jpg"
+              width={1296}
+              height={460}
+              alt={`UBICACION Kairos Technologies S.A`}
+            />
+            {/*             <Map /> */}
           </Col>
         </Row>
         <Row>

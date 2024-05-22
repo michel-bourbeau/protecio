@@ -6,6 +6,8 @@ import LanguageSelector from '@components/LanguageSelector';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import { Button, Container, Row, Col } from 'react-bootstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
@@ -22,7 +24,7 @@ export default function Header() {
               <FontAwesomeIcon
                 icon={faPhone}
                 className="fa-phone"
-                style={{ marginRight: '8px' }}
+                style={{ marginRight: '8px', maxWidth: '16px' }}
               ></FontAwesomeIcon>
               +505 8895 6347
             </span>
@@ -74,12 +76,13 @@ export default function Header() {
               </a>
             </li>
             <li>
-              <a
+              <Button
+                variant="primary"
                 href={`/${router.locale}/contact`}
-                className="btn hide-on-mobile d-flex"
+                className="hide-on-mobile d-flex btn-lg"
               >
                 {t('Cta.button')}
-              </a>
+              </Button>
             </li>
           </ul>
         </nav>
