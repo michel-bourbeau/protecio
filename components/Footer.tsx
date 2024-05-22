@@ -11,7 +11,7 @@ export default function Footer() {
     <footer id="footer" className="footer-section">
       <Container>
         <div className="footer-content pt-5 pb-5">
-          {/*           <Row>
+          <Row>
             <Col className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
@@ -80,20 +80,19 @@ export default function Footer() {
                 </div>
               </div>
             </Col>
-          </Row> */}
+          </Row>
           <Row className="copyright-text">
             <Col md={6}>
-              {/*               <p>
+              <p>
                 Kairos Technologies S.A. © {new Date().getFullYear()}{' '}
                 - {t('Footer.copyright')}
-              </p> */}
+              </p>
               <p className="avanzatec">
-                {/*                 {t('Footer.createdBy')} */}
+                {t('Footer.createdBy')}
                 {` `}
                 <Link href={`https://avanzatechnologies.com/`}>
                   <a target="_blank">AvanzaTec</a>
                 </Link>
-                - {t('Footer.copyright')}
               </p>
             </Col>
           </Row>
