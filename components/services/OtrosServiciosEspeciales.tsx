@@ -12,7 +12,7 @@ export default function OtrosServiciosEspeciales() {
     <section className="solar-panel">
       <Container>
         <Row>
-          <Col md={3} className="text-center">
+          <Col md={3} className="text-center mb-4">
             <Image
               src="/images/projects/project-04.jpg"
               width={838}
