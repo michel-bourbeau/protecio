@@ -45,7 +45,13 @@ export const Contact = () => {
           siteName: 'Kairos Technologies S.A.',
         }}
       />
-      <ContactUs hideTitle />
+      <Hero
+        title={t('Contact.title')}
+        description={t('Services.hero.description')}
+        id="ourServicesPage"
+        isPage
+      />
+      <ContactUs />
     </>
   );
 };

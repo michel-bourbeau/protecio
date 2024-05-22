@@ -17,20 +17,18 @@ export default function Contact() {
   return (
     <section className="contact-section section">
       <Container className="container">
-        <Row>
+        <Row className="mb-5">
+          <Col>
+            <h4>{t('Services.description')}</h4>
+          </Col>
+        </Row>
+        <Row className="mb-5">
           <Col md={3}>
-            <h4>
-              Somos la primera empresa en todo el país y el único en
-              la zona con los servicios de mantenimiento en turbinas
-              eólicas. Ubicados en el centro de América a 140km de la
-              capital de Managua-Nicaragua.
-            </h4>
             <p>
-              Rivas,Nicargua.
+              Rivas, Nicargua.
               <br />
               Frente al km114 carretera a Tola
             </p>
-            <p>Teléfonos</p>
             <ul>
               <li>+505 8895 6347</li>
               <li>+5055 8257 6611</li>
