@@ -75,7 +75,7 @@ export default function Footer() {
                     target="_blank"
                     className="link"
                   >
-                    Visit Us on Facebook
+                    {t('Footer.visitFacebook')}
                   </a>
                 </div>
               </div>
