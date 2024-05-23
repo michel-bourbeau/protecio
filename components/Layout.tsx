@@ -19,7 +19,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <Header />
       {children}
       <Footer />
-      <GoogleAnalytics gaId="G-T6T28BDTET" />
+      <GoogleAnalytics gaId="G-737VPM5DPD" />
     </div>
   );
 };
