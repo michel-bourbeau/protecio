@@ -95,5 +95,42 @@
     "valor2": "<title>Honnêteté</title><paragraph>Valeur orientée vers le développement de comportements professionnels transparents et sincères.</paragraph>",
     "valor3": "<title>Responsabilité</title><paragraph>Valeur professionnelle orientée vers l'accomplissement fiable et adéquat des engagements organisationnels pris et la résolution efficace des problèmes rencontrés.</paragraph>",
     "valor4": "<title>Travail</title><paragraph>Engagement, Persévérance et disposition à relever les défis.</paragraph>"
+  },
+  "ServiciosDeCampo": {
+    "title": "Services de chantier",
+    "item1": "Entretien Correctif",
+    "item2": "Entretien Préventif (YM-HYM)",
+    "item3": "Entretien Prédictif",
+    "item4": "Ingénierie d'application",
+    "item5": "Diagnostic de l'état des composants",
+    "item6": "Systèmes de sécurité",
+    "item7": "Fourniture de composants",
+    "item8": "Installation de lignes verticales et horizontales."
+  },
+  "MantenimientoPreventivo": {
+    "title": "Entretien Préventif",
+    "item1": "Nettoyage général (Nacelle, Yaw Deg, Hub, sections tubulaires, ascenseurs, sous-sols (Puits), etc.)",
+    "item2": "Changements de filtres",
+    "item3": "Vérification de l'alignement entre la boîte de vitesses et le générateur",
+    "item4": "Vérification des niveaux d'huile et de graisse",
+    "item5": "Vérification de la pression des accumulateurs d'huile hydraulique",
+    "item6": "Vérification du fonctionnement de l'ascenseur",
+    "item7": "Vérification des points d'ancrage internes et externes dans la nacelle",
+    "item8": "Pompes",
+    "item9": "Systèmes de lubrification",
+    "item10": "Connexions / Tuyaux",
+    "item11": "Systèmes Hydrauliques",
+    "item12": "Accumulateurs de pression",
+    "item13": "Générateurs",
+    "item14": "Boîtes de vitesses",
+    "item15": "Système de freinage",
+    "item16": "Entraînement de lacet"
+  },
+  "OtrosServiciosEspeciales": {
+    "title": "Autres services spéciaux",
+    "item1": "Analyse par thermographie des équipements électriques et thermiques",
+    "item2": "Entretien Préventif et correctif des équipements électromécaniques : Réducteurs, Moteurs, Panneaux Électriques, Banques de transformateurs, Équipements Mécaniques",
+    "item3": "Soudure des structures",
+    "item4": "Conception de systèmes électriques basse et moyenne tension"
   }
 }

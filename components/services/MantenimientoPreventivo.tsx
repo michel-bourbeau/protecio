@@ -21,40 +21,24 @@ export default function MantenimientoPreventivo() {
             />
           </Col>
           <Col md={9} className="text-left">
-            <h2>Mantenimiento Preventivo</h2>
+            <h2>{t('MantenimientoPreventivo.title')}</h2>
             <ul>
-              <li>
-                {' '}
-                Limpieza general (Nacelle, Yaw Deg,Hub,secciones
-                tubulares,elevadores,sótanos (Pozo),etc.){' '}
-              </li>
-              <li> Cambios de filtros </li>
-              <li>
-                {' '}
-                Verificación de alineación entre caja multiplicadora y
-                generador{' '}
-              </li>
-              <li> Chequeo de niveles de aceite y grasa </li>
-              <li>
-                {' '}
-                verificación de presión de acumuladores de aceite
-                hidráulico{' '}
-              </li>
-              <li> verificación de funcionamiento de ascensor </li>
-              <li>
-                {' '}
-                verificación de puntos de anclajes internos y externos
-                en nacelle.{' '}
-              </li>
-              <li> Bombas </li>
-              <li>Sistemas de lubricación </li>
-              <li> Conexiones / Mangueras </li>
-              <li>Sistemas Hidráulicos </li>
-              <li> Acumuladores de presión </li>
-              <li>Generadores </li>
-              <li> Cajas Multiplicadoras </li>
-              <li> Sistema de frenado </li>
-              <li> Yaw drive</li>
+              <li>{t('MantenimientoPreventivo.item1')}</li>
+              <li>{t('MantenimientoPreventivo.item2')}</li>
+              <li>{t('MantenimientoPreventivo.item3')}</li>
+              <li>{t('MantenimientoPreventivo.item4')}</li>
+              <li>{t('MantenimientoPreventivo.item5')}</li>
+              <li>{t('MantenimientoPreventivo.item6')}</li>
+              <li>{t('MantenimientoPreventivo.item7')}</li>
+              <li>{t('MantenimientoPreventivo.item8')}</li>
+              <li>{t('MantenimientoPreventivo.item9')}</li>
+              <li>{t('MantenimientoPreventivo.item10')}</li>
+              <li>{t('MantenimientoPreventivo.item11')}</li>
+              <li>{t('MantenimientoPreventivo.item12')}</li>
+              <li>{t('MantenimientoPreventivo.item13')}</li>
+              <li>{t('MantenimientoPreventivo.item14')}</li>
+              <li>{t('MantenimientoPreventivo.item15')}</li>
+              <li>{t('MantenimientoPreventivo.item16')}</li>
             </ul>
           </Col>
         </Row>

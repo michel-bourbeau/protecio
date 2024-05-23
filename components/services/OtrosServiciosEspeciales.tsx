@@ -21,26 +21,12 @@ export default function OtrosServiciosEspeciales() {
             />
           </Col>
           <Col md={9} className="text-left">
-            <h2>Otros servicios especiales</h2>
+            <h2>{t('OtrosServiciosEspeciales.title')}</h2>
             <ul>
-              <li>
-                {' '}
-                Análisis por Termografía a equipos eléctricos y
-                térmicos{' '}
-              </li>
-              <li>
-                {' '}
-                Mantenimiento Preventivo y correctivo de equipos
-                electromecánicos: Cajas reductoras, Motores, Paneles
-                Eléctricos, Bancos de transformadores, Equipos
-                Mecánicos.{' '}
-              </li>
-              <li> Soldadura de estructuras </li>
-              <li>
-                {' '}
-                Diseños de sistemas eléctricos de baja y media
-                tensión.
-              </li>
+              <li>{t('OtrosServiciosEspeciales.item1')}</li>
+              <li>{t('OtrosServiciosEspeciales.item2')}</li>
+              <li>{t('OtrosServiciosEspeciales.item3')}</li>
+              <li>{t('OtrosServiciosEspeciales.item4')}</li>
             </ul>
           </Col>
         </Row>

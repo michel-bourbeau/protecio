@@ -95,5 +95,42 @@
     "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
     "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
     "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
+  },
+  "ServiciosDeCampo": {
+    "title": "Servicios de campo",
+    "item1": "Mantenimiento Correctivo",
+    "item2": "Mantenimiento Preventivo (YM-HYM)",
+    "item3": "Mantenimiento Predictivo",
+    "item4": "Ingeniería de aplicación",
+    "item5": "Diagnóstico de estado de componentes",
+    "item6": "Sistemas de seguridad",
+    "item7": "Suministro de componentes",
+    "item8": "Instalación de líneas verticales y horizontales."
+  },
+  "MantenimientoPreventivo": {
+    "title": "Mantenimiento Preventivo",
+    "item1": "Limpieza general (Nacelle, Yaw Deg,Hub,secciones tubulares,elevadores,sótanos (Pozo),etc.)",
+    "item2": "Cambios de filtros",
+    "item3": "Verificación de alineación entre caja multiplicadora y generador",
+    "item4": "Chequeo de niveles de aceite y grasa",
+    "item5": "Verificación de presión de acumuladores de aceite hidráulico",
+    "item6": "Verificación de funcionamiento de ascensor",
+    "item7": "Verificación de puntos de anclajes internos y externos en nacelle",
+    "item8": "Bombas",
+    "item9": "Sistemas de lubricación",
+    "item10": "Conexiones / Mangueras",
+    "item11": "Sistemas Hidráulicos",
+    "item12": "Acumuladores de presión",
+    "item13": "Generadores",
+    "item14": "Cajas Multiplicadoras",
+    "item15": "Sistema de frenado",
+    "item16": "Yaw drive"
+  },
+  "OtrosServiciosEspeciales": {
+    "title": "Otros servicios especiales",
+    "item1": "Análisis por Termografía a equipos eléctricos y térmicos",
+    "item2": "Mantenimiento Preventivo y correctivo de equipos electromecánicos: Cajas reductoras, Motores, Paneles Eléctricos, Bancos de transformadores, Equipos Mecánicos",
+    "item3": "Soldadura de estructuras",
+    "item4": "Diseños de sistemas eléctricos de baja y media tensión"
   }
 }

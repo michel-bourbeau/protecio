@@ -89,11 +89,48 @@
     "button": "Back to Homepage"
   },
   "UnderConstruction": "This page is under construction",
-  "Values": {
+  "Valors": {
     "title": "VALUES",
     "value1": "<title>Ethics and Morality</title><paragraph>Respect towards our suppliers, internal and external clients.</paragraph>",
     "value2": "<title>Honesty</title><paragraph>Value oriented towards the development of transparent and sincere work behaviors.</paragraph>",
     "value3": "<title>Responsibility</title><paragraph>Work value oriented towards the reliable and proper fulfillment of organizational commitments made and the effective resolution of encountered problems.</paragraph>",
     "value4": "<title>Work</title><paragraph>Dedication, Perseverance, and facing challenges with readiness.</paragraph>"
+  },
+  "ServiciosDeCampo": {
+    "title": "Field Services",
+    "item1": "Corrective Maintenance",
+    "item2": "Preventive Maintenance (YM-HYM)",
+    "item3": "Predictive Maintenance",
+    "item4": "Application Engineering",
+    "item5": "Component Condition Diagnosis",
+    "item6": "Safety Systems",
+    "item7": "Component Supply",
+    "item8": "Installation of Vertical and Horizontal Lines."
+  },
+  "MantenimientoPreventivo": {
+    "title": "Preventive Maintenance",
+    "item1": "General cleaning (Nacelle, Yaw Deg, Hub, tubular sections, elevators, basements (Pit), etc.)",
+    "item2": "Filter changes",
+    "item3": "Alignment verification between gearbox and generator",
+    "item4": "Oil and grease level check",
+    "item5": "Hydraulic oil accumulator pressure verification",
+    "item6": "Elevator functionality verification",
+    "item7": "Verification of internal and external anchorage points in nacelle",
+    "item8": "Pumps",
+    "item9": "Lubrication systems",
+    "item10": "Connections / Hoses",
+    "item11": "Hydraulic Systems",
+    "item12": "Pressure accumulators",
+    "item13": "Generators",
+    "item14": "Gearboxes",
+    "item15": "Braking system",
+    "item16": "Yaw drive"
+  },
+  "OtrosServiciosEspeciales": {
+    "title": "Other Special Services",
+    "item1": "Thermography Analysis for Electrical and Thermal Equipment",
+    "item2": "Preventive and Corrective Maintenance of Electromechanical Equipment: Gearboxes, Motors, Electrical Panels, Transformer Banks, Mechanical Equipment",
+    "item3": "Structure Welding",
+    "item4": "Low and Medium Voltage Electrical System Designs"
   }
 }

@@ -21,18 +21,16 @@ export default function ServiciosDeCampo() {
             />
           </Col>
           <Col md={9} className="text-left">
-            <h2>Servicios de campo</h2>
+            <h2>{t('ServiciosDeCampo.title')}</h2>
             <ul>
-              <li>Mantenimiento Correctivo </li>
-              <li> Mantenimiento Preventivo (YM-HYM) </li>
-              <li> Mantenimiento Predictivo </li>
-              <li> Ingeniería de aplicación </li>
-              <li> Diagnóstico de estado de componentes </li>
-              <li>Sistemas de seguridad </li>
-              <li> Suministro de componentes </li>
-              <li>
-                Instalación de líneas verticales y horizontales.
-              </li>
+              <li>{t('ServiciosDeCampo.item1')}</li>
+              <li>{t('ServiciosDeCampo.item2')}</li>
+              <li>{t('ServiciosDeCampo.item3')}</li>
+              <li>{t('ServiciosDeCampo.item4')}</li>
+              <li>{t('ServiciosDeCampo.item5')}</li>
+              <li>{t('ServiciosDeCampo.item6')}</li>
+              <li>{t('ServiciosDeCampo.item7')}</li>
+              <li>{t('ServiciosDeCampo.item8')}</li>
             </ul>
           </Col>
         </Row>
