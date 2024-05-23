@@ -17,7 +17,7 @@ export default function ServiciosDeCampo() {
               src="/images/projects/project-01.jpg"
               width={838}
               height={620}
-              alt={t('About.photoAlt')}
+              alt="Image Servicios de campo"
             />
           </Col>
           <Col md={9} className="text-left">

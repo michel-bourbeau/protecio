@@ -17,7 +17,7 @@ export default function MantenimientoPreventivo() {
               src="/images/projects/project-02.jpg"
               width={838}
               height={620}
-              alt={t('About.photoAlt')}
+              alt="Image Mantenimiento Preventivo"
             />
           </Col>
           <Col md={9} className="text-left">

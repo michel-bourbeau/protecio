@@ -17,7 +17,7 @@ export default function OtrosServiciosEspeciales() {
               src="/images/projects/project-04.jpg"
               width={838}
               height={620}
-              alt={t('About.photoAlt')}
+              alt="Image Otros servicios especiales"
             />
           </Col>
           <Col md={9} className="text-left">
