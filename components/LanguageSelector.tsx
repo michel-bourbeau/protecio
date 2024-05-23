@@ -12,7 +12,7 @@ export const LanguageSelector = () => {
   let lng;
 
   // Gestion des langues avec if-else
-  if (locale === 'en') {
+  if (locale == 'en') {
     lng = (
       <>
         <span className="flag">
@@ -21,7 +21,7 @@ export const LanguageSelector = () => {
         English
       </>
     );
-  } else if (locale === 'es') {
+  } else if (locale == 'es') {
     lng = (
       <>
         <span className="flag">
@@ -30,7 +30,7 @@ export const LanguageSelector = () => {
         Español
       </>
     );
-  } else if (locale === 'fr') {
+  } else if (locale == 'fr') {
     lng = (
       <>
         <span className="flag">
@@ -87,7 +87,7 @@ export const LanguageSelector = () => {
               <span className="flag">
                 <Fr />
               </span>
-              English
+              Français
             </Dropdown.Item>
           )}
         </Dropdown.Menu>
