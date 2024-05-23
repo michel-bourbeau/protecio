@@ -12,7 +12,7 @@ export default function ServiciosDeCampo() {
     <section className="solar-panel">
       <Container>
         <Row>
-          <Col md={3} className="text-center mb-4">
+          <Col md={3} className="text-center mb-4 thumb">
             <Image
               src="/images/projects/project-01.jpg"
               width={838}

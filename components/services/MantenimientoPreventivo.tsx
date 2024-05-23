@@ -12,7 +12,7 @@ export default function MantenimientoPreventivo() {
     <section className="alt">
       <Container>
         <Row>
-          <Col md={3} className="text-center mb-4">
+          <Col md={3} className="text-center mb-4 thumb">
             <Image
               src="/images/projects/project-02.jpg"
               width={838}
