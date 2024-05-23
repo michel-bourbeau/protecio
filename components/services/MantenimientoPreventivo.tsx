@@ -13,26 +13,12 @@ export default function MantenimientoPreventivo() {
       <Container>
         <Row>
           <Col md={3} className="text-center mb-4">
-            <Container>
-              <Row>
-                <Col>
-                  <Image
-                    src="/images/projects/project-02.jpg"
-                    width={838}
-                    height={620}
-                    alt={t('About.photoAlt')}
-                  />
-                </Col>
-                <Col>
-                  <Image
-                    src="/images/projects/project-03.jpg"
-                    width={838}
-                    height={620}
-                    alt={t('About.photoAlt')}
-                  />
-                </Col>
-              </Row>
-            </Container>
+            <Image
+              src="/images/projects/project-02.jpg"
+              width={838}
+              height={620}
+              alt={t('About.photoAlt')}
+            />
           </Col>
           <Col md={9} className="text-left">
             <h2>Mantenimiento Preventivo</h2>
