@@ -3,7 +3,6 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
-import Map from '@components/Map';
 import FormContact from './Forms/FormContact';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
