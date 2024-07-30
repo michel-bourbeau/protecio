@@ -1,136 +1,99 @@
 {
   "Metadata": {
-    "title": "Protecio - Impulsando un mañana más verde, sostenibilidad, energía renovable",
-    "description": "Protecio es una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
-    "keywords": "Protecio, Soluciones energéticas, Inspecciones, Servicios de mantenimiento, Energías renovables, Energía sostenible, Sector energético, Tecnología verde, Soluciones medioambientales, Energía limpia, Servicios ecológicos, Eficiencia energética, Recursos renovables, Energía alternativa, Energía solar, Energía eólica, Sostenible desarrollo",
-    "geoRegion": "América central"
+    "title": "Protecio - TO DO",
+    "description": "Protecio -  TO DO",
+    "keywords": "Protecio -  TO DO",
+    "geoRegion": "Canada"
   },
   "Index": {
-    "title": "Bienvenido a Kairos Tecnologies",
-    "facebookIcon": "Visit Us on Facebook"
+    "title": "Bienvenue chez Protecio",
+    "facebookIcon": "Visitez-nous sur Facebook"
   },
   "Hero": {
-    "title": "IMPULSANDO <guidelines>UN MAÑANA MÁS VERDE,</guidelines> SOSTENIBILIDAD, ENERGÍA RENOVABLE",
-    "description": "Protecio Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables."
+    "title": "C’est quoi Protecio, <guidelines>comment on peut aider</guidelines>",
+    "description": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données. Notre mission est d'aider les entreprises à naviguer dans le paysage complexe de la sécurité informatique et de la conformité réglementaire, tout en optimisant leurs opérations TI et en stimulant leur croissance."
   },
   "About": {
-    "title": "ACERCA DE LAS Protecio",
-    "description": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
-    "photoAlt": "Imagen de un empleado de Protecio",
-    "paragraph1": "KT dispone de los recursos, experiencia, garantía de calidad y capacidad geográfica en centro América y el caribe dedicado a soluciones y servicio del mantenimiento.",
-    "paragraph2": "Su objetivo principal es reducir costos a las empresas ofreciéndoles subcontrataciones de servicios para que sus clientes se centren exclusivamente en su Core Business, optimizando sus políticas de recurso humano enfocado en la salud y seguridad.",
-    "paragraph3": "La gama de servicios de Protecio está destinada a completar sus programas de Mantenimiento, inspección, operación y gestión de suministros."
+    "title": "Solutions d'IA – Certifié USAII AI Leader",
+    "description": "Chez Protecio, nous proposons une gamme complète de produits et de services conçus pour répondre aux besoins variés de nos clients en matière de sécurité des données et de gestion des technologies de l'information.",
+    "photoAlt": "Image de Protecio",
+    "paragraph1": "",
+    "paragraph2": "",
+    "paragraph3": ""
   },
   "Mission": {
-    "title": "MISION",
-    "description": "Somos una organización especializada en servicios de mantenimiento, reacondicionamiento y montaje electromecánico de equipos e instalaciones eléctricas, enfocado en el crecimiento de nuestros clientes, ofreciendo un personal altamente capacitado, herramientas y equipos adecuados, con precios competitivos en el mercado y comprometidos con la calidad, seguridad y protección del medio ambiente en nuestras operaciones"
+    "title": "MISSION",
+    "description": "Misson Protecio"
   },
   "Vision": {
     "title": "VISION",
-    "description": "Ser una organización reconocida en el sector de servicio y proyecto en el área de energía, capaz de ofrecer soluciones confiables y seguras: valorada, aceptada y respetada en el mercado de Latinoamérica.",
-    "paragraph": "En KT nos dedicamos a crear, reforzar y comprender las condiciones de seguridad en los lugares de trabajo."
+    "description": "Description",
+    "paragraph": "Paragraphe"
   },
   "History": {
-    "title": "HISTORIA",
-    "description": "KT Nace en Rivas, Nicaragua en el mes de diciembre del año 2019 con la sólida idea de ofrecer soluciones y servicios de calidad para el mantenimiento industrial. Después de una larga trayectoria en el sector eólico en las Marcas Carter 300KW-Vestas V90-Suzlon S88,Siemens Gamesa G114.",
-    "paragraph": "Convirtiéndonos en la mejor opción de profesionales entrenados y certificados para instalación, mantenimiento, operación y servicios de plantas de generación eólicas y solares. El grupo de profesionales fue creciendo de una empresa a otra compartiendo toda su experiencia en cada trabajo encomendado de esta manera se adquirieron nuevos conocimientos de acuerdo con los avances tecnológicos.."
+    "title": "HISTOIRE",
+    "description": "Description",
+    "paragraph": "Paragraphe"
   },
   "Objective": {
-    "title": "OBJETIVO DE LA EMPRESA",
-    "paragraph1": "Disponer la experiencia ganada desde el 2010 para brindar los servicios que se requieran y ser el socio perfecto para ofrecerles las soluciones más viables a cada cliente.",
-    "paragraph2": "Ofrecer servicios especializados a las grandes marcas de la industria eólica y que nuestros clientes promuevan nuestro trabajo cualquier parte que se requiera.",
-    "paragraph3": "Promover el desarrollo sostenible de la industria energética con bases de recursos renovables."
+    "title": "OBJECTIF DE L'ENTREPRISE",
+    "paragraph1": "Utiliser l'expérience acquise depuis 2010 pour fournir les services nécessaires et être le partenaire idéal pour offrir les solutions les plus viables à chaque client.",
+    "paragraph2": "Offrir des services spécialisés aux grandes marques de l'industrie éolienne et faire la promotion de notre travail partout où cela est nécessaire.",
+    "paragraph3": "Promouvoir le développement durable de l'industrie énergétique sur la base de ressources renouvelables."
   },
   "Cta": {
-    "title": "Si tiene alguna pregunta o necesita ayuda, en cualquier momento",
-    "description": "+505 8895 6347",
-    "button": "Ponerse en contacto"
+    "title": "Si vous avez des questions ou besoin d'aide, à tout moment",
+    "description": "(418) 999-9999",
+    "button": "Nous contacter"
   },
   "Footer": {
-    "copyright": "Todos los derechos reservados",
-    "infos": "Somos una empresa especializada en prestaciones de soluciones, Inspecciones y servicios de mantenimientos en el sector energético apostando por las energías renovables.",
-    "createdBy": "Sitio web creado por",
-    "visitFacebook": "Visítanos en Facebook"
+    "copyright": "Tous droits réservés",
+    "infos": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données.",
+    "createdBy": "Site web créé par",
+    "visitFacebook": "Visitez-nous sur Facebook"
   },
   "Services": {
-    "title": "Nuestros servicios",
-    "description": "Somos la primera empresa en todo el país y el único en la zona con los servicios de mantenimiento en turbinas eólicas. Ubicados en el centro de América a 140km de la capital de Managua-Nicaragua.",
+    "title": "Nos services",
+    "description": "Description",
     "hero": {
-      "title": "Nuestros Servicios",
-      "description": "Soluciones Inteligentes, <guidelines>Ahorros de energías, </guidelines>Seguridad Eléctricas y de las personas"
+      "title": "Nos Services",
+      "description": "Solution d’IA – <guidelines>Certifié USAII AI Leader</guidelines>, CIO virtuel et Solution innovante avec AI"
     }
   },
   "Contact": {
-    "title": "Contáctenos",
-    "description": "¡Benefíciate de 30 minutos de consulta gratuita y sin compromiso!",
-    "mailsubject": "Acerca de nuestro proyecto",
-    "getintouch": "Ponerse en contacto",
+    "title": "Contactez-nous",
+    "description": "Description",
+    "mailsubject": "À propos",
+    "getintouch": "Nous contacter",
     "form": {
       "fields": {
-        "name": "Nombre completo",
-         "email": "Correo electrónico",
-         "subject": "Asunto",
-         "message": "Escribe tu mensaje"
+        "name": "Nom complet",
+        "email": "Courriel",
+        "subject": "Sujet",
+        "message": "Écrivez votre message"
       },
       "errors": {
-        "name": "El nombre es obligatorio.",
-        "email": "Se requiere un correo electrónico válido.",
-        "subject": "El asunto es obligatorio.",
-        "message": "Por favor, déjanos un mensaje."
+        "name": "Le nom est requis.",
+        "email": "Une adresse e-mail valide est requise.",
+        "subject": "Le sujet est obligatoire.",
+        "message": "S'il vous plaît, laissez-nous un message."
       },
-      "button": "Enviar mensaje",
-      "thanks": "¡Gracias! Tu mensaje ha sido enviado."
+      "button": "Envoyer le message",
+      "thanks": "Merci! Votre message a été envoyé."
     }
   },
   "Success": {
-    "title": "Gracias!",
-    "description": "Hemos recibido su solicitud de información sobre nuestros servicios. Nuestro equipo procesará su solicitud lo antes posible y se comunicará con usted lo antes posible.",
-    "infos": "Si tiene más preguntas o necesidades, puede contactarnos directamente al correo electrónico [correo electrónico] o al teléfono [teléfono].",
-    "button": "Volver a la página de inicio"
+    "title": "Merci !",
+    "description": "Nous avons bien reçu votre demande d'informations sur nos services. Notre équipe traitera votre demande dès que possible et vous contactera dans les plus brefs délais.",
+    "infos": "Si vous avez d'autres questions ou besoins, vous pouvez nous contacter directement par e-mail à support@protecio.com ou par téléphone au (418) 999-9999.",
+    "button": "Retour à la page d'accueil"
   },
-  "UnderConstruction": "Esta página esta en construcción",
+  "UnderConstruction": "Cette page est en construction",
   "Valors": {
-    "title": "VALORES",
-    "valor1": "<title>Ética y Moral</title><paragraph>Respeto hacia nuestros proveedores, clientes internos y externos.</paragraph>",
-    "valor2": "<title>Honestidad</title><paragraph>Valor orientado al desarrollo de conducta laborales y transparentes y sinceras.</paragraph>",
-    "valor3": "<title>Responsabilidad</title><paragraph>Valor laboral orientado al cumplimiento adecuado y confiable de los compromisos organizacionales adquiridos y la resolución eficaz de los problemas enfrentados.</paragraph>",
-    "valor4": "<title>Trabajo</title><paragraph>Entrega, Perseverancia y enfrentar los retos con disposición.</paragraph>"
-  },
-  "ServiciosDeCampo": {
-    "title": "Servicios de campo",
-    "item1": "Mantenimiento Correctivo",
-    "item2": "Mantenimiento Preventivo (YM-HYM)",
-    "item3": "Mantenimiento Predictivo",
-    "item4": "Ingeniería de aplicación",
-    "item5": "Diagnóstico de estado de componentes",
-    "item6": "Sistemas de seguridad",
-    "item7": "Suministro de componentes",
-    "item8": "Instalación de líneas verticales y horizontales."
-  },
-  "MantenimientoPreventivo": {
-    "title": "Mantenimiento Preventivo",
-    "item1": "Limpieza general (Nacelle, Yaw Deg,Hub,secciones tubulares,elevadores,sótanos (Pozo),etc.)",
-    "item2": "Cambios de filtros",
-    "item3": "Verificación de alineación entre caja multiplicadora y generador",
-    "item4": "Chequeo de niveles de aceite y grasa",
-    "item5": "Verificación de presión de acumuladores de aceite hidráulico",
-    "item6": "Verificación de funcionamiento de ascensor",
-    "item7": "Verificación de puntos de anclajes internos y externos en nacelle",
-    "item8": "Bombas",
-    "item9": "Sistemas de lubricación",
-    "item10": "Conexiones / Mangueras",
-    "item11": "Sistemas Hidráulicos",
-    "item12": "Acumuladores de presión",
-    "item13": "Generadores",
-    "item14": "Cajas Multiplicadoras",
-    "item15": "Sistema de frenado",
-    "item16": "Yaw drive"
-  },
-  "OtrosServiciosEspeciales": {
-    "title": "Otros servicios especiales",
-    "item1": "Análisis por Termografía a equipos eléctricos y térmicos",
-    "item2": "Mantenimiento Preventivo y correctivo de equipos electromecánicos: Cajas reductoras, Motores, Paneles Eléctricos, Bancos de transformadores, Equipos Mecánicos",
-    "item3": "Soldadura de estructuras",
-    "item4": "Diseños de sistemas eléctricos de baja y media tensión"
+    "title": "VALEURS",
+    "valor1": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
+    "valor2": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
+    "valor3": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
+    "valor4": "<title>Valeur</title><paragraph>Paragraph</paragraph>"
   }
 }

@@ -4,9 +4,7 @@ import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';
-import ServiciosDeCampo from '@components/services/ServiciosDeCampo';
-import MantenimientoPreventivo from '@components/services/MantenimientoPreventivo';
-import OtrosServiciosEspeciales from '@components/services/OtrosServiciosEspeciales';
+import ServicesProtecio from '@components/services/ServicesProtecio';
 
 export const Services = () => {
   const { t } = useTranslation();
@@ -26,17 +24,17 @@ export const Services = () => {
         ]}
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://kairos-technologies.net/${useLocal}`}
+        canonical={`https://protecio/${useLocal}`}
         openGraph={{
-          url: 'https://kairos-technologies.net',
+          url: 'https://protecio.com',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://kairos-technologies.net/images/banner-opengraph.jpg',
+              url: 'https://protecio.com/images/banner-opengraph.jpg',
               width: 1200,
               height: 630,
-              alt: 'Protecio - Energía Eólica y Sistemas Solares',
+              alt: 'Protecio - TO DO',
               type: 'image/jpeg',
             },
           ],
@@ -49,9 +47,7 @@ export const Services = () => {
         id="ourServicesPage"
         isPage
       />
-      <ServiciosDeCampo />
-      <MantenimientoPreventivo />
-      <OtrosServiciosEspeciales />
+      <ServicesProtecio />
     </>
   );
 };

@@ -20,7 +20,11 @@ export default function Footer() {
                     href="index.html"
                     className="logo d-flex align-items-center"
                   >
-                    <Logo footer />
+                    <Logo
+                      footer
+                      context="NOUVEAU TEXTE PERSONNALISÉ"
+                      fontSize={55}
+                    />
                   </a>
                 </div>
                 <div className="footer-text">

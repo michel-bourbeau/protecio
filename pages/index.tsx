@@ -34,14 +34,14 @@ export const Home = () => {
         ]}
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://kairos-technologies.net/${useLocal}`}
+        canonical={`https://protecio.com/${useLocal}`}
         openGraph={{
-          url: 'https://kairos-technologies.net',
+          url: 'https://protecio.com',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://kairos-technologies.net/images/banner-opengraph.jpg',
+              url: 'https://protecio.com/images/banner-opengraph.jpg',
               width: 1200,
               height: 630,
               alt: 'Protecio - Energía Eólica y Sistemas Solares',

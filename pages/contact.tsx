@@ -28,7 +28,7 @@ export const Contact = () => {
         ]}
         title={t('Metadata.title')}
         description={t('Metadata.description')}
-        canonical={`https://kairos-technologies.net/${useLocal}`}
+        canonical={`https://protecio/${useLocal}`}
         openGraph={{
           url: 'https://protecio.com',
           title: t('Metadata.title'),

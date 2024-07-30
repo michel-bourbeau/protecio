@@ -26,7 +26,7 @@ export default function Mission() {
             data-aos="fade-left"
           >
             <Image
-              src="/images/kairos-technologies-mission.jpg"
+              src=""
               width={900}
               height={550}
               alt={`Protecio ${t('Mission.title')}`}

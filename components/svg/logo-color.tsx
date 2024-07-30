@@ -1,11 +1,13 @@
 interface PropsFooter {
   context?: string;
+  fontSize?: number;
   footer?: boolean;
 }
 
 export const LogoColor = ({
   context = 'SÉCURITÉ INTELLIGENTE',
   footer,
+  fontSize = 72,
 }: PropsFooter) => (
   <div className="logo-container">
     <svg
@@ -32,9 +34,9 @@ export const LogoColor = ({
             <text
               x="340"
               y="320"
-              fontSize="72"
+              fontSize={`${fontSize}`}
               fontWeight="300"
-              fill={footer ? '#aaa' : '#777'}
+              fill={footer ? 'rgba(255,255,255, 0.75)' : '#777'}
               className="logo-subtitle"
             >
               {context}
@@ -43,15 +45,15 @@ export const LogoColor = ({
         </g>
         <g id="Calque_4">
           <path
-            fill="#06f"
+            fill={footer ? 'rgba(255,255,255, 0.90)' : '#06f'}
             d="M177.23,52.9l98.11,56.68s-.12,27.87-5.36,47.67c-9.06-4.84-92.74-53.47-92.74-53.47v-50.88Z"
           />
           <path
-            fill="#06f"
+            fill={footer ? 'rgba(255,255,255, 0.90)' : '#06f'}
             d="M177.23,125.9l87.06,50.3s-3.74,16.11-19.31,39.81c-9.06-4.84-67.75-39.23-67.75-39.23v-50.88Z"
           />
           <path
-            fill="#06f"
+            fill={footer ? 'rgba(255,255,255, 0.90)' : '#06f'}
             d="M177.23,198.9l56.07,32.39s-10.35,14.12-34.86,30.88c-9.06-4.84-21.2-12.4-21.2-12.4v-50.88Z"
           />
           <path
