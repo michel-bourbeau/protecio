@@ -15,8 +15,8 @@ body,
     --font-secondary: 'poppins', sans-serif;
     scroll-behavior: smooth;
 
-    --color-primary: #4dcabc;
-    --color-wcag: #4dcabc; //188175
+    --color-primary: #003399;
+    --color-wcag: #0066ff; //188175
     --color-secondary: #122826;
     --color-accent: #b8651d;
     --text-color: #3a3a3a;
@@ -380,6 +380,7 @@ img:not(.no-effect):hover {
 
   .logo-container {
     flex: 1;
+    width: 340px;
   }
 
   .logo {

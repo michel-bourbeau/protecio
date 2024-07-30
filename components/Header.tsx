@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { Button, Container, Row, Col } from 'react-bootstrap';
+import Logo from '@components/svg/logo-color';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -37,19 +38,13 @@ export default function Header() {
           <Link href="/" locale={`${router.locale}`}>
             <a className="logo align-items-center">
               <span className="white-logo">
-                <Image
-                  src="/images/kairos-bg-white.png"
-                  width={256}
-                  height={128}
-                  alt={`Kairos Technologies S.A`}
-                  className="no-effect"
-                />
+                <Logo />
               </span>
 
               <span className="black-logo">
                 <Image
-                  src="/images/kairos-bg-black.png"
-                  width={256}
+                  src="/images/Prototype-01.svg"
+                  width={481}
                   height={128}
                   alt={`Kairos Technologies S.A`}
                   className="no-effect"
