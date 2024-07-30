@@ -636,13 +636,14 @@ img:not(.no-effect):hover {
   }
 
   &#ourServicesPage {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/Battery-Materials-bd.jpg) center bottom;
-    height: 30vh;
-    min-height: 500px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stock-photo-businesswoman-pressing-phone-button-company-identification-icons-concept-contact-us-2203357131.jpg) center bottom;
+    height: 10vh;
+    min-height: 200px;
     background-size: cover;
+    background-position: top;
 /*     background-attachment: fixed; */
 
-    &:before {
+/*     &:before {
       content: '';
       position: absolute;
       left: 0;
@@ -654,7 +655,7 @@ img:not(.no-effect):hover {
       background: #122826;
       z-index: 0;
       opacity: 0.3;
-    }
+    } */
   }
 }
 
@@ -758,7 +759,7 @@ a.btn {
   Contact
  **************************************/
  .contact-section {
-    margin-top: 100px;
+    border-top: 10px solid var(--color-primary)
  }
 
 .bg-success {

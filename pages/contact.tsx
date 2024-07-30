@@ -46,8 +46,8 @@ export const Contact = () => {
         }}
       />
       <Hero
-        title={t('Contact.title')}
-        description={t('Services.hero.description')}
+        title="" //{t('Contact.title')}
+        description=""
         id="ourServicesPage"
         isPage
       />
