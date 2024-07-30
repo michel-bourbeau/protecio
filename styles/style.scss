@@ -11,14 +11,15 @@ body,
 }
 @layer base {
   :root {
-    --font-default: 'levenim', sans-serif;
-    --font-secondary: 'poppins', sans-serif;
+    //font-family: 'Source Code Pro', monospace;
+    --font-default: 'Montserrat', sans-serif;
+    --font-secondary: 'Source Code Pro', monospace;
     scroll-behavior: smooth;
 
     --color-primary: #003399;
     --color-wcag: #0066ff; //188175
-    --color-secondary: #122826;
-    --color-accent: #b8651d;
+    --color-secondary: #0066ff;
+    --color-accent: #ffcc33;
     --text-color: #3a3a3a;
     --text-white: #ffffff;
     --section-bg-alt: #f8f8f8;
@@ -318,6 +319,15 @@ img:not(.no-effect):hover {
   }
 }
 
+.logo-container {
+  flex: 1;
+  width: 340px;
+}
+
+.logo-subtitle {
+  font-family: Montserrat;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -553,6 +563,7 @@ img:not(.no-effect):hover {
   font-size: 42px;
   margin-bottom: 20px;
   margin-top: 120px;
+  font-family: var(--font-secondary);
 }
 
 .hero h3 {
@@ -601,7 +612,7 @@ img:not(.no-effect):hover {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/kairos-technologies-wind-turbine-cloud-bg-desktop.jpg) center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stock-photo-ai-learning-and-business-artificial-intelligence-modern-transformation-of-ideas-and-the-adoption-2378284263.jpg) center center;
   background-color: var(--color-secondary);
   background-size: cover;
   padding: 50px 0 0 0;
@@ -694,7 +705,7 @@ img:not(.no-effect):hover {
   font-weight: 600;
 }
 .hero span {
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-shadow: 2px 2px rgba(0, 0, 0, 1);
 }
 
@@ -1249,6 +1260,9 @@ a.btn {
     .subtitle {
       margin-top: 0
     }
+  }
+  .header-top .dropdown {
+    z-index: 10
   }
 
   .navbar {

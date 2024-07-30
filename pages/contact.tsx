@@ -30,19 +30,19 @@ export const Contact = () => {
         description={t('Metadata.description')}
         canonical={`https://kairos-technologies.net/${useLocal}`}
         openGraph={{
-          url: 'https://kairos-technologies.net',
+          url: 'https://protecio.com',
           title: t('Metadata.title'),
           description: t('Metadata.description'),
           images: [
             {
-              url: 'https://kairos-technologies.net/images/banner-opengraph.jpg',
+              url: 'https://protecio.com/images/banner-opengraph.jpg',
               width: 1200,
               height: 630,
-              alt: 'Kairos Technologies - Energía Eólica y Sistemas Solares',
+              alt: 'Protecio',
               type: 'image/jpeg',
             },
           ],
-          siteName: 'Kairos Technologies S.A.',
+          siteName: 'Protecio',
         }}
       />
       <Hero

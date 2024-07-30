@@ -27,7 +27,7 @@ export default function Header() {
                 className="fa-phone"
                 style={{ marginRight: '8px', maxWidth: '16px' }}
               ></FontAwesomeIcon>
-              +505 8895 6347
+              (418) 999-9999
             </span>
           </p>
           <LanguageSelector />
@@ -40,16 +40,16 @@ export default function Header() {
               <span className="white-logo">
                 <Logo />
               </span>
-
+              {/* 
               <span className="black-logo">
                 <Image
                   src="/images/Prototype-01.svg"
                   width={481}
                   height={128}
-                  alt={`Kairos Technologies S.A`}
+                  alt={`Protecio S.A`}
                   className="no-effect"
                 />
-              </span>
+              </span> */}
             </a>
           </Link>
         </div>
@@ -62,13 +62,13 @@ export default function Header() {
             </li>
 
             <li className="footer-social-icon htop-menu-s">
-              <a
-                href="https://www.facebook.com/profile.php?id=100092708182385"
+              {/*               <a
+                href="#"
                 target="_blank"
                 aria-label={t('Index.facebookIcon')}
               >
                 <i className="fa fa-facebook-f"></i>
-              </a>
+              </a> */}
             </li>
             <li>
               <Button

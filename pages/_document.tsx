@@ -9,7 +9,11 @@ export default function Document() {
         content="width=device-width, initial-scale=1.0"
       />
       <link
-        href="https://fonts.googleapis.com/css2?family=Montserra:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet"
       />
       <link

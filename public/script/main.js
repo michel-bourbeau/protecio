@@ -20,7 +20,7 @@ if (selectHeader) {
   window.addEventListener('load', headerFixed);
   document.addEventListener('scroll', headerFixed);
 }
-
+/* 
 const scrollTop2 = document.querySelector('#header');
 if (scrollTop2) {
   const togglescrollTop = function () {
@@ -37,7 +37,7 @@ if (scrollTop2) {
       behavior: 'smooth',
     })
   );
-}
+} */
 /**
  * Navbar links active state on scroll
  */

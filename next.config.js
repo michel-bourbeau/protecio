@@ -3,15 +3,15 @@ const { i18n } = require('./next-i18next.config');
 
 module.exports = {
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'en', 'fr'],
+    defaultLocale: 'fr',
+    locales: ['en', 'fr'],
     localeDetection: true,
   },
   images: {
     domains: [
-      'kairos-technologies.net',
-      'www.kairos-technologies.net',
-      'kairos-technologies.netlify.app',
+      'protecio.com',
+      'www.protecio.com',
+      'protecio.netlify.app',
     ],
   },
   sassOptions: {

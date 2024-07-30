@@ -19,30 +19,23 @@ export default function Contact() {
       <Container className="container">
         <Row className="mb-5">
           <Col>
-            <h4>{t('Services.description')}</h4>
+            <h4>Contact Title</h4>
           </Col>
         </Row>
         <Row className="mb-5">
-          <Col md={3}>
-            <p>
-              Rivas, Nicargua.
-              <br />
-              Frente al km114 carretera a Tola
-            </p>
+          <Col md={6}>
+            <p>Adresse ici</p>
             <ul>
-              <li>+505 8895 6347</li>
-              <li>+5055 8257 6611</li>
-              <li>+505 8399 7398</li>
+              <li>(418) 999-9999</li>
             </ul>
           </Col>
-          <Col md={9}>
+          <Col md={6}>
             <Image
-              src="/images/map-rivas.jpg"
-              width={1296}
-              height={460}
-              alt={`UBICACION Kairos Technologies S.A`}
+              src="/images/stock-photo-map-of-quebec-canada-world-tourism-travel-destination-2405307165.jpg"
+              width={1500}
+              height={1225}
+              alt={`Québec, QC Canada`}
             />
-            {/*             <Map /> */}
           </Col>
         </Row>
         <Row>

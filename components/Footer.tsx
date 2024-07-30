@@ -1,6 +1,7 @@
 import { useTranslation } from 'next-i18next';
 import Link from 'next/link';
 import Image from 'next/image';
+import Logo from '@components/svg/logo-color';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -19,13 +20,7 @@ export default function Footer() {
                     href="index.html"
                     className="logo d-flex align-items-center"
                   >
-                    <Image
-                      src="/images/kairos-bg-black.png"
-                      width={256}
-                      height={128}
-                      alt={`Kairos Technologies S.A`}
-                      className="no-effect"
-                    />
+                    <Logo footer />
                   </a>
                 </div>
                 <div className="footer-text">
@@ -43,56 +38,27 @@ export default function Footer() {
                 <div className="footer-text">
                   <p>
                     <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    +505 8895 6347
-                  </p>
-                  <p>
-                    <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    +5055 82576611
-                  </p>
-                  <p>
-                    <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    +505 8399 7398
+                    (418) 999-9999
                   </p>
                   <p>
                     <i className="bi bi-envelope-fill mr-15"></i>
                     <a
-                      href={`mailto:kairostechnologiesnic@hotmail.com`}
+                      href={`mailto:support@protecio.com`}
                       className="link"
                     >
-                      kairostechnologiesnic@hotmail.com
+                      support@protecio.com
                     </a>
                   </p>
                 </div>
-                <div className="footer-social-icon">
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100092708182385"
-                    target="_blank"
-                  >
-                    <i className="fa fa-facebook-f"></i>
-                  </a>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100092708182385"
-                    target="_blank"
-                    className="link"
-                  >
-                    {t('Footer.visitFacebook')}
-                  </a>
-                </div>
+                <div className="footer-social-icon"></div>
               </div>
             </Col>
           </Row>
           <Row className="copyright-text">
             <Col md={6}>
               <p>
-                Kairos Technologies S.A. © {new Date().getFullYear()}{' '}
-                - {t('Footer.copyright')}
-              </p>
-              <p className="avanzatec">
-                {t('Footer.createdBy')}
-                {` `}
-                <Link href={`https://avanzatechnologies.com/`}>
-                  <a target="_blank">AvanzaTec</a>
-                </Link>
+                Protecio © {new Date().getFullYear()} -{' '}
+                {t('Footer.copyright')}
               </p>
             </Col>
           </Row>

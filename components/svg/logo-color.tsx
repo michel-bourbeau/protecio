@@ -1,4 +1,12 @@
-export const LogoColor = ({ context = 'SÉCURITÉ INTELLIGENTE' }) => (
+interface PropsFooter {
+  context?: string;
+  footer?: boolean;
+}
+
+export const LogoColor = ({
+  context = 'SÉCURITÉ INTELLIGENTE',
+  footer,
+}: PropsFooter) => (
   <div className="logo-container">
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,7 +14,7 @@ export const LogoColor = ({ context = 'SÉCURITÉ INTELLIGENTE' }) => (
       viewBox="0 0 960 314.5"
     >
       <g>
-        <g id="Calque_2">
+        <g id="Calque_2" fill={footer ? '#fff' : '#333'}>
           <g>
             <path d="M343.04,181.47v-93.81h28.31c6.96,0,13.04.88,18.23,2.65,5.2,1.77,9.25,4.65,12.16,8.65,2.91,4,4.36,9.44,4.36,16.3s-1.45,11.99-4.36,16.23c-2.91,4.24-6.98,7.44-12.23,9.58-5.24,2.15-11.3,3.22-18.16,3.22h-16.44v37.18h-11.87ZM354.91,134.56h15.02c8.2,0,14.28-1.57,18.23-4.72,3.95-3.15,5.93-8.01,5.93-14.59s-2-11.46-6.01-14.09c-4-2.62-10.06-3.93-18.16-3.93h-15.02v37.32Z" />
             <path d="M424.41,181.47v-69.5h9.72l1,16.44h.43c3.62-5.62,8.1-10.06,13.44-13.3,5.34-3.24,11.2-4.86,17.59-4.86,2.57,0,4.98.21,7.22.64,2.24.43,4.41,1.17,6.51,2.22l-2.72,10.15c-2.38-.86-4.43-1.48-6.15-1.86-1.72-.38-3.96-.57-6.72-.57-5.24,0-10.27,1.5-15.09,4.5-4.82,3-9.32,8.13-13.51,15.37v40.75h-11.73Z" />
@@ -20,15 +28,14 @@ export const LogoColor = ({ context = 'SÉCURITÉ INTELLIGENTE' }) => (
           <g
             id="SvgjsG1472"
             transform="matrix(0.6620540818914187,0,0,0.6620540818914187,103.87450818706138,43.16008619875298)"
-            fill="#333"
           >
             <text
               x="340"
               y="320"
-              fontFamily="Arial"
               fontSize="72"
               fontWeight="300"
-              fill="#666"
+              fill={footer ? '#aaa' : '#777'}
+              className="logo-subtitle"
             >
               {context}
             </text>

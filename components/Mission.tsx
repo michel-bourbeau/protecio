@@ -29,7 +29,7 @@ export default function Mission() {
               src="/images/kairos-technologies-mission.jpg"
               width={900}
               height={550}
-              alt={`Kairos Technologies ${t('Mission.title')}`}
+              alt={`Protecio ${t('Mission.title')}`}
             />
           </Col>
         </Row>

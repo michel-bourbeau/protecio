@@ -13,23 +13,21 @@ export default function About() {
     <section className="about">
       <Container>
         <Row>
-          <Col md={5} className="thumb" data-aos="fade-right">
+          <Col md={4} className="thumb" data-aos="fade-right">
             <Image
-              src="/images/kairos-worker-on-wind-turbine.jpeg"
-              width={807}
-              height={816}
+              src="/images/stock-photo-businessman-insurance-and-protection-concept-businessman-holding-car-model-in-hand-travel-family-2319967021.jpg"
+              width={1500}
+              height={1101}
               alt={t('About.photoAlt')}
             />
           </Col>
 
-          <Col md={7}>
+          <Col md={8}>
             <h2 className="subtitle">{t('About.title')}</h2>
 
-            <p className="large-text mt-4">{t('About.paragraph1')}</p>
-
-            <p>{t('About.paragraph2')}</p>
-
-            <p>{t('About.paragraph3')}</p>
+            <p className="large-text mt-4">
+              {t('About.description')}
+            </p>
           </Col>
         </Row>
       </Container>

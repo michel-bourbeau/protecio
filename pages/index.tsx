@@ -44,21 +44,21 @@ export const Home = () => {
               url: 'https://kairos-technologies.net/images/banner-opengraph.jpg',
               width: 1200,
               height: 630,
-              alt: 'Kairos Technologies - Energía Eólica y Sistemas Solares',
+              alt: 'Protecio - Energía Eólica y Sistemas Solares',
               type: 'image/jpeg',
             },
           ],
-          siteName: 'Kairos Technologies S.A.',
+          siteName: 'Protecio',
         }}
       />
       <Hero button />
       <About />
-      <Mission />
+      {/*       <Mission />
       <Vision />
       <Valors />
       <Objective />
       <History />
-      <Cta />
+      <Cta /> */}
     </>
   );
 };
