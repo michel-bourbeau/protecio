@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "title": "Protecio - Cybersecurity Solutions, Data Protection, and IT Governance",
-    "description": "Protecio offers innovative solutions in cybersecurity, data protection, and data governance. We provide artificial intelligence services, data masking, disaster recovery, and cybersecurity auditing. Optimize your IT operations and ensure regulatory compliance with Protecio.",
-    "keywords": "Protecio, cybersecurity, data protection, data governance, regulatory compliance, artificial intelligence, IT solutions, data masking, data classification, disaster recovery, cloud services, cybersecurity audit, virtual CIO, MS Purview, Azure, GCP, AWS, USAII AI Leader",
+    "title": "Protecio - Solutions de Cybersécurité, Protection des Données et Gouvernance TI",
+    "description": "Protecio offre des solutions innovantes en cybersécurité, protection des données, et gouvernance des données. Nous fournissons des services d'intelligence artificielle, masquage de données, reprise après sinistre, et audit de cybersécurité. Optimisez vos opérations TI et assurez la conformité réglementaire avec Protecio.O",
+    "keywords": "Protecio, cybersécurité, protection des données, gouvernance des données, conformité réglementaire, intelligence artificielle, solutions TI, masquage de données, classification des données, reprise après sinistre, services infonuagiques, audit cybersécurité, CIO virtuel, MS Purview, Azure, GCP, AWS, USAII AI Leader",
     "geoRegion": "CA-QC"
   },
   "Index": {
@@ -11,7 +11,7 @@
   },
   "Hero": {
     "title": "C’est quoi Protecio, <guidelines>comment on peut aider</guidelines>",
-    "description": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données. Notre mission est d'aider les entreprises à naviguer dans le paysage complexe de la sécurité informatique et de la conformité réglementaire, tout en optimisant leurs opérations TI et en stimulant leur croissance."
+    "description": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données. "
   },
   "About": {
     "title": "Solutions d'IA – Certifié USAII AI Leader",
