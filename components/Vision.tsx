@@ -23,11 +23,11 @@ export default function Vision() {
           <Col md={8} className="order-sm-0">
             <h2 className="subtitle">{t('Vision.title')}</h2>
             <p className="medium-text mt-4">
-              {t('Vision.description')}
+              Être un acteur de transformation de choix pour les
+              startups, les PME et les grandes organisations grâce à
+              des produits et services de haute qualité, sécuritaires,
+              efficientes et abordable.
             </p>
-            <h5 className="medium-text mt-4">
-              {t('Vision.paragraph')}
-            </h5>
           </Col>
         </Row>
       </Container>

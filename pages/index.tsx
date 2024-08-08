@@ -53,12 +53,15 @@ export const Home = () => {
       />
       <Hero button />
       <About />
-      {/*       <Mission />
+      <Mission />
       <Vision />
+      <Cta />
+      {/*      
+      
       <Valors />
       <Objective />
       <History />
-      <Cta /> */}
+       */}
     </>
   );
 };

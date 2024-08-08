@@ -17,7 +17,14 @@ export default function Mission() {
           <Col md={7}>
             <h2 className="subtitle">{t('Mission.title')}</h2>
             <p className="medium-text mt-4">
-              {t('Mission.description')}
+              Offrir des services et produits de haute qualité dans le
+              respect des meilleures pratiques en termes de TI,
+              cybersécurité et des capacités du client
+            </p>
+            <p className="medium-text mt-4">
+              Établir un modèle de partenariat flexible et
+              personnalisé pour le client, incluant le partage de
+              risques, le forfait et les services à la demande.
             </p>
           </Col>
           <Col

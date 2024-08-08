@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import { En, Es, Fr } from '@components/svg/flags';
+import { En, Fr } from '@components/svg/flags';
 
 export const LanguageSelector = () => {
   const router = useRouter();

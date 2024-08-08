@@ -17,8 +17,9 @@ body,
     scroll-behavior: smooth;
 
     --color-primary: #003399;
-    --color-wcag: #0066ff; //188175
     --color-secondary: #0066ff;
+    --color-primary-light: #d6e4ed;
+    
     --color-accent: #ffcc33;
     --text-color: #3a3a3a;
     --text-white: #ffffff;
@@ -71,30 +72,12 @@ p {
   }
 }
 
-.btn-check:checked + .btn, 
-:not(.btn-check) + .btn:active, 
-.btn:first-child:active, 
-.btn.active, 
-.btn.show {
-  color: var(--text-white);
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-}
-
-.btn:focus-visible {
-  color: var(--text-white);
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  outline: 0;
-  box-shadow: var(--color-secondary);
-}
-
 .container {
   position: relative;
 }
 
 .subtitle {
-  color: var(--color-primary);
+  color: var(--color-primary-light);
   font-weight: 600;
 }
 
@@ -102,7 +85,7 @@ p {
 .vision,
 .objective {
   .subtitle {
-    color: var(--color-wcag)
+    color: var(--color-secondary)
   }
 }
 
@@ -296,7 +279,7 @@ img:not(.no-effect):hover {
 }
 
 .header-top {
-  background: var(--color-wcag);
+  background: var(--color-secondary);
   padding: 10px 0;
   font-family: var(--font-secondary);
   width: 100%;
@@ -369,11 +352,11 @@ img:not(.no-effect):hover {
     }
 
     .logo h1 {
-      color: var(--color-wcag);
+      color: var(--color-secondary);
     }
 
     .navbar a:hover {
-      color: var(--color-wcag);
+      color: var(--color-secondary);
     }
     .navbar a{
       color: var(--light-color);
@@ -398,10 +381,10 @@ img:not(.no-effect):hover {
       font-size: 30px;
       margin: 0;
       letter-spacing: 0.8px;
-      color: var(--color-wcag);
+      color: var(--color-secondary);
 
       span {
-        color: var(--color-wcag);
+        color: var(--color-secondary);
       }
     }
 
@@ -479,7 +462,7 @@ img:not(.no-effect):hover {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: var(--color-wcag);
+    color: var(--color-secondary);
   }
 
   .navbar .dropdown ul {
@@ -516,7 +499,7 @@ img:not(.no-effect):hover {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover > a {
-    color: var(--color-wcag);
+    color: var(--color-secondary);
   }
 
   .navbar .dropdown:hover > ul {
@@ -576,7 +559,7 @@ img:not(.no-effect):hover {
 }
 
 .footer-social-icon a i {
-  background-color: var(--color-wcag);
+  background-color: var(--color-secondary);
   border-radius: 50px;
   color: var(--text-white);
   display: inline-block;
@@ -612,8 +595,8 @@ img:not(.no-effect):hover {
 .hero {
   width: 100%;
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stock-photo-ai-learning-and-business-artificial-intelligence-modern-transformation-of-ideas-and-the-adoption-2378284263.jpg) center center;
-  background-color: var(--color-secondary);
+  background: url(/images/bg-hero-desktop.jpg) center center;
+  background-color: var(--color-primary-light);
   background-size: cover;
   padding: 50px 0 0 0;
   height: 70vh;
@@ -633,29 +616,6 @@ img:not(.no-effect):hover {
     opacity: 0.6;
     z-index: 0;
     margin-top: 0;
-  }
-
-  &#ourServicesPage {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg) center bottom;
-    height: 30vh;
-    min-height: 500px;
-    background-size: cover;
-    background-position: top;
-/*     background-attachment: fixed; */
-
-/*     &:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background: #122826;
-      z-index: 0;
-      opacity: 0.3;
-    } */
   }
 }
 
@@ -684,34 +644,37 @@ img:not(.no-effect):hover {
 }
 
 .social a:hover {
-  color: var(--color-wcag);
-  border-color: var(--color-wcag);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .social i {
   font-size: 14px;
   margin: 0 2px;
-  color: var(--color-wcag);
+  color: var(--color-secondary);
 }
 .mr-20 {
   margin-right: 20px !important;
 }
 
+.hero .container .dark-bg {
+  width: 50%;
+}
+
 .hero h1 {
-  font-size: 48px;
+  font-size: 42px;
   margin-bottom: 20px;
   margin-top: 100px;
-  color: var(--light-color);
+  color: var(--text-color);
   letter-spacing: 0.7px;
   font-weight: 600;
 }
 .hero span {
-  color: var(--color-accent);
-  text-shadow: 2px 2px rgba(0, 0, 0, 1);
+  color: var(--color-secondary);
 }
 
 .hero p {
-  color: var(--text-white);
+  color: var(--text-color);
   font-weight: 400;
   margin-bottom: 30px;
   font-size: 1.25em;
@@ -727,11 +690,11 @@ a.btn {
   border: 0;
   transition: all 0.3s;
   color: var(--text-white);
-  background: var(--color-wcag);
+  background: var(--color-secondary);
 }
 
 .btn:hover {
-  background: var(--color-secondary);
+  background: var(--color-primary);
   color: var(--text-white) !important;
   position:relative;
   z-index:9999;
@@ -748,7 +711,7 @@ a.btn {
 }
 
 .services .title {
-  color: var(--color-wcag);
+  color: var(--color-secondary);
 }
 
 .services p {
@@ -955,12 +918,6 @@ a.btn {
     a {
       color: var(--color-primary);
     }
-
-    &.avanzatec {
-      color: var(--text-color);
-      font-size: .8em;
-      margin-top: 1em;
-    }
   }
 }
 
@@ -996,16 +953,16 @@ a.btn {
 }
 
 .mission {
-  background-color: var(--color-secondary);
+  background-color: #26303B;
   border-radius: 0px;
   overflow: hidden;
   position: relative;
-  background-image: url(/images/stock-photo-businesswoman-pressing-phone-button-company-identification-icons-concept-contact-us-2203357131.jpg); // BG Changed
+/*   background-image: url(/images/stock-photo-businesswoman-pressing-phone-button-company-identification-icons-concept-contact-us-2203357131.jpg); // BG Changed
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   position: relative;
 
-  &::before {
+/*   &::before {
     content: '';
     position: absolute;
     left: 0;
@@ -1017,7 +974,7 @@ a.btn {
     background: #000000;
     z-index: 0;
     opacity: 0.75;
-  }
+  } */
 
   .witr_section_title {
     position: relative;
@@ -1241,7 +1198,7 @@ a.btn {
   }
 
   .hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stock-photo-businesswoman-pressing-phone-button-company-identification-icons-concept-contact-us-2203357131.jpg) center top;
+    background: url(/images/bg-hero-mobile.jpg) center top;
     min-height: 900px;
     padding: 100px 0 50px 0;
 
@@ -1326,7 +1283,7 @@ a.btn {
     color: rgb(255 255 255);
     white-space: nowrap;
     transition: 0.3s;
-    background-color: var(--color-wcag);
+    background-color: var(--color-secondary);
   }
 
   .navbar a:hover,
@@ -1338,7 +1295,7 @@ a.btn {
   }
 
   .mobile-nav-show {
-    color: var(--color-wcag);
+    color: var(--color-secondary);
     font-size: 36px;
     cursor: pointer;
     line-height: 0;

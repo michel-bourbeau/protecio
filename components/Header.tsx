@@ -4,9 +4,8 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import LanguageSelector from '@components/LanguageSelector';
 import Link from 'next/link';
-import Image from 'next/image';
 
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import Logo from '@components/svg/logo-color';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -40,16 +39,6 @@ export default function Header() {
               <span className="white-logo">
                 <Logo />
               </span>
-              {/* 
-              <span className="black-logo">
-                <Image
-                  src="/images/Prototype-01.svg"
-                  width={481}
-                  height={128}
-                  alt={`Protecio S.A`}
-                  className="no-effect"
-                />
-              </span> */}
             </a>
           </Link>
         </div>
