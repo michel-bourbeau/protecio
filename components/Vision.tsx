@@ -12,16 +12,16 @@ export default function Vision() {
     <section className="vision">
       <Container>
         <Row>
-          <Col className="thumb" md={4} data-aos="fade-right">
+          <Col className="thumb" md={4}>
             <Image
-              src="/images/vision3.jpg"
-              width={901}
-              height={677}
-              alt={t('About.photoAlt')}
+              src="/images/our-vision.jpg"
+              width={800}
+              height={533}
+              alt="Notre Vison chez Protecio"
             />
           </Col>
-          <Col md={8} className="order-sm-0">
-            <h2 className="subtitle">{t('Vision.title')}</h2>
+          <Col md={8} className="order-sm-0" data-aos="fade-left">
+            <h2 className="subtitle">Notre vision chez Prorecio</h2>
             <p className="medium-text mt-4">
               Être un acteur de transformation de choix pour les
               startups, les PME et les grandes organisations grâce à

@@ -1,5 +1,6 @@
 import { Trans, useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
+import { Col, Container, Row } from 'react-bootstrap';
 
 interface Props {
   title?: string;
@@ -21,9 +22,13 @@ export default function Hero({
 
   return (
     <section id={id} className="hero sticked-header-offset">
-      <div className="container position-relative">
-        <div className="row gy-5">
-          <div className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left">
+      <Container className="container position-relative">
+        <Row className="row gy-5">
+          <Col
+            md={6}
+            sm={12}
+            className="dark-bg order-lg-1 d-flex flex-column justify-content-start text-left"
+          >
             <h1 data-aos="fade-down">
               <Trans
                 i18nKey={title} // optional -> fallbacks to defaults if not provided
@@ -62,9 +67,9 @@ export default function Hero({
                 </a>
               )}
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

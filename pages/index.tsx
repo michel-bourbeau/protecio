@@ -8,6 +8,8 @@ import Cta from '@components/Cta';
 import About from '@components/About';
 import Vision from '@components/Vision';
 import Mission from '@components/Mission';
+import SolutionProtectionRenseignementPersonnel from '@components/SolutionProtectionRenseignementPersonnel';
+import SolutionIA from '@components/SolutionIA';
 import History from '@components/History';
 import Objective from '@components/Objective';
 import Valors from '@components/Valors';
@@ -52,9 +54,11 @@ export const Home = () => {
         }}
       />
       <Hero button />
-      <About />
-      <Mission />
+      <SolutionIA />
+      <SolutionProtectionRenseignementPersonnel />
       <Vision />
+      <Mission />
+
       <Cta />
       {/*      
       

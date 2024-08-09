@@ -2,6 +2,7 @@
 
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Cta() {
   const { t } = useTranslation();
@@ -9,22 +10,25 @@ export default function Cta() {
 
   return (
     <section id="call-to-action" className="call-to-action">
-      <div
+      <Container
         className="container text-left align-items-center"
         data-aos="zoom-out"
       >
-        <div className="row gy-4">
-          <div className="col-lg-9">
+        <Row>
+          <Col md={8}>
             <h3>{t('Cta.title')}</h3>
             {/*  <p>{t('Cta.description')}</p> */}
-          </div>
-          <div className="col-lg-3 d-flex align-items-center">
+          </Col>
+          <Col
+            md={4}
+            className="d-flex justify-content-end d-flex align-items-center"
+          >
             <a href={`/${router.locale}/contact`} className="btn">
               {t('Cta.button')}
             </a>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
       <div id="contact" />
     </section>
   );

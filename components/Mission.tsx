@@ -14,30 +14,46 @@ export default function Mission() {
     <section className="mission">
       <Container>
         <Row>
-          <Col md={7}>
-            <h2 className="subtitle">{t('Mission.title')}</h2>
-            <p className="medium-text mt-4">
-              Offrir des services et produits de haute qualité dans le
-              respect des meilleures pratiques en termes de TI,
-              cybersécurité et des capacités du client
-            </p>
-            <p className="medium-text mt-4">
-              Établir un modèle de partenariat flexible et
-              personnalisé pour le client, incluant le partage de
-              risques, le forfait et les services à la demande.
-            </p>
-          </Col>
-          <Col
-            className="thumb hide-mobile"
-            md={5}
-            data-aos="fade-left"
-          >
-            <Image
-              src=""
-              width={900}
-              height={550}
-              alt={`Protecio ${t('Mission.title')}`}
-            />
+          <Col md={12}>
+            <h2 className="subtitle text-center">Notre mission</h2>
+            <Container>
+              <Row>
+                <Col md={6} data-aos="fade-right">
+                  <div className="flex-image">
+                    <Image
+                      src="/images/icons/success-green-check-mark-icon.svg"
+                      width={48}
+                      height={48}
+                      alt="usaii certification"
+                      className="image"
+                    />
+                    <p className="text medium-text mt-4">
+                      Offrir des services et produits de haute qualité
+                      dans le respect des meilleures pratiques en
+                      termes de TI, cybersécurité et des capacités du
+                      client
+                    </p>
+                  </div>
+                </Col>
+                <Col md={6} data-aos="fade-left">
+                  <div className="flex-image">
+                    <Image
+                      src="/images/icons/success-green-check-mark-icon.svg"
+                      width={48}
+                      height={48}
+                      alt="usaii certification"
+                      className="image"
+                    />
+                    <p className="text medium-text mt-4">
+                      Établir un modèle de partenariat flexible et
+                      personnalisé pour le client, incluant le partage
+                      de risques, le forfait et les services à la
+                      demande.
+                    </p>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>
