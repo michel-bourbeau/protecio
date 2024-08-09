@@ -10,6 +10,7 @@ import Vision from '@components/Vision';
 import Mission from '@components/Mission';
 import SolutionProtectionRenseignementPersonnel from '@components/SolutionProtectionRenseignementPersonnel';
 import SolutionIA from '@components/SolutionIA';
+import OffreServices from '@components/OffreServices';
 import History from '@components/History';
 import Objective from '@components/Objective';
 import Valors from '@components/Valors';
@@ -54,6 +55,7 @@ export const Home = () => {
         }}
       />
       <Hero button />
+      <OffreServices />
       <SolutionIA />
       <SolutionProtectionRenseignementPersonnel />
       <Vision />

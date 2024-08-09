@@ -100,7 +100,7 @@ p {
 
 .about,
 .vision,
-.objective {
+.services {
   .subtitle {
     color: var(--color-primary)
   }
@@ -1349,39 +1349,6 @@ a.btn {
 // X-Large
 @media (min-width: 1365px) {}
 
-
-.form-watt {
-  h2 {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1em
-  }
-
-  label {
-    display: inline-block;
-    padding-right: 1em;
-  }
-
-  span {
-    display: block;
-    padding: .5em
-  }
-
-  .add {
-    margin-right: 1em;
-  }
-
-  .form-elements {
-    margin: .5em 0
-  }
-
-  input {
-    margin: .5em;
-    padding: .25em
-  }
-}
-
 .solution {
   ul {
     font-size: 20px;
@@ -1396,6 +1363,7 @@ a.btn {
     }
   }
   &.ia {
+    background-color: var(--color-primary-light);
     .subtitle {
       color: var(--color-primary);
     }
@@ -1405,5 +1373,8 @@ a.btn {
     ul {
       color: #fff;
     }
+  }
+  &.services {
+    padding-top: 0;
   }
 }
