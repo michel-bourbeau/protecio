@@ -11,7 +11,7 @@ import Mission from '@components/Mission';
 import SolutionProtectionRenseignementPersonnel from '@components/SolutionProtectionRenseignementPersonnel';
 import SolutionIA from '@components/SolutionIA';
 import OffreServices from '@components/OffreServices';
-import History from '@components/History';
+import NosClient from '@components/NosClient';
 import Objective from '@components/Objective';
 import Valors from '@components/Valors';
 
@@ -60,6 +60,7 @@ export const Home = () => {
       <SolutionProtectionRenseignementPersonnel />
       <Vision />
       <Mission />
+      <NosClient />
 
       <Cta />
       {/*      

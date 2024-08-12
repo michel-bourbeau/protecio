@@ -100,7 +100,8 @@ p {
 
 .about,
 .vision,
-.services {
+.services,
+.our-clients {
   .subtitle {
     color: var(--color-primary)
   }
@@ -128,6 +129,10 @@ section {
 
   &.alt {
     background: #eee;
+  }
+
+  &#our-clients {
+    padding: 3em 0;
   }
 }
 
@@ -418,7 +423,7 @@ img:not(.no-effect):hover {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .header .logo-container {
     padding-left: 2em
   }
@@ -628,6 +633,13 @@ img:not(.no-effect):hover {
     z-index: 0;
     margin-top: 0;
   }
+
+  &#contactUs {
+    background: url(/images/bg-hero-desktop.jpg) botom right;
+    background-size: cover;
+    height: 45vh;
+    min-height: 600px;
+    }
 
   h1 {
     font-size: 42px;
@@ -1255,7 +1267,7 @@ a.btn {
       font-weight: 500;
       padding: 1em;
       font-size: 15px;
-      background-color: #00796b;
+      background-color: rgba(255,255,255,.2);
 
       &:hover {
         background: var(--color-secondary);
@@ -1268,7 +1280,7 @@ a.btn {
     inset: 0;
     padding: 5em 0 1em 0;
     margin: 0;
-    background: var(--color-secondary);
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -1377,4 +1389,9 @@ a.btn {
   &.services {
     padding-top: 0;
   }
+}
+
+.contact-form textarea {
+  overflow: auto;
+  height: 170px;
 }

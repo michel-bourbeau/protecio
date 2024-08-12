@@ -45,7 +45,7 @@ export default function Header() {
         <nav id="navbar" className="navbar d-flex">
           <ul>
             <li>
-              <a href={`/${router.locale}/services`} className="">
+              <a href={`/${router.locale}/services`}>
                 {t('Services.title')}
               </a>
             </li>

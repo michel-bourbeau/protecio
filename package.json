@@ -33,6 +33,7 @@
     "react-dom": "^18.0.0",
     "react-i18next": "^13.2.0",
     "react-mapbox-gl": "^5.1.1",
+    "react-multi-carousel": "^2.8.5",
     "react-tsparticles": "^2.12.2",
     "sass": "^1.66.1",
     "tsparticles": "2.0.6",

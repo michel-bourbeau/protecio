@@ -40,7 +40,7 @@ export default function Hero({
               <span className="circle"></span>
             </h1>
             {isPage ? (
-              <h3>
+              <p>
                 <Trans
                   i18nKey={description} // optional -> fallbacks to defaults if not provided
                   components={{
@@ -48,7 +48,7 @@ export default function Hero({
                     br: <br />,
                   }}
                 />
-              </h3>
+              </p>
             ) : (
               <p>
                 <Trans

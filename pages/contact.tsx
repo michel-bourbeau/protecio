@@ -46,9 +46,9 @@ export const Contact = () => {
         }}
       />
       <Hero
-        title="" //{t('Contact.title')}
-        description=""
-        id="ourServicesPage"
+        title="N'hésitez pas à nous écrire !" //{t('Contact.title')}
+        description="Nous serons ravis de discuter de vos besoins et de trouver ensemble la meilleure solution pour vous. Contactez-nous dès aujourd'hui et faisons avancer vos idées !"
+        id="contactUs"
         isPage
       />
       <ContactUs />
