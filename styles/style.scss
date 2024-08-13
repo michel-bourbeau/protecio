@@ -33,6 +33,7 @@ body,
 
 body {
   font-family: var(--font-default);
+  font-size: 400;
   color: var(--text-color);
   background: var(--color-primary);
 }
@@ -382,10 +383,6 @@ img:not(.no-effect):hover {
     }
     .navbar a{
       color: var(--light-color);
-    }
-  
-    .btn:hover {
-      background: var(--color-secondary);
     }
   
     .footer-social-icon a i:hover {
