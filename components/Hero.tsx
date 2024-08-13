@@ -8,6 +8,7 @@ interface Props {
   button?: boolean;
   id?: string;
   isPage?: boolean;
+  className?: string;
 }
 
 export default function Hero({
@@ -16,12 +17,16 @@ export default function Hero({
   button,
   id = 'hero',
   isPage,
+  className,
 }: Props) {
   const { t } = useTranslation();
   const router = useRouter();
 
   return (
-    <section id={id} className="hero sticked-header-offset">
+    <section
+      id={id}
+      className={`hero sticked-header-offset ${className}`}
+    >
       <Container className="container position-relative">
         <Row className="row gy-5">
           <Col

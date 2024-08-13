@@ -44,7 +44,8 @@ export const Services = () => {
       <Hero
         title="Services professionnels en infonuagique"
         description=""
-        id="ourServicesPage"
+        id="ourServices"
+        className="services"
         isPage
       />
       <ServicesProtecio />

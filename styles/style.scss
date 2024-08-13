@@ -636,7 +636,7 @@ img:not(.no-effect):hover {
     background-size: cover;
     height: 45vh;
     min-height: 600px;
-    }
+  }
 
   h1 {
     font-size: 42px;
@@ -658,6 +658,14 @@ img:not(.no-effect):hover {
     margin-bottom: 30px;
     font-size: 1.25em;
   }
+}
+
+.hero.services {
+  background: url(/images/bg-services.jpg) center center;
+  background-color: var(--color-primary-light);
+  background-size: cover;
+  height: 50vh;
+  min-height: 630px;
 }
 
 .dark-bg {
