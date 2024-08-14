@@ -15,22 +15,19 @@ export default function ServicesProtecio() {
           <Row>
             <Col md={1}></Col>
             <Col md={2} className="text-center">
-              Audit et diagnostic cybersécurité, conformité & TI
+              {t('Services.Offers.offer1')}
             </Col>
             <Col md={2} className="text-center">
-              Vision et feuille de route stratégique TI
+              {t('Services.Offers.offer2')}
             </Col>
             <Col md={2} className="text-center">
-              Gouvernance et optimisation des services infonuagique –
-              coûts et sécurité
+              {t('Services.Offers.offer3')}
             </Col>
             <Col md={2} className="text-center">
-              Intégration de solution en gouvernance de données,
-              conformité et cybersécurité
+              {t('Services.Offers.offer4')}
             </Col>
             <Col md={2} className="text-center">
-              Accompagnement en démarrage et exécution de programme TI
-              et cybersécurité
+              {t('Services.Offers.offer5')}
             </Col>
             <Col md={1}></Col>
           </Row>
@@ -48,7 +45,7 @@ export default function ServicesProtecio() {
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>Conseil stratégique</h2>
+              <h2>{t('Services.ConseilStrategique.title')}</h2>
               <ul>
                 <li>Participer ou animer les ateliers de travail</li>
                 <li>
@@ -79,7 +76,7 @@ export default function ServicesProtecio() {
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>Exploration GCP</h2>
+              <h2>{t('Services.ExplorationGCP.title')}</h2>
               <ul>
                 <li>Prise de besoins</li>
                 <li>États des lieux</li>
@@ -100,7 +97,7 @@ export default function ServicesProtecio() {
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>Framework de modernisation</h2>
+              <h2>{t('Services.FrameworkDeModernisation.title')}</h2>
               <ul>
                 <li>
                   Fermeture des centres de traitements (On-Prem vers
@@ -128,7 +125,9 @@ export default function ServicesProtecio() {
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>Mesure d’adoption de l’infonuagique</h2>
+              <h2>
+                {t('Services.MesureAdoptionInfonuagique.title')}
+              </h2>
               <ul>
                 <li>Identification des KPIs</li>
                 <li>Revision du processus</li>
@@ -152,7 +151,7 @@ export default function ServicesProtecio() {
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>FinOp</h2>
+              <h2>{t('Services.FinOp.title')}</h2>
               <ul>
                 <li>Optimiser et étendre le processus</li>
                 <li>Instaurer la culture FinOps</li>

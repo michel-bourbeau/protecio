@@ -1,99 +1,116 @@
 {
   "Metadata": {
-    "title": "Protecio - Solutions de Cybersécurité, Protection des Données et Gouvernance TI",
-    "description": "Protecio offre des solutions innovantes en cybersécurité, protection des données, et gouvernance des données. Nous fournissons des services d'intelligence artificielle, masquage de données, reprise après sinistre, et audit de cybersécurité. Optimisez vos opérations TI et assurez la conformité réglementaire avec Protecio.O",
-    "keywords": "Protecio, cybersécurité, protection des données, gouvernance des données, conformité réglementaire, intelligence artificielle, solutions TI, masquage de données, classification des données, reprise après sinistre, services infonuagiques, audit cybersécurité, CIO virtuel, MS Purview, Azure, GCP, AWS, USAII AI Leader",
+    "title": "Protecio - Cybersecurity, Data Protection and IT Governance Solutions",
+    "description": "Protecio offers innovative solutions in cybersecurity, data protection, and data governance. We provide artificial intelligence, data masking, disaster recovery, and cybersecurity audit services. Optimize your IT operations and ensure regulatory compliance with Protecio.O",
+    "keywords": "Protecio, cybersecurity, data protection, data governance, regulatory compliance, artificial intelligence, IT solutions, data masking, data classification, disaster recovery, cloud services, cybersecurity audit, virtual CIO, MS Purview, Azure, GCP, AWS, USAII AI Leader",
     "geoRegion": "CA-QC"
   },
   "Index": {
     "title": "Bienvenue chez Protecio",
     "facebookIcon": "Visitez-nous sur Facebook"
   },
+  "Header": {
+    "telephone": "(418) 999-9999"
+  },
   "Hero": {
-    "title": "C’est quoi Protecio, <guidelines>comment on peut aider</guidelines>",
-    "description": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données. "
+    "title": "What is Protecio, <guidelines>how we can help</guidelines>",
+    "description": "Protecio is a company dedicated to providing innovative solutions in privacy, cybersecurity and data governance. "
   },
-  "About": {
-    "title": "Solutions d'IA – Certifié USAII AI Leader",
-    "description": "Chez Protecio, nous proposons une gamme complète de produits et de services conçus pour répondre aux besoins variés de nos clients en matière de sécurité des données et de gestion des technologies de l'information.",
-    "photoAlt": "Image de Protecio",
-    "paragraph1": "",
-    "paragraph2": "",
-    "paragraph3": ""
+  "OffreServices": {
+    "CIO": "CIO virtual",
+    "SolutionAI": "Innovative solution with AI"
   },
-  "Mission": {
-    "title": "MISSION",
-    "description": "Misson Protecio"
+  "SolutionIA": {
+    "title": "AI Solution – USAII AI Leader Certified",
+    "services": "<ul><li>For Growth</li><li>For Finance</li><li>For IT Services</li></ul>"
+  },
+  "SolutionProtectionRenseignementPersonnel": {
+    "title": "Solution for the protection of personal information (law 25)",
+    "services": "<ul><li>Data masking solution<ul><li>Datamask on Google Chrome MS Purview classification solution</li><li>Accelerator MS Purview data leak solution</li><li>Accelerator Azure, GCP and AWS disaster recovery solution</li></ul></li></ul>"
   },
   "Vision": {
-    "title": "VISION",
-    "description": "Description",
-    "paragraph": "Paragraphe"
-  },
-  "History": {
-    "title": "HISTOIRE",
-    "description": "Description",
-    "paragraph": "Paragraphe"
-  },
-  "Objective": {
-    "title": "OBJECTIF DE L'ENTREPRISE",
-    "paragraph1": "Utiliser l'expérience acquise depuis 2010 pour fournir les services nécessaires et être le partenaire idéal pour offrir les solutions les plus viables à chaque client.",
-    "paragraph2": "Offrir des services spécialisés aux grandes marques de l'industrie éolienne et faire la promotion de notre travail partout où cela est nécessaire.",
-    "paragraph3": "Promouvoir le développement durable de l'industrie énergétique sur la base de ressources renouvelables."
+    "title": "Our vision at Protecio",
+    "description": "To be a transformation player of choice for startups, SMEs and large organizations through high-quality, secure, efficient and affordable products and services."
   },
   "Cta": {
-    "title": "Si vous avez des questions ou besoin d'aide, à tout moment",
+    "title": "If you have any questions or need help, at any time",
     "description": "(418) 999-9999",
-    "button": "Nous contacter"
+    "button": "Contact Us"
   },
   "Footer": {
-    "copyright": "Tous droits réservés",
-    "infos": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données.",
-    "createdBy": "Site web créé par",
-    "visitFacebook": "Visitez-nous sur Facebook"
+    "copyright": "All rights reserved",
+    "infos": "Protecio is a company dedicated to providing innovative solutions in privacy, cybersecurity and data governance.",
+    "createdBy": "Website created by",
+    "visitFacebook": "Visit us on Facebook"
   },
   "Services": {
-    "title": "Nos services",
+    "title": "Our Services",
     "description": "Description",
     "hero": {
-      "title": "Nos Services",
-      "description": "Solution d’IA – <guidelines>Certifié USAII AI Leader</guidelines>, CIO virtuel et Solution innovante avec AI"
+      "title": "Cloud <guidelines>Professional</guidelines> Services",
+      "description": "Strategic Consulting, GCP Exploration, Modernization Framework, Cloud Adoption Measurement, FinOp"
+    },
+    "Offers": {
+      "offer1": "Cybersecurity, compliance & IT audit and diagnosis",
+      "offer2": "IT vision and strategic roadmap",
+      "offer3": "Governance and optimization of cloud services – costs and security",
+      "offer4": "Integration of data governance, compliance and cybersecurity solutions",
+      "offer5": "Support for start-up and execution of IT and cybersecurity programs"
+    },
+    "ConseilStratégique": {
+      "title": "Strategic Consulting"
+    },
+    "ExplorationGCP": {
+      "title": "GCP Exploration"
+    },
+    "FrameworkDeModernisation": {
+      "title": "Modernization Framewor"
+    },
+    "MesureAdoptionInfonuagique": {
+      "title": "Cloud Adoption Measurement"
+    },
+    "FinOp": {
+      "title": "FinOp"
     }
+  },
+  "Mission": {
+    "title": "Our mission",
+    "mission1": "To offer high-quality services and products in compliance with best practices in terms of IT, cybersecurity and the client's capabilities",
+    "mission2": "To establish a flexible and personalized partnership model for the client, including risk sharing, fixed price and on-demand services."
+  },
+  "NosClient": {
+    "title": "Our Clients"
   },
   "Contact": {
-    "title": "Contactez-nous",
+    "hero": {
+      "title": "Feel free to write to us!",
+      "description": "We will be happy to discuss your needs and find the best solution for you together. Contact us today and let's move your ideas forward!"
+    },
+    "title": "Contact us",
     "description": "Description",
-    "mailsubject": "À propos",
-    "getintouch": "Nous contacter",
+    "mailsubject": "Anout",
+    "getintouch": "Contact us",
     "form": {
       "fields": {
-        "name": "Nom complet",
-        "email": "Courriel",
-        "subject": "Sujet",
-        "message": "Écrivez votre message"
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Write your message"
       },
-      "errors": {
-        "name": "Le nom est requis.",
-        "email": "Une adresse e-mail valide est requise.",
-        "subject": "Le sujet est obligatoire.",
-        "message": "S'il vous plaît, laissez-nous un message."
+        "errors": {
+        "name": "Name is required.",
+        "email": "A valid email address is required.",
+        "subject": "Subject is required.",
+        "message": "Please leave us a message."
       },
-      "button": "Envoyer le message",
-      "thanks": "Merci! Votre message a été envoyé."
-    }
+        "button": "Send message",
+        "thanks": "Thank you! Your message has been sent."
+      }
   },
   "Success": {
-    "title": "Merci !",
-    "description": "Nous avons bien reçu votre demande d'informations sur nos services. Notre équipe traitera votre demande dès que possible et vous contactera dans les plus brefs délais.",
-    "infos": "Si vous avez d'autres questions ou besoins, vous pouvez nous contacter directement par e-mail à support@protecio.com ou par téléphone au (418) 999-9999.",
-    "button": "Retour à la page d'accueil"
-  },
-  "UnderConstruction": "Cette page est en construction",
-  "Valors": {
-    "title": "VALEURS",
-    "valor1": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor2": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor3": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor4": "<title>Valeur</title><paragraph>Paragraph</paragraph>"
+    "title": "Thank you!",
+    "description": "We have received your request for information about our services. Our team will process your request as soon as possible and contact you as soon as possible.",
+    "info": "If you have any other questions or needs, you can contact us directly by email at support@protecio.com or by phone at (418) 999-9999.",
+    "button": "Back to home page"
   }
 }

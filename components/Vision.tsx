@@ -21,12 +21,9 @@ export default function Vision() {
             />
           </Col>
           <Col md={8} className="order-sm-0" data-aos="fade-left">
-            <h2 className="subtitle">Notre vision chez Prorecio</h2>
+            <h2 className="subtitle">{t('Vision.title')}</h2>
             <p className="medium-text mt-4">
-              Être un acteur de transformation de choix pour les
-              startups, les PME et les grandes organisations grâce à
-              des produits et services de haute qualité, sécuritaires,
-              efficientes et abordable.
+              {t('Vision.description')}
             </p>
           </Col>
         </Row>

@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { useTranslation } from 'next-i18next';
+import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -49,9 +52,13 @@ const responsive = {
 };
 
 const NosClient = (props: any) => {
+  const { t } = useTranslation();
+
   return (
     <section className="our-clients">
-      <h2 className="subtitle text-center mb-5">Nos clients</h2>
+      <h2 className="subtitle text-center mb-5">
+        {t('NosClient.title')}
+      </h2>
       <Container>
         <Row className="justify-content-center">
           <Col xs={10} md={10} lg={10} className="text-center">
@@ -78,7 +85,7 @@ const NosClient = (props: any) => {
                   <img
                     className="d-block w-100"
                     src={client.logo}
-                    alt={`Logo de ${client.name}`}
+                    alt={client.name}
                     style={{
                       maxHeight: '250px',
                       objectFit: 'contain',

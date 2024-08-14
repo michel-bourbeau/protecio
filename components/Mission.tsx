@@ -15,7 +15,9 @@ export default function Mission() {
       <Container>
         <Row>
           <Col md={12}>
-            <h2 className="subtitle text-center">Notre mission</h2>
+            <h2 className="subtitle text-center">
+              {t('Mission.title')}
+            </h2>
             <Container>
               <Row>
                 <Col md={6} data-aos="fade-right">
@@ -28,10 +30,7 @@ export default function Mission() {
                       className="image"
                     />
                     <p className="text medium-text mt-4">
-                      Offrir des services et produits de haute qualité
-                      dans le respect des meilleures pratiques en
-                      termes de TI, cybersécurité et des capacités du
-                      client
+                      {t('Mission.mission1')}
                     </p>
                   </div>
                 </Col>
@@ -45,10 +44,7 @@ export default function Mission() {
                       className="image"
                     />
                     <p className="text medium-text mt-4">
-                      Établir un modèle de partenariat flexible et
-                      personnalisé pour le client, incluant le partage
-                      de risques, le forfait et les services à la
-                      demande.
+                      {t('Mission.mission2')}
                     </p>
                   </div>
                 </Col>

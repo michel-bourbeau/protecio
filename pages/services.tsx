@@ -42,8 +42,8 @@ export const Services = () => {
         }}
       />
       <Hero
-        title="Services professionnels en infonuagique"
-        description=""
+        title={t('Services.hero.title')}
+        description={t('Services.hero.description')}
         id="ourServices"
         className="services"
         isPage

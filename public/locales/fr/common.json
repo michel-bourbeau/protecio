@@ -9,37 +9,28 @@
     "title": "Bienvenue chez Protecio",
     "facebookIcon": "Visitez-nous sur Facebook"
   },
+  "Header": {
+    "telephone": "(418) 999-9999"
+  },
   "Hero": {
     "title": "C’est quoi Protecio, <guidelines>comment on peut aider</guidelines>",
     "description": "Protecio est une entreprise dédiée à offrir des solutions innovantes en matière de protection des renseignements personnels, de cybersécurité et de gouvernance des données. "
   },
-  "About": {
-    "title": "Solutions d'IA – Certifié USAII AI Leader",
-    "description": "Chez Protecio, nous proposons une gamme complète de produits et de services conçus pour répondre aux besoins variés de nos clients en matière de sécurité des données et de gestion des technologies de l'information.",
-    "photoAlt": "Image de Protecio",
-    "paragraph1": "",
-    "paragraph2": "",
-    "paragraph3": ""
+  "OffreServices": {
+    "CIO": "CIO virtuel",
+    "SolutionAI": "Solution innovante avec AI"
   },
-  "Mission": {
-    "title": "MISSION",
-    "description": "Misson Protecio"
+  "SolutionIA": {
+    "title": "Solution d’IA – Certifié USAII AI Leader",
+    "services": "<ul><li>Pour la croissance</li><li>Pour la finance</li><li>Pour les services TI</li></ul>"
+  },
+  "SolutionProtectionRenseignementPersonnel": {
+    "title": "Solution pour la protection des renseignements personnels (loi 25)",
+    "services": "<ul><li>Solution de masquage de données<ul><li>Datamask sur Google Chrome Solution de classification MS Purview</li><li>Accélérateur Solution contre la fuite de données MS Purview</li><li>Accélérateur Solution de reprise après sinistre Azure, GCP et AWS</li></ul></li></ul>"
   },
   "Vision": {
-    "title": "VISION",
-    "description": "Description",
-    "paragraph": "Paragraphe"
-  },
-  "History": {
-    "title": "HISTOIRE",
-    "description": "Description",
-    "paragraph": "Paragraphe"
-  },
-  "Objective": {
-    "title": "OBJECTIF DE L'ENTREPRISE",
-    "paragraph1": "Utiliser l'expérience acquise depuis 2010 pour fournir les services nécessaires et être le partenaire idéal pour offrir les solutions les plus viables à chaque client.",
-    "paragraph2": "Offrir des services spécialisés aux grandes marques de l'industrie éolienne et faire la promotion de notre travail partout où cela est nécessaire.",
-    "paragraph3": "Promouvoir le développement durable de l'industrie énergétique sur la base de ressources renouvelables."
+    "title": "Notre vision chez Protecio",
+    "description": "Être un acteur de transformation de choix pour les startups, les PME et les grandes organisations grâce à des produits et services de haute qualité, sécuritaires, efficientes et abordable."
   },
   "Cta": {
     "title": "Si vous avez des questions ou besoin d'aide, à tout moment",
@@ -56,11 +47,45 @@
     "title": "Nos services",
     "description": "Description",
     "hero": {
-      "title": "Nos Services",
-      "description": "Solution d’IA – <guidelines>Certifié USAII AI Leader</guidelines>, CIO virtuel et Solution innovante avec AI"
+      "title": "Services <guidelines>professionnels</guidelines> en infonuagique",
+      "description": "Conseil stratégique, Exploration GCP, Framework de modernisation, Mesure d’adoption de l’infonuagique, FinOp"
+    },
+    "Offres": {
+      "offre1": "Audit et diagnostic cybersécurité, conformité & TI",
+      "offre2": "Vision et feuille de route stratégique TI",
+      "offre3": "Gouvernance et optimisation des services infonuagique – coûts et sécurité",
+      "offre4": "Intégration de solution en gouvernance de données, conformité et cybersécurité",
+      "offre5": "Accompagnement en démarrage et exécution de programme TI et cybersécurité"
+    },
+    "ConseilStrategique": {
+      "title": "Conseil stratégique"
+    },
+    "ExplorationGCP": {
+      "title": "Exploration GCP"
+    },
+    "FrameworkDeModernisation": {
+      "title": "Framework de modernisation"
+    },
+    "MesureAdoptionInfonuagique": {
+      "title": "Mesure d’adoption de l’infonuagique"
+    },
+    "FinOp": {
+      "title": "FinOp"
     }
   },
+  "Mission": {
+    "title": "Notre mission",
+    "mission1": "Offrir des services et produits de haute qualité dans le respect des meilleures pratiques en termes de TI, cybersécurité et des capacités du client",
+    "mission2": "Établir un modèle de partenariat flexible et personnalisé pour le client, incluant le partage de risques, le forfait et les services à la demande."
+  },
+  "NosClient": {
+    "title": "Nos Clients"
+  },
   "Contact": {
+    "hero": {
+      "title": "N'hésitez pas à nous écrire !",
+      "description": "Nous serons ravis de discuter de vos besoins et de trouver ensemble la meilleure solution pour vous. Contactez-nous dès aujourd'hui et faisons avancer vos idées !"
+    },
     "title": "Contactez-nous",
     "description": "Description",
     "mailsubject": "À propos",
@@ -87,13 +112,5 @@
     "description": "Nous avons bien reçu votre demande d'informations sur nos services. Notre équipe traitera votre demande dès que possible et vous contactera dans les plus brefs délais.",
     "infos": "Si vous avez d'autres questions ou besoins, vous pouvez nous contacter directement par e-mail à support@protecio.com ou par téléphone au (418) 999-9999.",
     "button": "Retour à la page d'accueil"
-  },
-  "UnderConstruction": "Cette page est en construction",
-  "Valors": {
-    "title": "VALEURS",
-    "valor1": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor2": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor3": "<title>Valeur</title><paragraph>Paragraph</paragraph>",
-    "valor4": "<title>Valeur</title><paragraph>Paragraph</paragraph>"
   }
 }

@@ -8,8 +8,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-type PropsContact = { hideTitle?: boolean };
-
 export default function Contact() {
   const { t } = useTranslation();
 
@@ -22,7 +20,7 @@ export default function Contact() {
               src="/images/contact-us.jpg"
               width={825}
               height={550}
-              alt="Contactez-nous"
+              alt={t('Contact.title')}
             />
           </Col>
           <Col md={8}>

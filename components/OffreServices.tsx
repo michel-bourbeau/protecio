@@ -13,23 +13,25 @@ export default function OffreServices() {
       <Container>
         <Row>
           <Col className="p-5" md={6} data-aos="fade-right">
-            <h3 className="subtitle mt-4 mb-4">CIO virtuel</h3>
+            <h3 className="subtitle mt-4 mb-4">
+              {t('OffreServices.CIO')}
+            </h3>
             <Image
               src="/images/cio-virtual.jpg"
               width={800}
               height={532}
-              alt="cio virueln"
+              alt={t('OffreServices.CIO')}
             />
           </Col>
           <Col md={6} className="p-5" data-aos="fade-left">
             <h3 className="subtitle mt-4 mb-4">
-              Solution innovante avec AI
+              {t('OffreServices.SolutionAI')}
             </h3>
             <Image
               src="/images/solution-ai.jpg"
               width={800}
               height={533}
-              alt="solution ai"
+              alt={t('OffreServices.SolutionAI')}
             />
           </Col>
         </Row>

@@ -26,7 +26,7 @@ export default function Header() {
                 className="fa-phone"
                 style={{ marginRight: '8px', maxWidth: '16px' }}
               ></FontAwesomeIcon>
-              (418) 999-9999
+              {t('Header.telephone')}
             </span>
           </p>
           <LanguageSelector />

@@ -1,4 +1,4 @@
-import { useTranslation } from 'next-i18next';
+import { Trans, useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
 import Container from 'react-bootstrap/Container';
@@ -14,28 +14,17 @@ export default function SolutionProtectionRenseignementPersonnel() {
         <Row>
           <Col md={9} data-aos="fade-right">
             <h2 className="subtitle mb-4">
-              Solution pour la protection des renseignements
-              personnels (loi 25)
+              {t('SolutionProtectionRenseignementPersonnel.title')}
             </h2>
-            <ul>
-              <li>
-                Solution de masquage de données
-                <ul>
-                  <li>
-                    Datamask sur Google Chrome Solution de
-                    classification MS Purview
-                  </li>
-                  <li>
-                    Accélérateur Solution contre la fuite de données
-                    MS Purview
-                  </li>
-                  <li>
-                    Accélérateur Solution de reprise après sinistre
-                    Azure, GCP et AWS
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <Trans
+              i18nKey={t(
+                'SolutionProtectionRenseignementPersonnel.services'
+              )} // optional -> fallbacks to defaults if not provided
+              components={{
+                ul: <ul />,
+                li: <li />,
+              }}
+            />
           </Col>
           <Col md={3}>
             <Image
