@@ -37,7 +37,7 @@ export default function Header() {
           <Link href="/" locale={`${router.locale}`}>
             <a className="logo align-items-center">
               <span className="white-logo">
-                <Logo />
+                <Logo context={t('Logo')} />
               </span>
             </a>
           </Link>
