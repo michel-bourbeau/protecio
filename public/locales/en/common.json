@@ -51,12 +51,12 @@
       "title": "Cloud <guidelines>Professional</guidelines> Services",
       "description": "Strategic Consulting, GCP Exploration, Modernization Framework, Cloud Adoption Measurement, FinOp"
     },
-    "Offers": {
-      "offer1": "Cybersecurity, compliance & IT audit and diagnosis",
-      "offer2": "IT vision and strategic roadmap",
-      "offer3": "Governance and optimization of cloud services – costs and security",
-      "offer4": "Integration of data governance, compliance and cybersecurity solutions",
-      "offer5": "Support for start-up and execution of IT and cybersecurity programs"
+    "Offres": {
+      "offre1": "Cybersecurity, compliance & IT audit and diagnosis",
+      "offre2": "IT vision and strategic roadmap",
+      "offre3": "Governance and optimization of cloud services – costs and security",
+      "offre4": "Integration of data governance, compliance and cybersecurity solutions",
+      "offre5": "Support for start-up and execution of IT and cybersecurity programs"
     },
     "ConseilStratégique": {
       "title": "Strategic Consulting"

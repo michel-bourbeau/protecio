@@ -5,6 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import IconDiagnostic from '@components/svg/services/icon-diagnostic';
+
 export default function ServicesProtecio() {
   const { t } = useTranslation();
 
@@ -15,19 +17,20 @@ export default function ServicesProtecio() {
           <Row>
             <Col md={1}></Col>
             <Col md={2} className="text-center">
-              {t('Services.Offers.offer1')}
+              <IconDiagnostic />
+              {t('Services.Offres.offre1')}
             </Col>
             <Col md={2} className="text-center">
-              {t('Services.Offers.offer2')}
+              {t('Services.Offres.offre2')}
             </Col>
             <Col md={2} className="text-center">
-              {t('Services.Offers.offer3')}
+              {t('Services.Offres.offre3')}
             </Col>
             <Col md={2} className="text-center">
-              {t('Services.Offers.offer4')}
+              {t('Services.Offres.offre4')}
             </Col>
             <Col md={2} className="text-center">
-              {t('Services.Offers.offer5')}
+              {t('Services.Offres.offre5')}
             </Col>
             <Col md={1}></Col>
           </Row>
