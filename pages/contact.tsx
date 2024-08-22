@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { NextSeo, RecipeJsonLd } from 'next-seo';
+import { NextSeo } from 'next-seo';
 import { useRouter } from 'next/router';
 
 import Hero from '@components/Hero';

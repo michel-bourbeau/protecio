@@ -37,11 +37,12 @@ export default function Footer() {
                 </div>
                 <div className="footer-text">
                   <p>
-                    <i className="bi bi-envelope-fill mr-15"></i>
                     <a
                       href={`mailto:info@protecio.com`}
                       className="link"
+                      target="_blank"
                     >
+                      <i className="bi bi-envelope-fill mr-15"></i>
                       info@protecio.com
                     </a>
                   </p>

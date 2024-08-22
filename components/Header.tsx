@@ -20,14 +20,20 @@ export default function Header() {
       <div className="header-top">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <p>
-            <span className="telephone">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="fa-phone"
-                style={{ marginRight: '8px', maxWidth: '16px' }}
-              ></FontAwesomeIcon>
-              info@protecio.com
-            </span>
+            <a
+              href={`mailto:info@protecio.com`}
+              className="link"
+              target="_blank"
+            >
+              <span className="telephone">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="fa-phone"
+                  style={{ marginRight: '8px', maxWidth: '16px' }}
+                ></FontAwesomeIcon>
+                info@protecio.com
+              </span>
+            </a>
           </p>
           <LanguageSelector />
         </div>

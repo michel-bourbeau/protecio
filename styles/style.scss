@@ -20,7 +20,7 @@ body,
     --color-secondary: #0066ff;
     --color-primary-light: #EFF6F9;
     
-    --color-accent: #ffcc33;
+    --color-accent: #bfb266;
     --text-color: #3a3a3a;
     --text-white: #ffffff;
     --section-bg-alt: #f8f8f8;
@@ -329,7 +329,7 @@ img:not(.no-effect):hover {
   }
 
   a:not(.dropdown-item) {
-    color: #333
+    color: #fff
   }
 }
 
@@ -643,7 +643,7 @@ img:not(.no-effect):hover {
     background: url(/images/bg-hero-desktop.jpg) botom right;
     background-size: cover;
     height: 45vh;
-    min-height: 600px;
+    min-height: 680px;
   }
 
   h1 {
@@ -832,9 +832,10 @@ a.btn {
     color: var(--light-color);
     font-size: 16px;
     letter-spacing: -.25px;
+    transition: all .25s ease-in-out;
 
     &:hover {
-      color: var(--color-primary);
+      color: var(--color-accent);
     }
   }
 }

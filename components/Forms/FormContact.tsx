@@ -93,8 +93,14 @@ export default function Contact({ hideTitle = false }: PropsContact) {
         >
           <input type="hidden" name="form-name" value="contact" />
 
-          <Row className="mb-3">
-            <Group as={Col} controlId="formGridFullName">
+          <Row>
+            <Group
+              as={Col}
+              md={6}
+              sm={12}
+              controlId="formGridFullName"
+              className="mb-3"
+            >
               <Control
                 required
                 type="text"
@@ -108,7 +114,13 @@ export default function Contact({ hideTitle = false }: PropsContact) {
               </Feedback>
             </Group>
 
-            <Group as={Col} controlId="formGridEmail">
+            <Group
+              as={Col}
+              controlId="formGridEmail"
+              md={6}
+              sm={12}
+              className="mb-3"
+            >
               <Control
                 required
                 type="email"
