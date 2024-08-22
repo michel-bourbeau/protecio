@@ -37,16 +37,12 @@ export default function Footer() {
                 </div>
                 <div className="footer-text">
                   <p>
-                    <i className="bi bi-telephone-inbound-fill mr-15"></i>
-                    (418) 999-9999
-                  </p>
-                  <p>
                     <i className="bi bi-envelope-fill mr-15"></i>
                     <a
-                      href={`mailto:support@protecio.com`}
+                      href={`mailto:info@protecio.com`}
                       className="link"
                     >
-                      support@protecio.com
+                      info@protecio.com
                     </a>
                   </p>
                 </div>

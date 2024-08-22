@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 import Logo from '@components/svg/logo-color';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header() {
   const { t } = useTranslation();
@@ -22,11 +22,11 @@ export default function Header() {
           <p>
             <span className="telephone">
               <FontAwesomeIcon
-                icon={faPhone}
+                icon={faEnvelope}
                 className="fa-phone"
                 style={{ marginRight: '8px', maxWidth: '16px' }}
               ></FontAwesomeIcon>
-              {t('Header.telephone')}
+              info@protecio.com
             </span>
           </p>
           <LanguageSelector />
