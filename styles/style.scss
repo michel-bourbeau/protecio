@@ -18,7 +18,7 @@ body,
 
     --color-primary: #003399;
     --color-secondary: #0066ff;
-    --color-primary-light: #d6e4ed;
+    --color-primary-light: #EFF6F9;
     
     --color-accent: #ffcc33;
     --text-color: #3a3a3a;
@@ -113,7 +113,7 @@ p {
 }
 
 .text-medium {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .hide-on-mobile {
@@ -129,7 +129,15 @@ section {
   background: var(--light-color);
 
   &.alt {
-    background: #eee;
+    background: var(--color-primary-light);
+  }
+
+  &.small-padding  {
+    padding: 3em 0
+  }
+
+  &.no-padding  {
+    padding: 0
   }
 
   &#our-clients {
@@ -1117,22 +1125,46 @@ a.btn {
   }
 
   section {
-    padding: 3em 0;
+    padding: 3em 24px;
   }
 
   .topbar .contact-info i {
     a, span {
       font-size: 13px;
     }
+  }
 
+  .mission {
+    background: url(/images/our-mission.webp) center right;
+    background-size: cover;
+    position: relative;
   }
 
   .logo-container {
-    max-width: 280px;
+    max-width: 220px;
   }
 
   .header-top {
     font-size: .8rem;
+  }
+}
+
+.footer-section  {
+  padding: 0 24px
+}
+
+.call-to-action {
+
+  h3 {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+  }
+  
+  a.btn-cta {
+    display: block;
+    margin: 0 auto;
+    height: 48px
   }
 }
 
@@ -1224,8 +1256,8 @@ a.btn {
   .hero {
     background: url(/images/bg-hero-mobile.jpg) center center;
     background-size: cover;
-    min-height: 700px;
-    padding: 50px 0;
+    min-height: 830px;
+    padding: 150px 0;
 
     h1 {
       font-size: 36px;

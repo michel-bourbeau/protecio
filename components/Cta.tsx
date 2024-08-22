@@ -23,7 +23,10 @@ export default function Cta() {
             md={4}
             className="d-flex justify-content-end d-flex align-items-center"
           >
-            <a href={`/${router.locale}/contact`} className="btn">
+            <a
+              href={`/${router.locale}/contact`}
+              className="btn btn-cta"
+            >
               {t('Cta.button')}
             </a>
           </Col>

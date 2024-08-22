@@ -5,50 +5,95 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import IconDiagnostic from '@components/svg/services/icon-diagnostic';
-
 export default function ServicesProtecio() {
   const { t } = useTranslation();
 
   return (
     <>
-      <section className="alt">
+      <section className="alt small-padding">
         <Container>
           <Row>
-            <Col md={1}></Col>
-            <Col md={2} className="text-center">
-              <IconDiagnostic />
-              {t('Services.Offres.offre1')}
+            <Col md={12} className="text-center mb-4">
+              <h2>Notre offre</h2>
             </Col>
-            <Col md={2} className="text-center">
-              {t('Services.Offres.offre2')}
+          </Row>
+          <Row>
+            <Col md={4} className="text-center p-5">
+              <Image
+                src="/images/icons/audit-diagnostique-cybersecurite.png"
+                width="128"
+                height="128"
+                alt="Audit et diagnostic cybersécurité, conformité & TI"
+              />
+              <p className="text-medium">
+                {t('Services.Offres.offre1')}
+              </p>
             </Col>
-            <Col md={2} className="text-center">
-              {t('Services.Offres.offre3')}
+            <Col md={4} className="text-center p-5">
+              <Image
+                src="/images/icons/vision-feuille-route-strategique-ti.png"
+                width="128"
+                height="128"
+                alt="Vision et feuille de route stratégique TI"
+              />
+              <p className="text-medium">
+                {t('Services.Offres.offre2')}
+              </p>
             </Col>
-            <Col md={2} className="text-center">
-              {t('Services.Offres.offre4')}
+            <Col md={4} className="text-center p-5">
+              <Image
+                src="/images/icons/gouvernance-optimisation-infonuagique.png"
+                width="128"
+                height="128"
+                alt="Gouvernance et optimisation des services infonuagique – coûts et sécurité"
+              />
+              <p className="text-medium">
+                {t('Services.Offres.offre3')}
+              </p>
             </Col>
-            <Col md={2} className="text-center">
-              {t('Services.Offres.offre5')}
+            <Col md={6} className="text-center p-5">
+              <Image
+                src="/images/icons/integration-solution-cybersecurite.png"
+                width="128"
+                height="128"
+                alt="Intégration de solution en gouvernance de données, conformité et cybersécurité"
+              />
+              <p className="text-medium">
+                {t('Services.Offres.offre4')}
+              </p>
             </Col>
-            <Col md={1}></Col>
+            <Col md={6} className="text-center p-5">
+              <Image
+                src="/images/icons/accompagnement-demarrage-programmation-ti-cybersecurite.png"
+                width="128"
+                height="128"
+                alt="Accompagnement en démarrage et exécution de programme TI et cybersécurité"
+              />
+              <p className="text-medium">
+                {t('Services.Offres.offre5')}
+              </p>
+            </Col>
           </Row>
         </Container>
       </section>
-      <section>
+      <section className="small-padding">
         <Container>
           <Row>
-            <Col md={3} className="text-center mb-4 thumb">
+            <Col md={12} className="text-center mb-4">
+              <h1>Services professionnels en infonuagique</h1>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={3} className="text-center mb-4">
               <Image
-                src="/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg"
-                width={1500}
-                height={1102}
-                alt="Image Services"
+                src="/images/conseils-strategique.jpg"
+                width={500}
+                height={400}
+                alt={t('Services.ConseilStrategique.title')}
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>{t('Services.ConseilStrategique.title')}</h2>
+              <h4>{t('Services.ConseilStrategique.title')}</h4>
               <ul>
                 <li>Participer ou animer les ateliers de travail</li>
                 <li>
@@ -70,16 +115,16 @@ export default function ServicesProtecio() {
             </Col>
           </Row>
           <Row>
-            <Col md={3} className="text-center mb-4 thumb">
+            <Col md={3} className="text-center mb-4">
               <Image
-                src="/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg"
-                width={1500}
-                height={1102}
-                alt="Image Services"
+                src="/images/exploration-cgp.jpg"
+                width={500}
+                height={400}
+                alt="Exploration Google Cloud Platform"
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>{t('Services.ExplorationGCP.title')}</h2>
+              <h4>{t('Services.ExplorationGCP.title')}</h4>
               <ul>
                 <li>Prise de besoins</li>
                 <li>États des lieux</li>
@@ -91,16 +136,16 @@ export default function ServicesProtecio() {
             </Col>
           </Row>
           <Row>
-            <Col md={3} className="text-center mb-4 thumb">
+            <Col md={3} className="text-center mb-4">
               <Image
-                src="/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg"
-                width={1500}
-                height={1102}
-                alt="Image Services"
+                src="/images/framework-de-modernisation.jpg"
+                width={500}
+                height={400}
+                alt={t('Services.FrameworkDeModernisation.title')}
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>{t('Services.FrameworkDeModernisation.title')}</h2>
+              <h4>{t('Services.FrameworkDeModernisation.title')}</h4>
               <ul>
                 <li>
                   Fermeture des centres de traitements (On-Prem vers
@@ -119,18 +164,18 @@ export default function ServicesProtecio() {
             </Col>
           </Row>
           <Row>
-            <Col md={3} className="text-center mb-4 thumb">
+            <Col md={3} className="text-center mb-4">
               <Image
-                src="/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg"
-                width={1500}
-                height={1102}
-                alt="Image Services"
+                src="/images/mesure-adoption-de-infonuagique.jpg"
+                width={500}
+                height={400}
+                alt={t('Services.MesureAdoptionInfonuagique.title')}
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>
+              <h4>
                 {t('Services.MesureAdoptionInfonuagique.title')}
-              </h2>
+              </h4>
               <ul>
                 <li>Identification des KPIs</li>
                 <li>Revision du processus</li>
@@ -145,16 +190,16 @@ export default function ServicesProtecio() {
             </Col>
           </Row>
           <Row>
-            <Col md={3} className="text-center mb-4 thumb">
+            <Col md={3} className="text-center mb-4">
               <Image
-                src="/images/stock-photo-online-survey-digital-questionnaire-feedback-and-assess-customer-satisfaction-for-business-2370348031.jpg"
-                width={1500}
-                height={1102}
-                alt="Image Services"
+                src="/images/finops.jpg"
+                width={500}
+                height={400}
+                alt={t('Services.FinOp.title')}
               />
             </Col>
             <Col md={9} className="text-left">
-              <h2>{t('Services.FinOp.title')}</h2>
+              <h4>{t('Services.FinOp.title')}</h4>
               <ul>
                 <li>Optimiser et étendre le processus</li>
                 <li>Instaurer la culture FinOps</li>

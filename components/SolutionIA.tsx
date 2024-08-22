@@ -11,8 +11,8 @@ export default function SolutionIA() {
   return (
     <section className="solution ia">
       <Container>
-        <Row>
-          <Col md={3}>
+        <Row className="d-flex">
+          <Col md={3} className="pb-4">
             <Image
               src="/images/usaii-certification.jpg"
               width={600}
@@ -20,7 +20,7 @@ export default function SolutionIA() {
               alt="usaii certification"
             />
           </Col>
-          <Col md={9} data-aos="fade-left">
+          <Col md={9} className="order-sm-0" data-aos="fade-left">
             <h2 className="subtitle mb-4">{t('SolutionIA.title')}</h2>
             <Trans
               i18nKey={t('SolutionIA.services')} // optional -> fallbacks to defaults if not provided
