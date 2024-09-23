@@ -114,6 +114,7 @@ export default function ServicesProtecio() {
               </ul>
             </Col>
           </Row>
+          {/*           
           <Row>
             <Col md={3} className="text-center mb-4">
               <Image
@@ -134,7 +135,8 @@ export default function ServicesProtecio() {
                 <li>Projets et opératon</li>
               </ul>
             </Col>
-          </Row>
+          </Row> 
+          */}
           <Row>
             <Col md={3} className="text-center mb-4">
               <Image
@@ -207,6 +209,38 @@ export default function ServicesProtecio() {
                 <li>Couverture IA</li>
                 <li>
                   Couverture Azure, GCP, AWS et Exploration SaaS
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={3} className="text-center mb-4">
+              <Image
+                src="/images/loi-25-compliant.jpg"
+                width={500}
+                height={500}
+                alt="Loi 25 compliant"
+              />
+            </Col>
+            <Col md={9} className="text-left">
+              <h4>{t('Services.Loi25.title')}</h4>
+              <ul>
+                <li>
+                  Solution de masquage de données
+                  <ul>
+                    <li>
+                      Datamask sur Google Chrome Solution de
+                      classification MS Purview
+                    </li>
+                    <li>
+                      Accélérateur Solution contre la fuite de données
+                      MS Purview
+                    </li>
+                    <li>
+                      Accélérateur Solution de reprise après sinistre
+                      Azure, GCP et AWS
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </Col>
