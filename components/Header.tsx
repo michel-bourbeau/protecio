@@ -20,27 +20,32 @@ export default function Header() {
       <div className="header-top">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
           <p>
-            <a
+            <Link
               href={`mailto:info@protecio.com`}
-              className="link"
-              target="_blank"
+              aria-label='"Ecrire un courriel a Protecio"'
             >
-              <span className="telephone">
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="fa-phone"
-                  style={{ marginRight: '8px', maxWidth: '16px' }}
-                ></FontAwesomeIcon>
-                info@protecio.com
-              </span>
-            </a>
+              <a className="link">
+                <span className="telephone">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="fa-phone"
+                    style={{ marginRight: '8px', maxWidth: '16px' }}
+                  ></FontAwesomeIcon>
+                  info@protecio.com
+                </span>
+              </a>
+            </Link>
           </p>
           <LanguageSelector />
         </div>
       </div>
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
         <div className="logo-container d-flex">
-          <Link href="/" locale={`${router.locale}`}>
+          <Link
+            href="/"
+            locale={`${router.locale}`}
+            aria-label="Retourner a la page d'accueil"
+          >
             <a className="logo align-items-center">
               <span className="white-logo">
                 <Logo context={t('Logo')} />
