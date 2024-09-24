@@ -17,6 +17,21 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
+  async redirects() {
+    return [
+      {
+        source: '/(.*)',
+        has: [
+          {
+            type: 'host',
+            value: 'protecio.com', // Remplacez par votre domaine
+          },
+        ],
+        permanent: true,
+        destination: 'https://protecio.com/:path*',
+      },
+    ];
+  },
   trailingSlash: true,
   webpack(config) {
     config.resolve.fallback = {
