@@ -59,23 +59,26 @@
       "offre5": "Accompagnement en démarrage et exécution de programme TI et cybersécurité"
     },
     "ConseilStrategique": {
-      "title": "Conseil stratégique"
-    },
-    "ExplorationGCP": {
-      "title": "Exploration GCP"
+      "title": "Conseil stratégique",
+      "liste": "<ul><li>Participer ou animer les ateliers de travail</li><li>Aligner les requis avec les meilleures pratiques TI du marché</li><li>Livrer des résultats de qualités rapidement en suivant le modèle agile</li><li>Répondre aux besoins du CoE Cloud</li><li>S’arrimer avec les secteurs, les CoEs et l’architecture d’entreprise</li><li>Faire évoluer les centres d’excellence</li><li>Optmiser la gouvernance</li></ul>"
     },
     "FrameworkDeModernisation": {
-      "title": "Framework de modernisation"
+      "title": "Framework de modernisation",
+      "liste": "<ul><li>Fermeture des centres de traitements (On-Prem vers AVS) en cours Préparer la sortie de AVS</li><li>Collecte des besoins</li><li>Guide pour la modernisation</li><li>Prioriser le SaaS, PaaS ou le CaaS</li><li>Normaliser les services pour soutenir la modernisation (cartographie)</li><li>Chemin de migration (arbre de decision)</li><li>Architecture de références</li></ul>"
     },
     "MesureAdoptionInfonuagique": {
-      "title": "Mesure d’adoption de l’infonuagique"
+      "title": "Mesure d’adoption de l’infonuagique",
+      "liste": "<ul><li>Identification des KPIs</li><li>Revision du processus</li><li>Collecte de données</li><li>Rapports</li><li>Suivi de performance</li><li>Aligner les rôles et responsabilités</li><li>Suivi des actions à prendre selon la performance</li></ul>"
     },
     "FinOp": {
-      "title": "FinOps"
+      "title": "FinOps",
+      "liste": "<ul><li>Optimiser et étendre le processus</li><li>Instaurer la culture FinOps</li><li>Responsabilisation</li><li>Couverture IA</li><li>Couverture Azure, GCP, AWS et Exploration SaaS</li></ul>"
     },
       "Loi25": {
-      "title": "Solution pour la protection des renseignements personnels (loi 25)"
-    }
+      "title": "Solution pour la protection des renseignements personnels (loi 25)",
+      "liste": "<ul><li>Solution de masquage de données<ul><li>Datamask sur Google Chrome Solution de classification MS Purview</li><li>Accélérateur Solution contre la fuite de données MS Purview</li><li>Accélérateur Solution de reprise après sinistre Azure, GCP et AWS</li></ul></li></ul>"
+    },
+    "Services_professionnels_en_infonuagique": "Services professionnels en infonuagique"
   },
   "Mission": {
     "title": "Notre mission",

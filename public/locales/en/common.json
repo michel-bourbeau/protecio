@@ -58,24 +58,27 @@
       "offre4": "Integration of data governance, compliance and cybersecurity solutions",
       "offre5": "Support for start-up and execution of IT and cybersecurity programs"
     },
-    "ConseilStratégique": {
-      "title": "Strategic Consulting"
-    },
-    "ExplorationGCP": {
-      "title": "GCP Exploration"
+    "ConseilStrategique": {
+      "title": "Strategic advice",
+      "liste": "<ul><li>Participate in or lead workshops</li><li>Align requirements with the best IT practices in the market</li><li>Deliver high-quality results quickly by following the agile model</li><li>Respond to the needs of the Cloud CoE</li><li>Coordinate with departments, CoEs, and enterprise architecture</li><li>Develop centers of excellence</li><li>Optimize governance</li></ul>"
     },
     "FrameworkDeModernisation": {
-      "title": "Modernization Framewor"
+      "title": "Modernization Framework",
+      "liste": "<ul><li>Closure of data centers (On-Prem to AVS) in progress - Prepare for AVS exit</li><li>Requirement gathering</li><li>Guide for modernization</li><li>Prioritize SaaS, PaaS, or CaaS</li><li>Standardize services to support modernization (mapping)</li><li>Migration path (decision tree)</li><li>Reference architecture</li></ul>"
     },
     "MesureAdoptionInfonuagique": {
-      "title": "Cloud Adoption Measurement"
+      "title": "Cloud Adoption Measurement",
+      "liste": "<ul><li>Identification of KPIs</li><li>Process review</li><li>Data collection</li><li>Reports</li><li>Performance tracking</li><li>Align roles and responsibilities</li><li>Follow-up on actions based on performance</li></ul>"
     },
     "FinOp": {
-      "title": "FinOps"
+      "title": "FinOps",
+      "liste": "<ul><li>Optimize and extend the process</li><li>Establish a FinOps culture</li><li>Accountability</li><li>AI coverage</li><li>Azure, GCP, AWS coverage and SaaS exploration</li></ul>"
     },
       "Loi25": {
-      "title": "Solution for the protection of personal information (law 25)"
-    }
+      "title": "Solution for the protection of personal information (law 25)",
+      "liste": "<ul><li>Data masking solution<ul><li>Datamask on Google Chrome, MS Purview classification solution</li><li>Accelerator for MS Purview data leakage prevention solution</li><li>Accelerator for disaster recovery solution on Azure, GCP, and AWS</li></ul></li></ul>"
+    },
+    "Services_professionnels_en_infonuagique": "Professional Cloud Services"
   },
   "Mission": {
     "title": "Our mission",
