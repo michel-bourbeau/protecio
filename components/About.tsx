@@ -34,7 +34,7 @@ export default function About() {
         <Row>
           <Col md={4} className="p-4">
             <Image
-              src="/images/loi-25-compliant.jpg"
+              src="/images/Loi25.jpg"
               width={600}
               height={600}
               alt="loi 25 compliant"
