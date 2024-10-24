@@ -28,7 +28,7 @@ export default function SolutionProtectionRenseignementPersonnel() {
           </Col>
           <Col md={3}>
             <Image
-              src="/images/loi-25-compliant.jpg"
+              src="/images/Loi25.jpg"
               width={400}
               height={400}
               alt="loi 25 compliant"
