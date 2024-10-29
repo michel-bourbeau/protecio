@@ -64,7 +64,7 @@ const NosClient = (props: any) => {
   const { t } = useTranslation();
 
   return (
-    <section className="our-clients nos-partenaires text-center ">
+    <section className=" small-padding our-clients nos-partenaires text-center ">
       <h2 className="section-title text-center mb-5">
         Nos partenaires
       </h2>

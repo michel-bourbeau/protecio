@@ -10,8 +10,7 @@ import Col from 'react-bootstrap/Col';
 
 import Hero from '@components/Hero';
 import Cta from '@components/Cta';
-import Vision from '@components/Vision';
-import Mission from '@components/Mission';
+import VisionMission from '@components/VisionMission';
 import SolutionProtectionRenseignementPersonnel from '@components/SolutionProtectionRenseignementPersonnel';
 import SolutionIA from '@components/SolutionIA';
 import OffreServices from '@components/OffreServices';
@@ -165,12 +164,10 @@ export const Home = () => {
         </Container>
       </section>
       <SolutionProtectionRenseignementPersonnel />
-      <Vision />
-      <Mission />
-      <SolutionIA />
+      <VisionMission />
       <NosClient />
       <NosPartenaires />
-      {/*       <OffreServices /> */}
+      <OffreServices />
       <Cta />
       {/*      
       

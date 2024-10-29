@@ -55,7 +55,7 @@ const NosClient = (props: any) => {
   const { t } = useTranslation();
 
   return (
-    <section className="our-clients text-center ">
+    <section className="our-clients text-center small-padding">
       <h2 className="section-title text-center mb-5">
         {t('NosClient.title')}
       </h2>
