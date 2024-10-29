@@ -170,7 +170,7 @@ export const Home = () => {
       <SolutionIA />
       <NosClient />
       <NosPartenaires />
-      <OffreServices />
+      {/*       <OffreServices /> */}
       <Cta />
       {/*      
       
