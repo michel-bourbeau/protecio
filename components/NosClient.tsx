@@ -12,6 +12,10 @@ const clients = [
     logo: '/images/logos/Hi5.png',
   },
   {
+    name: 'Corsek Cyber Security',
+    logo: '/images/logos/corsek-cybersecurity.png',
+  },
+  {
     name: 'Kelvin Zero',
     logo: '/images/logos/kelvin-zero.jpg',
   },
@@ -36,7 +40,7 @@ const clients = [
     name: 'Mantle Bloc Cain',
     logo: '/images/logos/mantle.png',
   },
-  {
+  /* {
     name: 'Financière des professionnels',
     logo: '/images/logos/fdp.png',
   },
@@ -46,7 +50,7 @@ const clients = [
     name: 'Industrielle Alliance, Assurance et services financiers inc. – iA Groupe financier.',
     logo: '/images/logos/ia-groupe-financier.png',
   },
-  { name: 'JDHM Nettoyage', logo: '/images/logos/jdhm.png' },
+  { name: 'JDHM Nettoyage', logo: '/images/logos/jdhm.png' }, */
   {
     name: 'Hyundai',
     logo: '/images/logos/hyundai.png',
@@ -55,10 +59,10 @@ const clients = [
     name: 'Gouvernement du Québec',
     logo: '/images/logos/gouvernement-du-quebec.png',
   },
-  {
+  /*   {
     name: 'Construction Côté et Fils',
     logo: '/images/logos/construction-cote-fils.png',
-  },
+  }, */
   // Ajoutez plus de clients ici
 ];
 
@@ -84,8 +88,8 @@ const NosClient = (props: any) => {
   const { t } = useTranslation();
 
   return (
-    <section className="our-clients">
-      <h2 className="subtitle text-center mb-5">
+    <section className="our-clients text-center ">
+      <h2 className="section-title text-center mb-5">
         {t('NosClient.title')}
       </h2>
       <Container>
@@ -110,7 +114,7 @@ const NosClient = (props: any) => {
               itemClass="carousel-item-padding-40-px"
             >
               {clients.map((client, index) => (
-                <div key={index} className="p-3">
+                <div key={index} className="p-5">
                   {client && (
                     <img
                       className="d-block w-100"
