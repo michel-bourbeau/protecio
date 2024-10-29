@@ -11,6 +11,9 @@ const services_professionnels_en_infonuagique = [
   'MesureAdoptionInfonuagique',
   'FinOp',
   'Loi25',
+  'EncadrementsTechnologiques',
+  'CreationModernisationIA',
+  'IntegrationSolutionsSecurityDesign',
 ];
 
 export default function ServicesProtecio() {
@@ -95,8 +98,8 @@ export default function ServicesProtecio() {
               </h2>
             </Col>
           </Row>
-          {services_professionnels_en_infonuagique.map((el) => (
-            <Row>
+          {services_professionnels_en_infonuagique.map((el, id) => (
+            <Row key={id}>
               <Col md={3} className="text-center mb-5">
                 <div className="service-image">
                   <Image
