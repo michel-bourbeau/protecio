@@ -9,12 +9,9 @@ export default function Vision() {
   const { t } = useTranslation();
 
   return (
-    <section
-      className="vision"
-      id="notre-mission-et-vision"
-    >
+    <section className="vision" id="notre-mission-et-vision">
       <Container>
-        <Row>
+        {/* <Row>
           <Col className="thumb" md={2}>
             <Image
               src="/images/our-vision.jpg"
@@ -29,8 +26,8 @@ export default function Vision() {
               {t('Vision.description')}
             </p>
           </Col>
-        </Row>
-        <Row className="mt-5">
+        </Row> */}
+        <Row>
           <Col className="thumb" md={2}>
             <Image
               src="/images/our-mission.webp"
@@ -46,7 +43,7 @@ export default function Vision() {
             </p>
           </Col>
         </Row>
-        <Row className="mt-5">
+        {/*  <Row className="mt-5">
           <Col className="thumb" md={2}>
             <Image
               src="/images/usaii-certification.jpg"
@@ -67,7 +64,7 @@ export default function Vision() {
               }}
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   );
