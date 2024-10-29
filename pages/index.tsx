@@ -167,7 +167,7 @@ export const Home = () => {
       <VisionMission />
       <NosClient />
       <NosPartenaires />
-      <OffreServices />
+      {/*       <OffreServices /> */}
       <Cta />
       {/*      
       
