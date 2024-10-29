@@ -1,6 +1,9 @@
 import { Trans, useTranslation } from 'next-i18next';
 import Image from 'next/image';
 
+import SolutionProtectionRenseignementPersonnel from '@components/SolutionProtectionRenseignementPersonnel';
+import NosClient from '@components/NosClient';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,7 +15,7 @@ export default function ServicesProtecio() {
 
   return (
     <>
-      <section className="alt small-padding">
+      <section className="small-padding">
         <Container>
           <Row>
             <Col md={12} className="text-center mb-4">
@@ -119,41 +122,8 @@ export default function ServicesProtecio() {
         </Container>
       </section>
       <section className="small-padding">
-        <Container>
-          {/*           <Row>
-            <Col md={12} className="text-center mb-5">
-              <h2 className="section-title">
-                {t(
-                  'Services.Services_professionnels_en_infonuagique'
-                )}
-              </h2>
-            </Col>
-          </Row> */}
-          {services_professionnels_en_infonuagique.map((el, id) => (
-            <Row key={id}>
-              <Col md={3} className="text-center mb-5">
-                <div className="service-image">
-                  <Image
-                    src={`/images/${el}.jpg`} //"/images/conseils-strategique.jpg"
-                    width={500}
-                    height={el === 'Loi25' ? 500 : 400}
-                    alt={t(`Services.${el}.title`)}
-                  />
-                </div>
-              </Col>
-              <Col md={9} className="text-left">
-                <h3>{t(`Services.${el}.title`)}</h3>
-                <Trans
-                  i18nKey={t(`Services.${el}.liste`)} // optional -> fallbacks to defaults if not provided
-                  components={{
-                    ul: <ul />,
-                    li: <li />,
-                  }}
-                />
-              </Col>
-            </Row>
-          ))}
-        </Container>
+        <SolutionProtectionRenseignementPersonnel />
+        <NosClient />
       </section>
     </>
   );

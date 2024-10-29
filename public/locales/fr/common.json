@@ -27,7 +27,7 @@
   },
   "SolutionProtectionRenseignementPersonnel": {
     "title": "Solution pour la protection des renseignements personnels (loi 25)",
-    "services": "<ul><li>Solution de masquage de données<ul><li>Datamask sur Google Chrome Solution de classification MS Purview</li><li>Accélérateur Solution contre la fuite de données MS Purview</li><li>Accélérateur Solution de reprise après sinistre Azure, GCP et AWS</li></ul></li></ul>"
+    "services": "<ul><li>Datamask pour le masquage de données sensibles sur les navigateurs</li><li>Solution de classification MS Purview</li><li>Accélérateur Solution contre la fuite de données MS Purview</li><li>Accélérateur Solution de reprise après sinistre Azure, GCP et AWS</li></ul></li></ul>"
   },
   "Vision": {
     "title": "Notre vision chez Protecio",
