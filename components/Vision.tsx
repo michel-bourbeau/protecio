@@ -9,7 +9,7 @@ export default function Vision() {
   const { t } = useTranslation();
 
   return (
-    <section className="vision">
+    <section className="vision" id="notre-mission-et-vision">
       <Container>
         <Row>
           <Col className="thumb" md={4}>

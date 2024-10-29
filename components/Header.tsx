@@ -56,7 +56,12 @@ export default function Header() {
         <nav id="navbar" className="navbar d-flex">
           <ul>
             <li>
-              <a href={`/services`}>{t('Services.title')}</a>
+              <a href={`#our-services`}>{t('Services.title')}</a>
+            </li>
+            <li>
+              <a href={`#notre-mission-et-vision`}>
+                Mission et Vision
+              </a>
             </li>
 
             <li className="footer-social-icon htop-menu-s">
