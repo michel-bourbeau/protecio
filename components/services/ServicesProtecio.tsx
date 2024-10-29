@@ -78,7 +78,6 @@ export default function ServicesProtecio() {
                 height="128"
                 alt="Accompagnement en démarrage et exécution de programme TI et cybersécurité"
               />
-              <p>Intégration de solutions (Security by Design)</p>
               <p>Accompagnement de programme TI</p>
             </Col>
             <Col md={3} className="text-center p-4 text-medium">
