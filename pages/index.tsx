@@ -59,7 +59,7 @@ export const Home = () => {
         }}
       />
       <Hero button />
-      <section className="small-padding" id="our-services">
+      <section className="small-padding">
         <Container>
           <Row>
             <Col md={12} className="text-center mb-4">
@@ -74,12 +74,9 @@ export const Home = () => {
                 height="128"
                 alt="Audit et diagnostic cybersécurité, conformité & TI"
               />
-              <p className="text-medium">
-                Audit et diagnostic
-                <br />
-                Mesure d’adoption et de performance <br />
-                FinOps
-              </p>
+              <p>Audit et diagnostic</p>
+              <p>Mesure d’adoption et de performance</p>
+              <p>FinOps</p>
             </Col>
             <Col md={3} className="text-center p-4 text-medium">
               <Image
@@ -88,7 +85,7 @@ export const Home = () => {
                 height="128"
                 alt="Vision et feuille de route stratégique TI"
               />
-              <p className="text-medium">Conseil stratégique</p>
+              <p>Conseil stratégique</p>
               <p>Vision et feuille de route stratégique TI</p>
             </Col>
             <Col md={3} className="text-center p-4 text-medium">
@@ -98,9 +95,7 @@ export const Home = () => {
                 height="128"
                 alt="Gouvernance et optimisation des services infonuagique – coûts et sécurité"
               />
-              <p className="text-medium">
-                vCIO, vCTO, vCISO sur demande
-              </p>
+              <p>vCIO, vCTO, vCISO sur demande</p>
               <p>Gouvernance et optimisation des solutions</p>
             </Col>
             <Col md={3} className="text-center p-4 text-medium">
@@ -110,9 +105,7 @@ export const Home = () => {
                 height="128"
                 alt="Intégration de solution en gouvernance de données, conformité et cybersécurité"
               />
-              <p className="text-medium">
-                Création de solution sur demande
-              </p>
+              <p>Création de solution sur demande</p>
               <p>
                 Gouvernance de données, conformité et cybersécurité
                 (As A Service)
@@ -134,9 +127,7 @@ export const Home = () => {
                 height="128"
                 alt="Accompagnement en démarrage et exécution de programme TI et cybersécurité"
               />
-              <p className="text-medium">
-                Encadrements technologiques
-              </p>
+              <p>Encadrements technologiques</p>
             </Col>
             <Col md={3} className="text-center p-4 text-medium">
               <Image
@@ -158,9 +149,7 @@ export const Home = () => {
                 height="128"
                 alt="Accompagnement en démarrage et exécution de programme TI et cybersécurité"
               />
-              <p className="text-medium">
-                Intégration de solutions (Security by Design)
-              </p>
+              <p>Intégration de solutions (Security by Design)</p>
             </Col>
           </Row>
         </Container>

@@ -35,6 +35,7 @@ export default function SolutionProtectionRenseignementPersonnel() {
             />
           </Col>
         </Row>
+        <span id="notre-mission-et-vision"></span>
       </Container>
     </section>
   );
