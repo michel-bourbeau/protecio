@@ -17,7 +17,6 @@ export default function Cta() {
         <Row>
           <Col md={8}>
             <h3>{t('Cta.title')}</h3>
-            {/*  <p>{t('Cta.description')}</p> */}
           </Col>
           <Col
             md={4}

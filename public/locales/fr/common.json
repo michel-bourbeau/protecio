@@ -23,7 +23,10 @@
   },
   "SolutionIA": {
     "title": "Solution d’IA – Certifié USAII AI Leader",
-    "services": "<ul><li>Pour la croissance</li><li>Pour la finance</li><li>Pour les services TI</li></ul>"
+    "services": "<ul><li>Pour la croissance</li><li>Pour la finance</li><li>Pour les services TI</li></ul>",
+    "solution1": "Pour la croissance",
+    "solution2": "Pour la finance",
+    "solution3": "Pour les services TI"
   },
   "SolutionProtectionRenseignementPersonnel": {
     "title": "Solution pour la protection des renseignements personnels (loi 25)",

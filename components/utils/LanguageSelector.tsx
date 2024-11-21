@@ -2,7 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-import { En, Fr } from '@components/svg/flags';
+import { En, Fr, Es } from '@components/svg/flags';
 
 export const LanguageSelector = () => {
   const router = useRouter();
@@ -21,7 +21,7 @@ export const LanguageSelector = () => {
         English
       </>
     );
-  } /* else if (locale == 'es') {
+  } else if (locale == 'es') {
     lng = (
       <>
         <span className="flag">
@@ -30,7 +30,7 @@ export const LanguageSelector = () => {
         Español
       </>
     );
-  } */ else if (locale == 'fr') {
+  } else if (locale == 'fr') {
     lng = (
       <>
         <span className="flag">
@@ -66,7 +66,7 @@ export const LanguageSelector = () => {
               English
             </Dropdown.Item>
           )}
-          {/*           {locale !== 'es' && (
+          {locale !== 'es' && (
             <Dropdown.Item
               id="es"
               title="Espaniol"
@@ -77,7 +77,7 @@ export const LanguageSelector = () => {
               </span>
               Español
             </Dropdown.Item>
-          )} */}
+          )}
           {locale !== 'fr' && (
             <Dropdown.Item
               id="fr"

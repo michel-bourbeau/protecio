@@ -24,7 +24,8 @@ export default function Services() {
                       src="/images/icons/Direction-Virtuelle-vCIO-vCTO-vCISO.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Direction Virtuelle (vCIO, vCTO, vCISO)"
+                      priority
                     />
                     <h5>
                       <strong>
@@ -41,7 +42,8 @@ export default function Services() {
                       src="/images/icons/Audit-et-Diagnostic.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Audit et Diagnostic"
+                      priority
                     />
                     <h5>
                       <strong>Audit et Diagnostic</strong>
@@ -56,7 +58,8 @@ export default function Services() {
                       src="/images/icons/Conseil-Strategique.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Conseil Stratégique"
+                      priority
                     />
                     <h5>
                       <strong>Conseil Stratégique</strong>
@@ -88,7 +91,8 @@ export default function Services() {
                       src="/images/icons/Gouvernance-des-Solutions.png"
                       width="128"
                       height="128"
-                      alt="Gouvernance et optimisation des services infonuagique – coûts et sécurité"
+                      alt="Service Protecio - Gouvernance des Solutions"
+                      priority
                     />
                     <h5>
                       <strong>Gouvernance des Solutions</strong>
@@ -104,7 +108,8 @@ export default function Services() {
                       src="/images/icons/Encadrements-Technologiques.png"
                       width="128"
                       height="128"
-                      alt="Accompagnement en démarrage et exécution de programme TI et cybersécurité"
+                      alt="Service Protecio - Encadrements Technologiques"
+                      priority
                     />
                     <h5>
                       <strong>Encadrements Technologiques</strong>
@@ -119,7 +124,8 @@ export default function Services() {
                       src="/images/icons/FinOps.png"
                       width="128"
                       height="128"
-                      alt="Vision et feuille de route stratégique TI"
+                      alt="Service Protecio - FinOps"
+                      priority
                     />
                     <h5>
                       <strong>FinOps</strong>
@@ -149,7 +155,8 @@ export default function Services() {
                       src="/images/icons/Creation-de-Solutions.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Création de Solutions"
+                      priority
                     />
                     <h5>
                       <strong>Création de Solutions</strong>
@@ -164,7 +171,8 @@ export default function Services() {
                       src="/images/icons/Modernisation-et-IA.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Modernisation et IA"
+                      priority
                     />
                     <h5>
                       <strong>Modernisation et IA</strong>
@@ -181,7 +189,8 @@ export default function Services() {
                       src="/images/icons/Integration-de-Solutions-Security-by-Design.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Intégration de Solutions (Security by Design)"
+                      priority
                     />
                     <h5>
                       <strong>
@@ -211,7 +220,8 @@ export default function Services() {
                       src="/images/icons/Direction-Virtuelle-vCISO.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Direction Virtuelle (vCISO)"
+                      priority
                     />
                     <h5>
                       <strong>Direction Virtuelle (vCISO)</strong>
@@ -226,7 +236,8 @@ export default function Services() {
                       src="/images/icons/Securite-et-Conformite-As-A-Service.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - Sécurité et Conformité (As A Service)"
+                      priority
                     />
                     <h5>
                       <strong>
@@ -244,7 +255,8 @@ export default function Services() {
                       src="/images/icons/MSSP.png"
                       width="128"
                       height="128"
-                      alt="Audit et diagnostic cybersécurité, conformité & TI"
+                      alt="Service Protecio - MSSP"
+                      priority
                     />
                     <h5>
                       <strong>MSSP</strong>

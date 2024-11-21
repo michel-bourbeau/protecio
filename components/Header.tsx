@@ -2,7 +2,7 @@
 
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import LanguageSelector from '@components/LanguageSelector';
+import LanguageSelector from '@components/utils/LanguageSelector';
 import Link from 'next/link';
 
 import { Button } from 'react-bootstrap';

@@ -31,7 +31,8 @@ export default function SolutionProtectionRenseignementPersonnel() {
               src="/images/Loi25.jpg"
               width={400}
               height={400}
-              alt="loi 25 compliant"
+              alt="Image solution pour la protection des renseignements personnels (loi 25)"
+              priority
             />
           </Col>
         </Row>

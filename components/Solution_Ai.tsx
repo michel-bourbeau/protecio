@@ -26,11 +26,12 @@ export default function Mission() {
                       src="/images/icons/success-green-check-mark-icon.svg"
                       width={48}
                       height={48}
-                      alt="usaii certification"
+                      alt="Icon Checkbox"
                       className="image"
+                      priority
                     />
                     <p className="text medium-text mt-4">
-                      Pour la croissance
+                      {t('SolutionIA.solution1')}
                     </p>
                   </div>
                 </Col>
@@ -40,11 +41,12 @@ export default function Mission() {
                       src="/images/icons/success-green-check-mark-icon.svg"
                       width={48}
                       height={48}
-                      alt="usaii certification"
+                      alt="Icon Checkbox"
                       className="image"
+                      priority
                     />
                     <p className="text medium-text mt-4">
-                      Pour la finance
+                      {t('SolutionIA.solution2')}
                     </p>
                   </div>
                 </Col>
@@ -54,11 +56,12 @@ export default function Mission() {
                       src="/images/icons/success-green-check-mark-icon.svg"
                       width={48}
                       height={48}
-                      alt="usaii certification"
+                      alt="Icon Checkbox"
                       className="image"
+                      priority
                     />
                     <p className="text medium-text mt-4">
-                      Pour les services TI
+                      {t('SolutionIA.solution3')}
                     </p>
                   </div>
                 </Col>

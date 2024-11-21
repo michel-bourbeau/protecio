@@ -1,10 +1,9 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { Container, Row, Col } from 'react-bootstrap';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 
 const clients = [
   {
@@ -70,110 +69,26 @@ const NosClient = (props: any) => {
       </h2>
       <Container className="my-4">
         <Row className="justify-content-center">
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/amazon.png"
-                alt="Amazon"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/microsoft.png"
-                alt="Microsoft"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/groupe-hi5.png"
-                alt="Groupe Hi5"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/gcp.png"
-                alt="Google Cloud Platform"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/prodago.png"
-                alt="Prodago"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/mantle.png"
-                alt="Mantle Blockchain"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/corsek.png"
-                alt="Crosek"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
-          <Col
-            xs={6}
-            md={3}
-            className="mb-4 d-flex justify-content-center align-items-center"
-          >
-            <div className="partner-logo">
-              <img
-                src="/images/logos/partenaires/kelvin-zero.png"
-                alt="Kelvin Zero"
-                style={{ maxWidth: '100%', height: 'auto' }}
-              />
-            </div>
-          </Col>
+          {clients.map((client, i) => {
+            return (
+              <Col
+                xs={6}
+                md={3}
+                className="mb-4 d-flex justify-content-center align-items-center"
+                key={i}
+              >
+                {client && (
+                  <div className="partner-logo">
+                    <img
+                      src={client.logo}
+                      alt={client.name}
+                      style={{ maxWidth: '100%', height: 'auto' }}
+                    />
+                  </div>
+                )}
+              </Col>
+            );
+          })}
         </Row>
       </Container>
     </section>

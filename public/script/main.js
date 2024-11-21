@@ -20,27 +20,7 @@ if (selectHeader) {
   window.addEventListener('load', headerFixed);
   document.addEventListener('scroll', headerFixed);
 }
-/* 
-const scrollTop2 = document.querySelector('#header');
-if (scrollTop2) {
-  const togglescrollTop = function () {
-    window.scrollY > 50
-      ? scrollTop2.classList.add('stikcy-menu')
-      : scrollTop2.classList.remove('stikcy-menu');
-  };
-  window.addEventListener('load', togglescrollTop);
-  document.addEventListener('scroll', togglescrollTop);
-  scrollTop2.addEventListener(
-    'click',
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    })
-  );
-} */
-/**
- * Navbar links active state on scroll
- */
+
 let navbarlinks = document.querySelectorAll('#navbar a');
 
 function navbarlinksActive() {

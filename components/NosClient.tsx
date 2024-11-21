@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
@@ -83,15 +84,20 @@ const NosClient = (props: any) => {
               {clients.map((client, index) => (
                 <div key={index} className="p-5">
                   {client && (
-                    <img
-                      className="d-block w-100"
-                      src={client.logo}
-                      alt={client.name}
-                      style={{
-                        maxHeight: '250px',
-                        objectFit: 'contain',
-                      }}
-                    />
+                    <div className="text-center">
+                      <Image
+                        src={client.logo}
+                        alt={client.name}
+                        width={300} // Ajuste cette valeur selon la largeur maximale souhaitée
+                        height={150} // Ajuste cette valeur pour respecter le ratio de ton image
+                        style={{
+                          maxWidth: '100%',
+                          height: 'auto',
+                          objectFit: 'contain',
+                        }}
+                        priority
+                      />
+                    </div>
                   )}
                 </div>
               ))}
