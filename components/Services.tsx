@@ -16,7 +16,9 @@ export default function Services() {
         <Container>
           <Row>
             <Col>
-              <h3 className="title-services strategie">Stratégie</h3>
+              <h3 className="title-services strategie">
+                {t('Solutions.Strategie')}
+              </h3>
               <Container>
                 <Row className="g-5">
                   <Col md={4}>
@@ -24,17 +26,22 @@ export default function Services() {
                       src="/images/icons/Direction-Virtuelle-vCIO-vCTO-vCISO.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Direction Virtuelle (vCIO, vCTO, vCISO)"
+                      alt={t(
+                        'Solutions.Direction-Virtuelle-vCIO-vCTO-vCISO.title'
+                      )}
                       priority
                     />
                     <h5>
                       <strong>
-                        Direction Virtuelle (vCIO, vCTO, vCISO)
+                        {t(
+                          'Solutions.Direction-Virtuelle-vCIO-vCTO-vCISO.title'
+                        )}
                       </strong>
                     </h5>
                     <p>
-                      Service spécifique pour les fonctions exécutives
-                      de TI à la demande.
+                      {t(
+                        'Solutions.Direction-Virtuelle-vCIO-vCTO-vCISO.paragraphe'
+                      )}
                     </p>
                   </Col>
                   <Col md={4}>
@@ -42,34 +49,34 @@ export default function Services() {
                       src="/images/icons/Audit-et-Diagnostic.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Audit et Diagnostic"
+                      alt={t('Solutions.Audit-et-Diagnostic.title')}
                       priority
                     />
                     <h5>
-                      <strong>Audit et Diagnostic</strong>
+                      <strong>
+                        {t('Solutions.Audit-et-Diagnostic.title')}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Pour toutes les analyses et audits
-                      préliminaires.
-                    </p>
+                      {t('Solutions.Audit-et-Diagnostic.paragraphe')}
+                    </p>{' '}
                   </Col>
                   <Col md={4}>
                     <Image
                       src="/images/icons/Conseil-Strategique.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Conseil Stratégique"
+                      alt={t('Solutions.Conseil-Strategique.title')}
                       priority
                     />
                     <h5>
-                      <strong>Conseil Stratégique</strong>
+                      <strong>
+                        {t('Solutions.Conseil-Strategique.title')}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Un espace dédié à l'expertise consultative sur
-                      les décisions technologiques. Inclut Vision et
-                      feuille de route stratégique TI pour aligner la
-                      stratégie TI avec les objectifs d'affaires.
-                    </p>
+                      {t('Solutions.Conseil-Strategique.paragraphe')}
+                    </p>{' '}
                   </Col>
                 </Row>
               </Container>
@@ -82,7 +89,7 @@ export default function Services() {
           <Row>
             <Col>
               <h3 className="title-services gouvernance">
-                Gouvernance
+                {t('Solutions.Gouvernance')}
               </h3>
               <Container>
                 <Row className="g-5">
@@ -91,49 +98,59 @@ export default function Services() {
                       src="/images/icons/Gouvernance-des-Solutions.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Gouvernance des Solutions"
+                      alt={t(
+                        'Solutions.Gouvernance-des-Solutions.title'
+                      )}
                       priority
                     />
                     <h5>
-                      <strong>Gouvernance des Solutions</strong>
+                      <strong>
+                        {t(
+                          'Solutions.Gouvernance-des-Solutions.title'
+                        )}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Concentre les efforts sur la Gouvernance et
-                      optimisation des solutions pour assurer la
-                      cohérence et la conformité.
-                    </p>
+                      {t(
+                        'Solutions.Gouvernance-des-Solutions.paragraphe'
+                      )}
+                    </p>{' '}
                   </Col>
                   <Col md={4}>
                     <Image
                       src="/images/icons/Encadrements-Technologiques.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Encadrements Technologiques"
+                      alt={t(
+                        'Solutions.Encadrements-Technologiques.title'
+                      )}
                       priority
                     />
                     <h5>
-                      <strong>Encadrements Technologiques</strong>
+                      <strong>
+                        {t(
+                          'Solutions.Encadrements-Technologiques.title'
+                        )}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Conseils et encadrement technique pour
-                      l’optimisation des projets et technologies.
-                    </p>
+                      {t(
+                        'Solutions.Encadrements-Technologiques.paragraphe'
+                      )}
+                    </p>{' '}
                   </Col>
                   <Col md={4}>
                     <Image
                       src="/images/icons/FinOps.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - FinOps"
+                      alt={t('Solutions.FinOps.title')}
                       priority
                     />
                     <h5>
-                      <strong>FinOps</strong>
+                      <strong>{t('Solutions.FinOps.title')}</strong>{' '}
                     </h5>
-                    <p>
-                      Optimisation des coûts liés aux infrastructures
-                      et solutions technologiques.
-                    </p>
+                    <p>{t('Solutions.FinOps.paragraphe')}</p>{' '}
                   </Col>
                 </Row>
               </Container>
@@ -146,7 +163,7 @@ export default function Services() {
           <Row>
             <Col>
               <h3 className="title-services application">
-                Application
+                {t('Solutions.Application')}
               </h3>
               <Container>
                 <Row className="g-5">
@@ -155,52 +172,59 @@ export default function Services() {
                       src="/images/icons/Creation-de-Solutions.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Création de Solutions"
+                      alt={t('Solutions.Creation-de-Solutions.title')}
                       priority
                     />
                     <h5>
-                      <strong>Création de Solutions</strong>
+                      <strong>
+                        {t('Solutions.Creation-de-Solutions.title')}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Services personnalisés pour la Création de
-                      solution sur demande.
-                    </p>
+                      {t(
+                        'Solutions.Creation-de-Solutions.paragraphe'
+                      )}
+                    </p>{' '}
                   </Col>
                   <Col md={4}>
                     <Image
                       src="/images/icons/Modernisation-et-IA.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Modernisation et IA"
+                      alt={t('Solutions.Modernisation-et-IA.title')}
                       priority
                     />
                     <h5>
-                      <strong>Modernisation et IA</strong>
+                      <strong>
+                        {t('Solutions.Modernisation-et-IA.title')}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Création/Modernisation de solution avec l’IA et
-                      Modernisation d’application grâce à l’IA pour
-                      mettre en avant l'innovation et la
-                      transformation numérique.
-                    </p>
+                      {t('Solutions.Modernisation-et-IA.paragraphe')}
+                    </p>{' '}
                   </Col>
                   <Col md={4}>
                     <Image
                       src="/images/icons/Integration-de-Solutions-Security-by-Design.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Intégration de Solutions (Security by Design)"
+                      alt={t(
+                        'Solutions.Integration-de-Solutions-Security-by-Design.title'
+                      )}
                       priority
                     />
                     <h5>
                       <strong>
-                        Intégration de Solutions (Security by Design)
-                      </strong>
+                        {t(
+                          'Solutions.Integration-de-Solutions-Security-by-Design.title'
+                        )}
+                      </strong>{' '}
                     </h5>
                     <p>
-                      Une offre d'intégration sécurisée dès la
-                      conception des solutions.
-                    </p>
+                      {t(
+                        'Solutions.Integration-de-Solutions-Security-by-Design.paragraphe'
+                      )}
+                    </p>{' '}
                   </Col>
                 </Row>
               </Container>
@@ -212,7 +236,9 @@ export default function Services() {
         <Container>
           <Row>
             <Col>
-              <h3 className="title-services">Cybersécurité</h3>
+              <h3 className="title-services">
+                {t('Solutions.Cybersecurite')}
+              </h3>
               <Container>
                 <Row className="g-5">
                   <Col md={4}>
@@ -220,15 +246,22 @@ export default function Services() {
                       src="/images/icons/Direction-Virtuelle-vCISO.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Direction Virtuelle (vCISO)"
+                      alt={t(
+                        'Solutions.Direction-Virtuelle-vCISO.title'
+                      )}
                       priority
                     />
                     <h5>
-                      <strong>Direction Virtuelle (vCISO)</strong>
+                      <strong>
+                        {t(
+                          'Solutions.Direction-Virtuelle-vCISO.title'
+                        )}
+                      </strong>
                     </h5>
                     <p>
-                      Service spécifique pour les fonctions exécutives
-                      de CISO à la demande.
+                      {t(
+                        'Solutions.Direction-Virtuelle-vCISO.paragraphe'
+                      )}
                     </p>
                   </Col>
                   <Col md={4}>
@@ -236,18 +269,22 @@ export default function Services() {
                       src="/images/icons/Securite-et-Conformite-As-A-Service.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - Sécurité et Conformité (As A Service)"
+                      alt={t(
+                        'Solutions.Securite-et-Conformite-As-A-Service.title'
+                      )}
                       priority
                     />
                     <h5>
                       <strong>
-                        Sécurité et Conformité (As A Service)
+                        {t(
+                          'Solutions.Securite-et-Conformite-As-A-Service.title'
+                        )}
                       </strong>
                     </h5>
                     <p>
-                      Gouvernance de données, conformité et
-                      cybersécurité pour une gestion de la sécurité en
-                      continu.
+                      {t(
+                        'Solutions.Securite-et-Conformite-As-A-Service.paragraphe'
+                      )}
                     </p>
                   </Col>
                   <Col md={4}>
@@ -255,13 +292,13 @@ export default function Services() {
                       src="/images/icons/MSSP.png"
                       width="128"
                       height="128"
-                      alt="Service Protecio - MSSP"
+                      alt={t('Solutions.MSSP.title')}
                       priority
                     />
                     <h5>
-                      <strong>MSSP</strong>
+                      <strong>{t('Solutions.MSSP.title')}</strong>
                     </h5>
-                    <p>Une offre clé en main TI et Cybersécurité</p>
+                    <p>{t('Solutions.MSSP.paragraphe')}</p>
                   </Col>
                 </Row>
               </Container>

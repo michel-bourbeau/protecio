@@ -134,5 +134,59 @@
     "description": "Nous avons bien reçu votre demande d'informations sur nos services. Notre équipe traitera votre demande dès que possible et vous contactera dans les plus brefs délais.",
     "infos": "Si vous avez d'autres questions ou besoins, vous pouvez nous contacter directement par e-mail à support@protecio.com ou par téléphone au (418) 999-9999.",
     "button": "Retour à la page d'accueil"
+  },
+  "Solutions": {
+    "Strategie": "Stratégie",
+    "Direction-Virtuelle-vCIO-vCTO-vCISO" : {
+      "title": " Direction Virtuelle (vCIO, vCTO, vCISO)",
+      "paragraphe": "Service spécifique pour les fonctions exécutives de TI à la demande."
+    },
+    "Audit-et-Diagnostic": {
+      "title": "Audit et Diagnostic",
+      "paragraphe": "Pour toutes les analyses et audits préliminaires."
+    },
+    "Conseil-Strategique": {
+      "title": "Conseil Stratégique",
+      "paragraphe": "Un espace dédié à l'expertise consultative sur les décisions technologiques. Inclut Vision et feuille de route stratégique TI pour aligner la stratégie TI avec les objectifs d'affaires."
+    },
+    "Gouvernance-des-Solutions": {
+      "title": "Gouvernance des Solutions",
+      "paragraphe": "Concentre les efforts sur la Gouvernance et optimisation des solutions pour assurer la cohérence et la conformité."
+    },
+    "Encadrements-Technologiques": {
+      "title": "Encadrements Technologiques",
+      "paragraphe": "Conseils et encadrement technique pour l’optimisation des projets et technologies."
+    },
+    "FinOps": {
+      "title": "FinOps",
+      "paragraphe": "Optimisation des coûts liés aux infrastructures et solutions technologiques."
+    },
+    "Creation-de-Solutions": {
+      "title": "Création de Solutions",
+      "paragraphe": "Services personnalisés pour la Création de solution sur demande."
+    },
+    "Modernisation-et-IA": {
+      "title": "Modernisation et IA",
+      "paragraphe": "Création/Modernisation de solution avec l’IA et Modernisation d’application grâce à l’IA pour mettre en avant l'innovation et la transformation numérique."
+    },
+    "Integration-de-Solutions-Security-by-Design": {
+      "title": "Intégration de Solutions (Security by Design)",
+      "paragraphe": "Une offre d'intégration sécurisée dès la conception des solutions."
+    },
+    "Direction-Virtuelle-vCISO": {
+      "title": "Direction Virtuelle (vCISO)",
+      "paragraphe": "Service spécifique pour les fonctions exécutives de CISO à la demande."
+    },
+    "Securite-et-Conformite-As-A-Service": {
+      "title": "Sécurité et Conformité (As A Service)",
+      "paragraphe": "Gouvernance de données, conformité et cybersécurité pour une gestion de la sécurité en continu."
+    },
+    "MSSP": {
+      "title": "MSSP",
+      "paragraphe": "Une offre clé en main TI et Cybersécurité."
+    },
+    "Gouvernance": "Gouvernance",
+    "Application": "Application",
+    "Cybersecurite": "Cybersécurité"
   }
 }

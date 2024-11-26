@@ -134,5 +134,59 @@
     "description": "We have received your inquiry about our services. Our team will process your request as soon as possible and get back to you promptly.",
     "infos": "If you have further questions or needs, you can contact us directly by email at support@protecio.com or by phone at (418) 999-9999.",
     "button": "Back to homepage"
+  },
+  "Solutions": {
+    "Strategie": "Strategy",
+    "Direction-Virtuelle-vCIO-vCTO-vCISO": {
+      "title": "Virtual Direction (vCIO, vCTO, vCISO)",
+      "paragraphe": "Specific service for on-demand executive IT functions."
+    },
+    "Audit-et-Diagnostic": {
+      "title": "Audit and Diagnostic",
+      "paragraphe": "For all preliminary analyses and audits."
+    },
+    "Conseil-Strategique": {
+      "title": "Strategic Advisory",
+      "paragraphe": "A dedicated space for consultative expertise on technological decisions. Includes Vision and IT Strategic Roadmap to align IT strategy with business objectives."
+    },
+    "Gouvernance-des-Solutions": {
+      "title": "Governance of Solutions",
+      "paragraphe": "Focuses efforts on governance and optimization of solutions to ensure consistency and compliance."
+    },
+    "Encadrements-Technologiques": {
+      "title": "Technological Guidance",
+      "paragraphe": "Advice and technical guidance for optimizing projects and technologies."
+    },
+    "FinOps": {
+      "title": "FinOps",
+      "paragraphe": "Optimization of costs related to infrastructures and technological solutions."
+    },
+    "Creation-de-Solutions": {
+      "title": "Solution Creation",
+      "paragraphe": "Customized services for on-demand solution creation."
+    },
+    "Modernisation-et-IA": {
+      "title": "Modernization and AI",
+      "paragraphe": "Creation/modernization of solutions with AI and application modernization through AI to foster innovation and digital transformation."
+    },
+    "Integration-de-Solutions-Security-by-Design": {
+      "title": "Solution Integration (Security by Design)",
+      "paragraphe": "A secure-by-design approach to solution integration."
+    },
+    "Direction-Virtuelle-vCISO": {
+      "title": "Virtual Direction (vCISO)",
+      "paragraphe": "Specific service for executive CISO functions on demand."
+    },
+    "Securite-et-Conformite-As-A-Service": {
+      "title": "Security and Compliance (As A Service)",
+      "paragraphe": "Data governance, compliance, and cybersecurity for continuous security management."
+    },
+    "MSSP": {
+      "title": "MSSP",
+      "paragraphe": "A turnkey IT and cybersecurity solution."
+    },
+    "Gouvernance": "Governance",
+    "Application": "Application",
+    "Cybersecurite": "Cybersecurity"
   }
 }

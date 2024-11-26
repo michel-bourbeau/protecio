@@ -129,6 +129,60 @@
       "thanks": "¡Gracias! Tu mensaje ha sido enviado."
     }
   },
+  "Solutions": {
+    "Strategie": "Estrategia",
+    "Direction-Virtuelle-vCIO-vCTO-vCISO": {
+      "title": "Dirección Virtual (vCIO, vCTO, vCISO)",
+      "paragraphe": "Servicio específico para funciones ejecutivas de TI bajo demanda."
+    },
+    "Audit-et-Diagnostic": {
+      "title": "Auditoría y Diagnóstico",
+      "paragraphe": "Para todos los análisis y auditorías preliminares."
+    },
+    "Conseil-Strategique": {
+      "title": "Consejo Estratégico",
+      "paragraphe": "Un espacio dedicado a la experiencia consultiva en decisiones tecnológicas. Incluye Visión y Hoja de Ruta Estratégica de TI para alinear la estrategia de TI con los objetivos del negocio."
+    },
+    "Gouvernance-des-Solutions": {
+      "title": "Gobernanza de Soluciones",
+      "paragraphe": "Se enfoca en la gobernanza y optimización de soluciones para garantizar la coherencia y el cumplimiento."
+    },
+    "Encadrements-Technologiques": {
+      "title": "Marcos Tecnológicos",
+      "paragraphe": "Asesoramiento y guía técnica para la optimización de proyectos y tecnologías."
+    },
+    "FinOps": {
+      "title": "FinOps",
+      "paragraphe": "Optimización de costos relacionados con infraestructuras y soluciones tecnológicas."
+    },
+    "Creation-de-Solutions": {
+      "title": "Creación de Soluciones",
+      "paragraphe": "Servicios personalizados para la creación de soluciones bajo demanda."
+    },
+    "Modernisation-et-IA": {
+      "title": "Modernización e IA",
+      "paragraphe": "Creación/modernización de soluciones con IA y modernización de aplicaciones mediante IA para fomentar la innovación y la transformación digital."
+    },
+    "Integration-de-Solutions-Security-by-Design": {
+      "title": "Integración de Soluciones (Seguridad desde el Diseño)",
+      "paragraphe": "Una oferta de integración segura desde la concepción de las soluciones."
+    },
+    "Direction-Virtuelle-vCISO": {
+      "title": "Dirección Virtual (vCISO)",
+      "paragraphe": "Servicio específico para funciones ejecutivas de CISO bajo demanda."
+    },
+    "Securite-et-Conformite-As-A-Service": {
+      "title": "Seguridad y Cumplimiento (Como Servicio)",
+      "paragraphe": "Gobernanza de datos, cumplimiento y ciberseguridad para una gestión continua de la seguridad."
+    },
+    "MSSP": {
+      "title": "MSSP",
+      "paragraphe": "Una oferta integral de TI y ciberseguridad."
+    },
+    "Gouvernance": "Gobernanza",
+    "Application": "Aplicación",
+    "Cybersecurite": "Ciberseguridad"
+  },
   "Success": {
     "title": "¡Gracias!",
     "description": "Hemos recibido tu solicitud de información sobre nuestros servicios. Nuestro equipo procesará tu solicitud lo antes posible y se pondrá en contacto contigo a la mayor brevedad.",
