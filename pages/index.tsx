@@ -37,7 +37,7 @@ export const Home = () => {
       <SolutionProtectionRenseignementPersonnel />
       <VisionMission />
       <Solution_Ai />
-      <NosClient />
+      {/* <NosClient /> */}
       <Cta />
       <NosPartenaires />
     </>
