@@ -56,10 +56,15 @@ export default function Header() {
         <nav id="navbar" className="navbar d-flex">
           <ul>
             <li>
-              <a href={`#our-services`}>{t('Services.title')}</a>
+              <a
+                href={`/${router.locale}/#our-services`}
+                className="nav-link"
+              >
+                {t('Services.title')}
+              </a>
             </li>
             <li>
-              <a href={`#notre-mission-et-vision`}>
+              <a href={`/${router.locale}/#notre-mission-et-vision`}>
                 Mission et Vision
               </a>
             </li>
