@@ -1,3 +1,4 @@
+// filepath: /Users/michelbourbeau/Documents/GitHub/Protecio/protecio/next.config.js
 const path = require('path');
 const { i18n } = require('./next-i18next.config');
 
@@ -20,11 +21,9 @@ module.exports = {
   trailingSlash: true,
   webpack(config) {
     config.resolve.fallback = {
-      // if you miss it, all the other options in fallback, specified
-      // by next.js will be dropped.
       ...config.resolve.fallback,
-
-      fs: false, // the solution
+      fs: false, // Désactive 'fs' pour éviter les erreurs
+      path: false, // Ajoutez ceci si 'path' pose problème
     };
 
     return config;
