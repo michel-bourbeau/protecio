@@ -188,5 +188,11 @@
     "Gouvernance": "Gouvernance",
     "Application": "Application",
     "Cybersecurite": "Cybersécurité"
+  },
+  "Partenaires" : {
+    "hero": {
+      "title": "Votre partenaire stratégique",
+      "description": "Axé sur l’IA, le travail d’écosystème et le partage de risques, pour protéger et propulser votre entreprise grâce à de meilleures décisions technologiques."
+    }
   }
 }
