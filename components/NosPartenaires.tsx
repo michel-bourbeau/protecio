@@ -6,10 +6,10 @@ import { useTranslation } from 'next-i18next';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const clients = [
-  {
+  /*   {
     name: 'Groupe Hi5',
     logo: '/images/logos/Hi5.png',
-  },
+  }, */
   {
     name: 'Corsek Cyber Security',
     logo: '/images/logos/corsek-cybersecurity.png',
