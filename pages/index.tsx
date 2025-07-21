@@ -15,10 +15,7 @@ import NosPartenaires from '@components/NosPartenaires';
 export const Home = () => {
   const { t } = useTranslation();
   const router = useRouter();
-  const useLocal = () => {
-    if (router.locale === 'en') return '';
-    else return router.locale;
-  };
+  const useLocal = router.locale === 'en' ? '' : router.locale || '';
   return (
     <>
       <NextSeo
